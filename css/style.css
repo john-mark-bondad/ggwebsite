@@ -361,3 +361,171 @@ button.brand-to-the-right.carousel-control-next {
   font-weight: normal;
   padding-top: 12px;
 }
+
+/* Carousel team */
+.genius-slide{
+  margin-top: 6rem!important;
+}
+/* @media (min-width: 768px) {
+  .genius-team {
+    display: flex;
+    padding: 1em;
+  }
+  .genius-team-carousel {
+    margin-right: 0;
+    flex: 0 0 33.3333333333%;
+    display: block;
+  }
+} */
+
+.genius-team {
+  padding: 1em 7rem;
+}
+
+.genius-team-card{
+    margin: 0 2.5em;
+
+    border: none;
+}
+.genius-team-prev, .genius-team-next{
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+img.img-fluid.rounded-circle {
+
+  background: radial-gradient(circle, transparent 40%,#7DDB29 40%);
+}
+p.card-text.text-center {
+  font-size: 20px;
+  color: #A7A7A7;
+}
+.genius-name-job {
+  flex: 1 1 auto;
+  padding: 2.56rem 1rem;
+}
+
+button.genius-team-to-the-left.carousel-control-prev {
+
+  left: -4.5rem;
+  right: auto;
+  margin: auto;
+  opacity: 1;
+}
+button.genius-team-to-the-right.carousel-control-next {
+
+  right: -4.5rem;
+  left: auto;
+  margin: auto;
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+/* @media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+} */
+  
+img.img-fluid.rounded-circle:hover{
+  background: radial-gradient(circle, transparent 40%,#12062E 40%);
+}
+div> div> div> div> h5.card-title:hover {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 7px 0px;
+  color: #7DDB29;
+}
+
+/* Schedule a consultaion section */
+
+.l1OPEn8aZraak2sTOrbZ.Iji9Uvqm6IyoZcOtebAT {
+  background-color: var(--primary-color-level4,rgba(0,105,255,0.065));
+  color: #7DDB29;
+  font-weight: 700;
+}
+
+.schedule-call{
+  padding: 67px 0px;
+}
+.schedule-call> h2 {
+  font-size: 48px;
+  color: #12062E;
+  font-weight: bold;
+  line-height: 110%;
+}
+.schedule-call-many-plus {
+  margin-right: -2.5rem;
+  margin-top: -3rem;
+}
+.calendly-inline-widget.my-5 {
+  position: absolute;
+  top: 11rem;
+  left: 0%;
+}
+.schedule-call-many-plus-bottom {
+  left: -2rem!important;
+  z-index: -1;
+}
+
+.schedule-container{
+  max-width: 1100px;
+}
+
+/* Contact Us form section  */
+
+.contact-us-form {
+  margin-top: 7rem;
+  background-image: repeating-linear-gradient(135deg,#63D24B 30%,#7DDB29 70%);
+}
+.team-desc > h2{
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+}
+
+form.row.g-3 {
+  background: white;
+  padding: 2.875rem;
+}
+button.btn.btn-primary {
+  background: #12062E;
+  color: #7DDB29;
+  height: 60px;
+  font-size: 20px;
+  width: 815px;
+  border-radius: 6px;
+}
+textarea#exampleFormControlTextarea1 {
+  height: 137px;
+}
