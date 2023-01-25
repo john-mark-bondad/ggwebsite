@@ -4,24 +4,29 @@
 body {
   font-family: 'Poppins';
 }
-
-navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #7DDB29;
+/* when next and preview button is hover */
+img.client1:hover {
+  transform: scale(1.08);
 }
+
 
 .navbar-nav>li {
   padding-right: 30px;
-  font-weight: 600;
-  /* bold */
 }
+
+/* .navbar-nav>li:hover {
+  padding-right: 30px;
+  padding-left: 8px;
+} */
 
 .navbar-light .navbar-nav .nav-link {
   color: #12062E;
+  font-weight: 600;
+transition: all 0.3s ease; 
 }
-
-.navbar-nav>li>a {
-  padding-right: 24px;
+.navbar-light .navbar-nav .nav-link:hover {
+  color:#63D24B;
+  padding-right: 8px;
 }
 
 .bg-light {
@@ -136,6 +141,12 @@ img.about-us-arrow {
 .manyPlus {
   bottom: -5rem;
 }
+.about-us-section-arrow:hover{
+  transition: all 0.3s ease; 
+}
+.about-us-section-arrow:hover{
+  padding-left: 30px;
+}
 
 /* Services section */
 .services-arrow{
@@ -165,9 +176,9 @@ img.about-us-arrow {
   box-shadow: 0 .2rem 2rem rgba(0,0,0,.15)!important;
   z-index: 1;
 } 
-.services-card:hover{
-  transform:scale(1.05);  /* when mouse hover the card */
-}
+/* .services-card:hover{
+  transform:scale(1.05);  
+} */
 .card-webdev{
   font-size: 32px;
   color: #12062E;
@@ -202,6 +213,12 @@ line-height: 150.5%;
 .services-img-2{
   left: 50%;
   top: -10rem;
+}
+.services-section-arrow:hover{
+  transition: all 0.3s ease; 
+}
+.services-section-arrow:hover{
+  padding-left: 30px;
 }
 
 /* Workflow section */
@@ -255,6 +272,12 @@ div> div> div> div> h5.card-title {
   padding: 7px 0px;
   color: #12062E;
 }
+.workflow-section-arrow:hover{
+  transition: all 0.3s ease; 
+}
+.workflow-section-arrow:hover{
+  padding-left: 30px;
+}
 
 /* Clients Feedback section */
 #review{
@@ -269,7 +292,7 @@ section#review {
 .review-desc {
   margin-top: 7rem;
 }
-.review-desc > h2{
+.review-desc > h2.text-center{
   font-size: 48px;
   color: #7DDB29;
   font-weight: bold;
@@ -312,6 +335,12 @@ button.to-the-right.carousel-control-next {
   max-width: 1150px;
 }
 }
+.feedback-section-arrow{
+  transition: all 0.3s ease; 
+}
+.feedback-section-arrow:hover{
+  padding-left: 30px;
+}
 
 /* Trusted Brands */
 .brands-desc{
@@ -348,7 +377,7 @@ button.brand-to-the-right.carousel-control-next {
   left: -3rem;
 }
 .team-desc {
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 .team-desc > h2{
   font-size: 48px;
@@ -360,6 +389,12 @@ button.brand-to-the-right.carousel-control-next {
   color: #6A6A8E;
   font-weight: normal;
   padding-top: 12px;
+}
+.team-section-arrow{
+  transition: all 0.3s ease; 
+}
+.team-section-arrow:hover{
+  padding-left: 30px;
 }
 
 /* Carousel team */
@@ -505,10 +540,10 @@ div> div> div> div> h5.card-title:hover {
 /* Contact Us form section  */
 
 .contact-us-form {
-  margin-top: 7rem;
+  margin-top: 8rem;
   background-image: repeating-linear-gradient(135deg,#63D24B 30%,#7DDB29 70%);
 }
-.team-desc > h2{
+.contact-desc > h2{
   font-size: 48px;
   color: #fff;
   font-weight: bold;
@@ -517,8 +552,9 @@ div> div> div> div> h5.card-title:hover {
 form.row.g-3 {
   background: white;
   padding: 2.875rem;
+  margin-bottom: 60px;
 }
-button.btn.btn-primary {
+form > div > button.btn.btn-primary {
   background: #12062E;
   color: #7DDB29;
   height: 60px;
@@ -526,6 +562,112 @@ button.btn.btn-primary {
   width: 815px;
   border-radius: 6px;
 }
+form > div > button.btn.btn-primary {
+  border-color: #12062E;
+}
 textarea#exampleFormControlTextarea1 {
   height: 137px;
+}
+
+.container.mt-5.container-contact-us {
+  max-width: 58.75rem;
+}
+.form-contact {
+  background: white;
+  padding: 2.875rem;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+input#fullName {
+  width: 815px;
+  height: 55px;
+  font-size: 20px;
+  padding-left: 31px;
+  border-color: #DCDCDC;
+}
+input#email {
+  width: 397px;
+  height: 55px;
+  font-size: 20px;
+  padding-left: 31px;
+  margin: 20px 0px;
+  border-color: #DCDCDC;
+}
+input#phone {
+  width: 397px;
+  height: 55px;
+  font-size: 20px;
+  padding-left: 31px;
+  margin: 20px 0px 20px 0px;
+  border-color: #DCDCDC;
+}
+textarea#message {
+  width: 815px;
+  height: 137px;
+  font-size: 20px;
+  padding-left: 31px;
+  border-color: #DCDCDC;
+  margin: 20px 0px;
+  resize: none;
+}
+
+
+/* Footer section */
+footer{
+
+}
+.container-footer{
+  margin: 0px;
+  padding: 0px;
+}
+footer > span, h6, p, .footer-copyright{
+  color: #12062E;
+}
+.footer-logo {
+  padding-top: 10px;
+}
+
+.footer-address, .footer-quick-links, .footer-services, .footer-contact{
+  font-size: 22px;
+  color: #12062E;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+.footer-company-address, .footer-company-phone{
+  font-size: 20px;
+  color: #12062E;
+}
+.footer-links > p > a {
+  font-size: 20px;
+  color: #12062E;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.footer-links > p > a:hover{
+  color: #63D24B;
+  padding-left: 10px;
+}
+.footer-services-links p > a{
+  font-size: 20px;
+  color: #12062E;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.footer-services-links p > a:hover{
+  color: #63D24B;
+  padding-left: 10px;
+}
+p.footer-contact-social-icons > a > img {
+  padding: 0px 3px;
+  transition: all 0.3s ease;
+}
+p.footer-contact-social-icons > a > img:hover {
+  color: #63D24B;
+  padding-left: 8px;
+}
+
+.copyright{
+  color: #6B7280;
+  font-size: 20px;
+  padding-bottom: 25px;
 }
