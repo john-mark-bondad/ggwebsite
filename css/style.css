@@ -1,8 +1,8 @@
 /* * {
   font-family: 'Poppins';
 } */
-body {
-  font-family: 'Poppins';
+body { 
+  font-family:'Poppins', sans-serif!important;
 }
 /* when next and preview button is hover */
 img.client1:hover {
@@ -21,7 +21,7 @@ img.client1:hover {
 
 .navbar-light .navbar-nav .nav-link {
   color: #12062E;
-  font-weight: 600;
+  font-weight: 500;
 transition: all 0.3s ease; 
 }
 .navbar-light .navbar-nav .nav-link:hover {
@@ -494,6 +494,7 @@ button.genius-team-to-the-right.carousel-control-next {
   
 img.img-fluid.rounded-circle:hover{
   background: radial-gradient(circle, transparent 40%,#12062E 40%);
+  /* filter: brightness(110%); */
 }
 div> div> div> div> h5.card-title:hover {
   font-size: 24px;
