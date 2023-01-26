@@ -115,11 +115,34 @@ img.about-us-arrow {
   margin-left: -7rem;
   margin-top: -10rem;
 }
+.number-of-years {
+  margin-top: -2rem;
+}
 
 .years {
   font-size: 32px;
   font-weight: bold;
   color: #12062E;
+}
+.mission {
+  font-size: 40px;
+  color: #7DDB29;
+  line-height: 110%;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+/* revealing a section - About Us */
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .displayNumber {
@@ -136,6 +159,8 @@ img.about-us-arrow {
 
 .plusPosition {
   left: 17% !important;
+  /* top: 45%; */
+  margin-top: -2rem;
 }
 
 .manyPlus {
@@ -149,6 +174,15 @@ img.about-us-arrow {
 }
 
 /* Services section */
+.services-container{
+  padding-top: 3rem!important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.text-center.center-images {
+  display: grid;
+}
+
 .services-arrow{
   top: 9rem;
 }
@@ -254,12 +288,23 @@ section#workflow {
   padding: 35px 20px 55px 20px;
   margin: 1px 5px;
   /* box-shadow: .5px .5px .1px rgba(242,244,250)!important; */
+  white-space: nowrap;
+  overflow: hidden;
+}
+p.card-text {
+  white-space: normal;
+  overflow: unset;
+}
+h5.card-title{
+  white-space: normal;
+  overflow: unset;
 }
 .row > div> img.card-img-top {
   padding-left: 20px;
 }
 div> div>img.card-img-top {
   padding-left: 1rem;
+  /* animation: moveToRight 2s ease-in-out; */
 }
 .row > div> div> p.card-text {
   color: #12062E;
@@ -277,6 +322,109 @@ div> div> div> div> h5.card-title {
 }
 .workflow-section-arrow:hover{
   padding-left: 30px;
+}
+.workflow-requirements, .workflow-planning, .workflow-design, .workflow-development, .workflow-quality-checking, .workflow-release-and-monitor{
+  font-size: 128px;
+  font-weight: bold;
+  /* transition: all 0.3s ease; */
+}
+
+/* Cards hover effects */
+.workflow-requirements:hover{
+  /* padding-left: 3rem; */
+  /* animation: marquee 5s linear infinite; */
+  animation: requirements 2s ease infinite alternate, 
+    nudge 2s linear infinite alternate;
+}
+
+@keyframes requirements {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-33rem, 0%); }
+}
+
+.workflow-planning:hover, .workflow-design:hover{
+  /* padding-left: 3rem; */
+  /* animation: marquee 5s linear infinite; */
+  animation: planning 1s ease infinite alternate, 
+    nudge 1s linear infinite alternate;
+}
+
+@keyframes planning {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-10rem, 0%); }
+}
+.workflow-design:hover{
+  /* padding-left: 3rem; */
+  /* animation: marquee 5s linear infinite; */
+  animation: design 0.5s ease infinite alternate, 
+    nudge 0.5s linear infinite alternate;
+}
+
+@keyframes design {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-5rem, 0%); }
+}
+
+ .workflow-development:hover{
+  /* padding-left: 3rem; */
+  /* animation: marquee 5s linear infinite; */
+  animation: development 2s ease infinite alternate, 
+    nudge 2s linear infinite alternate;
+}
+
+@keyframes development {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-30rem, 0%); }
+}
+
+.workflow-quality-checking:hover{
+  /* padding-left: 3rem; */
+  /* animation: marquee 5s linear infinite; */
+  animation: quality-checking 2s ease infinite alternate, 
+    nudge 2s linear infinite alternate;
+}
+
+@keyframes quality-checking {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-45rem, 0%); }
+}
+.workflow-release-and-monitor:hover{
+  /* padding-left: 3rem; */
+  /* animation: marquee 5s linear infinite; */
+  animation: release-and-monitor 3s ease infinite alternate, 
+    nudge 4s linear infinite alternate;
+}
+
+@keyframes release-and-monitor {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-55rem, 0%); }
+}
+
+
+
+.card.h-100.requirements:hover {
+  background: #F4B840;
+}
+.card.h-100.planning:hover {
+  background: #6E1FED;
+}
+.card.h-100.design:hover {
+  background: #5DCA7B;
+}
+.card.h-100.development:hover {
+  background: #4194F4;
+}
+.card.h-100.quality-checking:hover {
+  background: #E46A2B;
+}
+.card.h-100.release-and-monitor:hover {
+  background: #60D3D8;
 }
 
 /* Clients Feedback section */
@@ -500,7 +648,7 @@ div> div> div> div> h5.card-title:hover {
   font-size: 24px;
   font-weight: 600;
   padding: 7px 0px;
-  color: #7DDB29;
+  /* color: #7DDB29; */
 }
 
 /* Schedule a consultaion section */
@@ -670,5 +818,5 @@ p.footer-contact-social-icons > a > img:hover {
 .copyright{
   color: #6B7280;
   font-size: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
 }
