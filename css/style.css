@@ -173,6 +173,12 @@ img.about-us-arrow {
   padding-left: 30px;
 }
 
+/* Testing Services section */
+
+
+
+
+
 /* Services section */
 .services-container{
   padding-top: 3rem!important;
@@ -213,7 +219,7 @@ img.about-us-arrow {
 /* .services-card:hover{
   transform:scale(1.05);  
 } */
-.card-webdev{
+/* .card-webdev{
   font-size: 32px;
   color: #12062E;
   font-weight: bold;
@@ -222,7 +228,7 @@ img.about-us-arrow {
 color: #6A6A8E;
 font-size: 20px;
 line-height: 150.5%;
-}
+} */
 .services-gradient-green{
   bottom: 0rem;
 }
@@ -253,6 +259,11 @@ line-height: 150.5%;
 }
 .services-section-arrow:hover{
   padding-left: 30px;
+}
+.position-absolute.bottom-0.web-development-card {
+  left: 3rem;
+  top: -31rem;
+  z-index: 1;
 }
 
 /* Workflow section */
@@ -578,10 +589,6 @@ button.brand-to-the-right.carousel-control-next {
     top: 50%;
     transform: translateY(-50%);
 }
-img.img-fluid.rounded-circle {
-
-  background: radial-gradient(circle, transparent 40%,#7DDB29 40%);
-}
 p.card-text.text-center {
   font-size: 20px;
   color: #A7A7A7;
@@ -639,18 +646,57 @@ button.genius-team-to-the-right.carousel-control-next {
 .carousel-inner .carousel-item-start { 
   transform: translateX(0);
 } */
-  
-img.img-fluid.rounded-circle:hover{
-  background: radial-gradient(circle, transparent 40%,#12062E 40%);
-  /* filter: brightness(110%); */
+
+/* Cards section and hover */
+img.img-fluid.rounded-circle {
+
+  background: radial-gradient(circle, transparent 40%,#7DDB29 40%);
 }
+img.img-fluid.rounded-circle:hover{
+  /* background: radial-gradient(circle, transparent 40%,#12062E 40%); */
+  /* filter: brightness(110%); */
+  /* background:url('./img/clients-feedback-1.png') no-repeat 0 -100px; */
+}
+.img-top1{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card:hover .img-top1{
+  display: inline;
+}
+.img-top2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card:hover .img-top2 {
+  display: inline;
+}
+.img-top3 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card:hover .img-top3 {
+  display: inline;
+}
+
 div> div> div> div> h5.card-title:hover {
   font-size: 24px;
   font-weight: 600;
   padding: 7px 0px;
   /* color: #7DDB29; */
 }
-
+/* h5.card-title.text-center:hover {
+  color: #7DDB29;
+} */
 /* Schedule a consultaion section */
 
 .l1OPEn8aZraak2sTOrbZ.Iji9Uvqm6IyoZcOtebAT {
