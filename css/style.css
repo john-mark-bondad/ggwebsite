@@ -207,7 +207,7 @@ img.about-us-arrow {
 .services-images{
   background-color: #12062E;
   height: 52rem;
-  z-index: -1;
+  /* z-index: -1; */
 }
 .services-card{
   border-color: white;
@@ -215,11 +215,15 @@ img.about-us-arrow {
   border-radius: 10px;
   box-shadow: 0 .2rem 2rem rgba(0,0,0,.15)!important;
   z-index: 1;
+  max-width: 43.75rem;
 } 
 /* .services-card:hover{
   transform:scale(1.05);  
 } */
-/* .card-webdev{
+.text-center.center-images > img{
+  padding: 1rem;
+}
+.card-webdev{
   font-size: 32px;
   color: #12062E;
   font-weight: bold;
@@ -228,7 +232,7 @@ img.about-us-arrow {
 color: #6A6A8E;
 font-size: 20px;
 line-height: 150.5%;
-} */
+}
 .services-gradient-green{
   bottom: 0rem;
 }
@@ -866,3 +870,185 @@ p.footer-contact-social-icons > a > img:hover {
   font-size: 20px;
   padding-bottom: 5px;
 }
+
+
+
+                                                                                          /* Services page */                                 
+
+/* Software Development Services section */
+
+.left-side-services{
+  /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+/* position: absolute; */
+width: 866px;
+height: 360px;
+left: 64px;
+margin-top: 119px;
+
+}
+.about-software-dev{
+  /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1px;
+
+width: 866px;
+height: 270px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.about-software-dev > h2{
+  width: 668px;
+height: 128px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* or 133% */
+
+display: flex;
+align-items: center;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+/* slide up */
+.services-slide-up{
+  width: 866px;
+height: 92px;
+overflow: hidden;
+}
+.services-slide-up h3{
+  /* position: absolute;
+width: 541px;
+height: 570px;
+left: 0px;
+top: 0px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 95px;
+/* or 238% */
+
+display: flex;
+align-items: center;
+
+/* Primary/GG-Green */
+
+color: #7DDB29;
+}
+.about-software-dev .description{
+  width: 536px;
+  height: 48px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.about-software-dev .description > p{
+  /* position: absolute;
+  width: 536px;
+  height: 48px;
+  left: 0px;
+  top: 0px; */
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  
+  /* Primary/GG-Dark */
+  
+  color: #12062E;
+}
+
+.contact-us-btn {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 16px 0px;
+  gap: 10px;
+}
+.contact-us-btn > button{
+
+width: 235px;
+height: 60px;
+
+/* Primary/GG-Green */
+
+background: #7DDB29;
+border-radius: 6px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+img.services-page-scroll {
+  position: absolute;
+  width: 23px;
+  height: 217px;
+  left: 42px;
+  top: 594px;
+}
+
