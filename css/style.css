@@ -904,6 +904,7 @@ gap: 1px;
 
 width: 866px;
 height: 270px;
+z-index: 1;
 
 
 /* Inside auto layout */
@@ -1050,5 +1051,1144 @@ img.services-page-scroll {
   height: 217px;
   left: 42px;
   top: 594px;
+}
+.services-our-services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  margin-top: 3.25rem;
+  
+  /* position: absolute; */
+  /* width: 819px;
+  height: 125px;
+  left: 310px;
+  top: 883px */
+}
+.services-our-services > h2{
+  width: 311px;
+  height: 53px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  /* identical to box height, or 53px */
+  
+  
+  color: #7DDB29;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.services-our-services > p{
+  width: 819px;
+  height: 60px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  
+  color: #6A6A8E;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.our-services-arrow-left {
+  position: absolute!important;
+  margin-left: -3%;
+  overflow: hidden;
+}
+.position-absolute.end-0.mt-5.our-services-arrow-right {
+  margin-right: -2%;
+}
+
+                               /* IT Consulting Services */
+.it-consulting-services{
+  /* position: absolute; */
+/* width: 1312px; */
+height: 615px;
+left: 64px;
+top: 1066px;
+overflow: hidden;
+
+/* Primary/GG-Dark */
+
+background: #12062E;
+box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
+border-radius: 0px 32px 32px 32px;
+}
+.it-consulting-left{
+  /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+/* position: absolute; */
+width: 627px;
+height: 415px;
+margin-left: 51px;
+margin-top: 106px;
+}
+.it-consulting-left-inner{
+gap: 24px;
+width: 627px;
+height: 307px;
+}
+.it-consulting-title-desc{
+/* Auto layout */
+gap: 20px;
+
+width: 627px;
+height: 245px;
+}
+.it-consulting-title-desc > h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  padding-bottom: 20px;
+  /* or 35px */
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+.it-consulting-title-desc > p{
+  width: 627px;
+height: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+/* or 190% */
+
+/* Secondary- White */
+
+color: #FFFFFF;
+}
+.it-consulting-title-desc > h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 190% */
+
+
+/* Primary/GG-Green */
+
+color: #7DDB29;
+}
+.it-consulting-left .learn-more-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 16px 205px; */
+  /* gap: 10px; */
+  width: 235px;
+  height: 60px;
+  background: #7DDB29;
+  border-radius: 6px;
+}
+.it-consulting-left .learn-more-btn > button{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+}
+.it-consulting-images {
+  width: 614px;
+  height: 656px;
+  left: 716px;
+  top: -31px;
+  display: grid;
+}
+
+.it-consulting-img1 {
+  margin-left: 6%;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+.it-consulting-img2 {
+  margin-left: 27%;
+  margin-top: -10%;
+  z-index: 0;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+                            /* UI/UX Design Services */
+.ui-ux-design-services{
+overflow: hidden;
+margin: 80px 0px;
+
+/* width: 1312px; */
+height: 615px;
+left: 64px;
+top: 1761px;
+
+/* Secondary- White */
+
+background: #FFFFFF;
+box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
+border-radius: 0px 32px 32px 32px;
+}
+.ui-ux-design-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  /* position: absolute; */
+  width: 627px;
+  height: 415px;
+  /* margin-left: -5%; */
+  margin-top: 106px;
+}
+.ui-ux-design-inner{
+gap: 24px;
+width: 627px;
+height: 307px;
+}
+.ui-ux-design-title-desc{
+/* Auto layout */
+gap: 20px;
+
+width: 627px;
+height: 245px;
+}
+.ui-ux-design-title-desc > h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  padding-bottom: 20px;
+  /* or 35px */
+  
+  /* Secondary- White */
+  
+  color: #12062E;
+}
+.ui-ux-design-title-desc > p{
+  width: 627px;
+height: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+/* or 190% */
+
+/* Secondary- White */
+
+color: #12062E;
+}
+.ui-ux-design-title-desc > h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 190% */
+
+
+/* Primary/GG-Green */
+
+color: #7DDB29;
+}
+.ui-ux-design-title-desc > h5 > span{
+  color: #000000;
+  }
+.ui-ux-design-left .learn-more-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 16px 205px; */
+  /* gap: 10px; */
+  width: 235px;
+  height: 60px;
+  background: #7DDB29;
+  border-radius: 6px;
+}
+.ui-ux-design-left .learn-more-btn > button{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+}
+.ui-ux-design-images {
+  width: 614px;
+  height: 656px;
+  left: 716px;
+  top: -31px;
+  display: grid;
+}
+
+.ui-ux-design-img1 {
+  margin-left: 6%;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+.ui-ux-design-img2 {
+  margin-top: -10%;
+  z-index: 0;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+  margin-left: -2%;
+}
+
+                              /* Project Management Services */
+.project-management-services {
+  /* position: absolute; */
+  /* width: 1312px; */
+  height: 615px;
+  left: 64px;
+  top: 3151px;
+
+  background: #12062E;
+  box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
+  border-radius: 0px 32px 32px 32px;
+
+  overflow: hidden;
+  margin: 80px 0px;
+}
+.project-management-left{
+  /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+/* position: absolute; */
+width: 627px;
+height: 415px;
+margin-left: 51px;
+margin-top: 106px;
+}
+.project-management-left-inner{
+gap: 24px;
+width: 627px;
+height: 307px;
+}
+.project-management-title-desc{
+/* Auto layout */
+gap: 20px;
+
+width: 627px;
+height: 245px;
+}
+.project-management-title-desc > h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  padding-bottom: 20px;
+  /* or 35px */
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+.project-management-title-desc > p{
+  width: 627px;
+height: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+/* or 190% */
+
+/* Secondary- White */
+
+color: #FFFFFF;
+}
+.project-management-title-desc > h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 190% */
+
+
+/* Primary/GG-Green */
+
+color: #7DDB29;
+}
+.project-management-left .learn-more-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 16px 205px; */
+  /* gap: 10px; */
+  width: 235px;
+  height: 60px;
+  background: #7DDB29;
+  border-radius: 6px;
+}
+.project-management-left .learn-more-btn > button{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+}
+.project-management-images {
+  width: 614px;
+  height: 656px;
+  left: 716px;
+  top: -31px;
+  display: grid;
+}
+
+.project-management-img1 {
+  margin-left: 6%;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+.project-management-img2 {
+  margin-left: 27%;
+  margin-top: -10%;
+  z-index: 0;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+
+                               /* Web Development Services */
+.web-development-services{
+  /* position: absolute; */
+  /* width: 1312px; */
+  height: 615px;
+  left: 64px;
+  top: 3151px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
+  border-radius: 0px 32px 32px 32px;
+
+  overflow: hidden;
+  margin: 80px 0px;
+}
+.web-development-left{
+  /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+/* position: absolute; */
+width: 627px;
+height: 415px;
+margin-left: 51px;
+margin-top: 106px;
+}
+.web-development-left-inner{
+gap: 24px;
+width: 627px;
+height: 307px;
+}
+.web-development-title-desc{
+/* Auto layout */
+gap: 20px;
+
+width: 627px;
+height: 245px;
+}
+.web-development-title-desc > h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  padding-bottom: 20px;
+  /* or 35px */
+  
+  /* Secondary- White */
+  
+  color: #12062E;
+}
+.web-development-title-desc > p{
+  width: 627px;
+height: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+/* or 190% */
+
+/* Secondary- White */
+
+color: #12062E;
+}
+.web-development-title-desc > h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 190% */
+
+
+/* Primary/GG-Green */
+
+color: #7DDB29;
+}
+.web-development-title-desc > h5 > span{
+  color: #12062E;
+  }
+.web-development-left .learn-more-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 16px 205px; */
+  /* gap: 10px; */
+  width: 235px;
+  height: 60px;
+  background: #7DDB29;
+  border-radius: 6px;
+}
+.web-development-left .learn-more-btn > button{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+}
+.web-development-images {
+  width: 614px;
+  height: 656px;
+  left: 716px;
+  top: -31px;
+  display: grid;
+}
+
+.web-development-img1 {
+  margin-left: 6%;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+.web-development-img2 {
+  margin-left: 27%;
+  margin-top: -10%;
+  z-index: 0;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+                            /* Mobile App Development Services */
+.mobile-app-development-services{
+overflow: hidden;
+margin: 80px 0px;
+
+/* width: 1312px; */
+height: 615px;
+left: 64px;
+top: 1761px;
+
+/* Secondary- White */
+
+background: #12062E;
+box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
+border-radius: 0px 32px 32px 32px;
+}
+.mobile-app-development-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  /* position: absolute; */
+  width: 627px;
+  height: 415px;
+  /* margin-left: -5%; */
+  margin-top: 106px;
+}
+.mobile-app-development-inner{
+gap: 24px;
+width: 627px;
+height: 307px;
+}
+.mobile-app-development-title-desc{
+/* Auto layout */
+gap: 20px;
+
+width: 627px;
+height: 245px;
+}
+.mobile-app-development-title-desc > h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  padding-bottom: 20px;
+  /* or 35px */
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+.mobile-app-development-title-desc > p{
+  width: 627px;
+height: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+/* or 190% */
+
+/* Secondary- White */
+
+color: #FFFFFF;
+}
+.mobile-app-development-title-desc > h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 190% */
+
+
+/* Primary/GG-Green */
+
+color: #7DDB29;
+}
+.mobile-app-development-left .learn-more-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 16px 205px; */
+  /* gap: 10px; */
+  width: 235px;
+  height: 60px;
+  background: #7DDB29;
+  border-radius: 6px;
+}
+.mobile-app-development-left .learn-more-btn > button{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+}
+.mobile-app-development-images {
+  width: 614px;
+  height: 656px;
+  left: 716px;
+  top: -31px;
+  display: grid;
+}
+
+.mobile-app-development-img1 {
+  margin-left: 6%;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+.mobile-app-development-img2 {
+  margin-top: -10%;
+  z-index: 0;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+  margin-left: -2%;
+}
+
+                            /* Software Testing */
+.software-testing-services{
+overflow: hidden;
+margin: 80px 0px;
+
+/* width: 1312px; */
+height: 615px;
+left: 64px;
+top: 1761px;
+
+/* Secondary- White */
+
+background: #FFFFFF;
+box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
+border-radius: 0px 32px 32px 32px;
+}
+.software-testing-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  /* position: absolute; */
+  width: 627px;
+  height: 415px;
+  margin-left: -5%;
+  margin-top: 106px;
+}
+.software-testing-inner{
+gap: 24px;
+width: 627px;
+height: 307px;
+}
+.software-testing-title-desc{
+/* Auto layout */
+gap: 20px;
+
+width: 627px;
+height: 245px;
+}
+.software-testing-title-desc > h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  padding-bottom: 20px;
+  /* or 35px */
+  
+  /* Secondary- White */
+  
+  color: #12062E;
+}
+.software-testing-title-desc > p{
+  width: 627px;
+height: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+/* or 190% */
+
+/* Secondary- White */
+
+color: #12062E;
+}
+.software-testing-title-desc > h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 190% */
+
+
+/* Primary/GG-Green */
+
+color: #7DDB29;
+}
+.software-testing-title-desc > h5 > span{
+  color: #000000;
+  }
+.software-testing-left .learn-more-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 16px 205px; */
+  /* gap: 10px; */
+  width: 235px;
+  height: 60px;
+  background: #7DDB29;
+  border-radius: 6px;
+}
+.software-testing-left .learn-more-btn > button{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+}
+.software-testing-images {
+  width: 614px;
+  height: 656px;
+  left: 716px;
+  top: -31px;
+  display: grid;
+}
+
+.software-testing-img1 {
+  margin-left: 6%;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+.software-testing-img2 {
+  margin-top: -10%;
+  z-index: 0;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+  margin-left: -2%;
+}
+
+                             /* Team Development Services */
+.team-development-services {
+  /* position: absolute; */
+  /* width: 1312px; */
+  height: 615px;
+  left: 64px;
+  top: 3151px;
+
+  background: #12062E;
+  box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
+  border-radius: 0px 32px 32px 32px;
+
+  overflow: hidden;
+  margin: 80px 0px;
+}
+.team-development-left{
+  /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+/* position: absolute; */
+width: 627px;
+height: 415px;
+margin-left: 51px;
+margin-top: 106px;
+}
+.team-development-left-inner{
+gap: 24px;
+width: 627px;
+height: 307px;
+}
+.team-development-title-desc{
+/* Auto layout */
+gap: 20px;
+
+width: 627px;
+height: 245px;
+}
+.team-development-title-desc > h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  padding-bottom: 20px;
+  /* or 35px */
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+.team-development-title-desc > p{
+  width: 627px;
+height: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+/* or 190% */
+
+/* Secondary- White */
+
+color: #FFFFFF;
+}
+.team-development-title-desc > h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 190% */
+
+
+/* Primary/GG-Green */
+
+color: #7DDB29;
+white-space:nowrap;
+}
+.team-development-left .learn-more-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 16px 205px; */
+  /* gap: 10px; */
+  width: 235px;
+  height: 60px;
+  background: #7DDB29;
+  border-radius: 6px;
+}
+.team-development-left .learn-more-btn > button{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+}
+.team-development-images {
+  width: 614px;
+  height: 656px;
+  left: 716px;
+  top: -31px;
+  display: grid;
+}
+
+.team-development-img1 {
+  margin-left: 6%;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+.team-development-img2 {
+  margin-left: 27%;
+  margin-top: -10%;
+  z-index: 0;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+                             /* Testing Services */
+.testing-services {
+  /* position: absolute; */
+  /* width: 1312px; */
+  height: 615px;
+  left: 64px;
+  top: 3151px;
+
+  background: #12062E;
+  box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
+  border-radius: 0px 32px 32px 32px;
+
+  overflow: hidden;
+  margin: 80px 0px;
+}
+.testing-left{
+  /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+/* position: absolute; */
+width: 627px;
+height: 415px;
+margin-left: 51px;
+margin-top: 106px;
+}
+.testing-left-inner{
+gap: 24px;
+width: 627px;
+height: 307px;
+}
+.testing-title-desc{
+/* Auto layout */
+gap: 20px;
+
+width: 627px;
+height: 245px;
+}
+.testing-title-desc > h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  padding-bottom: 20px;
+  /* or 35px */
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+.testing-title-desc > p{
+  width: 627px;
+height: 190px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+/* or 190% */
+
+/* Secondary- White */
+
+color: #FFFFFF;
+}
+.testing-title-desc > h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 190% */
+
+
+/* Primary/GG-Green */
+
+color: #7DDB29;
+white-space:nowrap;
+}
+.testing-left .learn-more-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 16px 205px; */
+  /* gap: 10px; */
+  width: 235px;
+  height: 60px;
+  background: #7DDB29;
+  border-radius: 6px;
+}
+.testing-left .learn-more-btn > button{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+}
+.testing-images {
+  width: 614px;
+  height: 656px;
+  left: 716px;
+  top: -31px;
+  display: grid;
+}
+
+.testing-img1 {
+  margin-left: 6%;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+.testing-img2 {
+  margin-left: 27%;
+  margin-top: -10%;
+  z-index: 0;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+
+
+                                /* Software Development Process section */
+
+.software-development-process-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  margin-top: 3.25rem;
+}
+.software-development-process-info > h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  /* identical to box height, or 53px */
+  
+  text-align: center;
+  
+  /* Primary/GG-Dark */
+  
+  color: #12062E;
+}
+.software-development-process-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  
+  color: #6A6A8E;
 }
 

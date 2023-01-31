@@ -179,19 +179,19 @@ window.addEventListener("scroll", reveal);
 // slide up animation
 
 
-// var $elements = $('.services-it-consulting, .services-web-dev, .services-mobile-app-dev, .services-ui-ux-design, .services-team-dev, .services-software-testing ');
+var $elements = $('.services-it-consulting, .services-web-dev, .services-mobile-app-dev, .services-ui-ux-design, .services-team-dev, .services-software-testing ');
 
-// function anim_loop(index) {
-//     $elements.eq(index).slideUp(500, function() {
-//         var $self = $(this);
-//         setTimeout(function() {
-//             $self.slideUp(500);
-//             anim_loop((index + 1) % $elements.length);
-//         }, 500);
-//     });
-// }
+function anim_loop(index) {
+    $elements.eq(index).slideUp(500, function() {
+        var $self = $(this);
+        setTimeout(function() {
+            $self.slideUp(500);
+            
+        }, 500);
+    });
+}
 
-// anim_loop(0);
+anim_loop(0);
 
 // var element =$('.services-it-consulting, .services-web-dev, .services-mobile-app-dev, .services-ui-ux-design, .services-team-dev, .services-software-testing ').val().slideUp(",");
 // var i;
