@@ -8,16 +8,16 @@ body {
 img.client1:hover {
   transform: scale(1.08);
 }
+ 
 
+.nav-link[aria-current="page"] {
+  text-decoration: underline #7DDB29 0.15rem;
+  text-underline-offset: 0.5rem;
+}
 
 .navbar-nav>li {
   padding-right: 30px;
 }
-
-/* .navbar-nav>li:hover {
-  padding-right: 30px;
-  padding-left: 8px;
-} */
 
 .navbar-light .navbar-nav .nav-link {
   color: #12062E;
@@ -1271,7 +1271,7 @@ border-radius: 0px 32px 32px 32px;
   /* position: absolute; */
   width: 627px;
   height: 415px;
-  /* margin-left: -5%; */
+  margin-left: -5%;
   margin-top: 106px;
 }
 .ui-ux-design-inner{
@@ -1375,6 +1375,17 @@ color: #12062E;
   filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
   margin-left: -2%;
 }
+@media only screen and (max-width: 1400px) {
+  .ui-ux-design-img1 {
+      margin-left: -4%;
+  }
+  .ui-ux-design-left {
+      margin-left: 11%; 
+  }
+  .ui-ux-design-title-desc > p {
+      padding-right: 11%;
+  }
+  }
 
                               /* Project Management Services */
 .project-management-services {
@@ -1663,7 +1674,7 @@ border-radius: 0px 32px 32px 32px;
   /* position: absolute; */
   width: 627px;
   height: 415px;
-  /* margin-left: -5%; */
+  margin-left: -5%;
   margin-top: 106px;
 }
 .mobile-app-development-inner{
@@ -1764,6 +1775,24 @@ color: #12062E;
   filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
   margin-left: -2%;
 }
+@media only screen and (max-width: 1400px) {
+  .mobile-app-development-img1 {
+      margin-left: -4%;
+  }
+  .mobile-app-development-left {
+      margin-left: 11%; 
+  }
+  .mobile-app-development-title-desc > p {
+      padding-right: 11%;
+  }
+  .mobile-app-development-title-desc > h5 {
+    padding-right: 20px;
+}
+.mobile-app-development-title-desc > h3 {
+  line-height: 120%;
+  padding-right: 5rem;
+}
+  }
 
                             /* Software Testing */
 .software-testing-services{
@@ -2024,139 +2053,20 @@ color: #12062E;
   z-index: 0;
   filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
 }
-
-                             /* Testing Services */
-.testing-services {
-  /* position: absolute; */
-  /* width: 1312px; */
-  height: 615px;
-  left: 64px;
-  top: 3151px;
-
-  background: #12062E;
-  box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
-  border-radius: 0px 32px 32px 32px;
-
-  overflow: hidden;
-  margin: 80px 0px;
-}
-.testing-left{
-  /* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 48px;
-
-/* position: absolute; */
-width: 627px;
-height: 415px;
-margin-left: 51px;
-margin-top: 106px;
-}
-.testing-left-inner{
-gap: 24px;
-width: 627px;
-height: 307px;
-}
-.testing-title-desc{
-/* Auto layout */
-gap: 20px;
-
-width: 627px;
-height: 245px;
-}
-.testing-title-desc > h3{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 110%;
-  padding-bottom: 20px;
-  /* or 35px */
+@media only screen and (max-width: 1400px) {
+  .software-testing-img1 {
+      margin-left: -3%;
+  }
+  .software-testing-left {
+      margin-left: -2%;
+  }
+  .software-testing-title-desc > p {
+      padding-right: 5rem;
+  }
+  }
   
-  /* Secondary- White */
-  
-  color: #FFFFFF;
-}
-.testing-title-desc > p{
-  width: 627px;
-height: 190px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 38px;
-/* or 190% */
-
-/* Secondary- White */
-
-color: #FFFFFF;
-}
-.testing-title-desc > h5{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 38px;
-/* identical to box height, or 190% */
-
-
-/* Primary/GG-Green */
-
-color: #7DDB29;
-white-space:nowrap;
-}
-.testing-left .learn-more-btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /* padding: 16px 205px; */
-  /* gap: 10px; */
-  width: 235px;
-  height: 60px;
-  background: #7DDB29;
-  border-radius: 6px;
-}
-.testing-left .learn-more-btn > button{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 28px;
-/* identical to box height, or 140% */
-
-letter-spacing: -0.011em;
-
-/* Primary/GG-Dark */
-
-color: #12062E;
-}
-.testing-images {
-  width: 614px;
-  height: 656px;
-  left: 716px;
-  top: -31px;
-  display: grid;
-}
-
-.testing-img1 {
-  margin-left: 6%;
-  z-index: 1;
-  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
-}
-.testing-img2 {
-  margin-left: 27%;
-  margin-top: -10%;
-  z-index: 0;
-  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
-}
-
-
-
+ 
                                 /* Software Development Process section */
 
 .software-development-process-info{
@@ -2192,3 +2102,8 @@ color: #12062E;
   color: #6A6A8E;
 }
 
+                              /* Schedule a consultation section */
+
+section#software-development-process {
+  margin-bottom: 5rem;
+}

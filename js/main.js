@@ -8,6 +8,7 @@ $(document).ready(function() {
   });
 });
 
+
     // Carousel for Genius Team
     let items = document.querySelectorAll('.carousel .genius-team-carousel')
 
@@ -179,26 +180,34 @@ window.addEventListener("scroll", reveal);
 // slide up animation
 
 
-var $elements = $('.services-it-consulting, .services-web-dev, .services-mobile-app-dev, .services-ui-ux-design, .services-team-dev, .services-software-testing ');
+// var $elements = $('.services-it-consulting, .services-web-dev, .services-mobile-app-dev, .services-ui-ux-design, .services-team-dev, .services-software-testing');
+// var $otherElements = $('.services-software-testing, .services-team-dev, .services-mobile-app-dev ');
 
-function anim_loop(index) {
-    $elements.eq(index).slideUp(500, function() {
-        var $self = $(this);
-        setTimeout(function() {
-            $self.slideUp(500);
-            
-        }, 500);
-    });
-}
 
-anim_loop(0);
-
-// var element =$('.services-it-consulting, .services-web-dev, .services-mobile-app-dev, .services-ui-ux-design, .services-team-dev, .services-software-testing ').val().slideUp(",");
-// var i;
-
-// for(i = 0; i < element.length; ++i) {
-//    $(element).slideUp(500);
+// function anim_loop(index) {
+//   $elements.eq(index).slideUp(1000, function() {
+//       var $self = $(this);
+//       setTimeout(function() {
+//           $self.slideDown(1000);
+//           anim_loop((index + 1) % $elements.length);
+//       }, 1000);
+//     //   setTimeout(function() {
+//     //     $self.slideDown(1000);
+//     //     anim_loop((index - 1) % $elements.length);
+//     // }, 1000);
+//       // $self.slideDown(1000);
+//   });
 // }
 
+// anim_loop(0); // start with the first element
+
+
+
+// this script is for navbar text-decoration underline
+document.querySelectorAll('.nav-link').forEach(link => {
+  if(link.href === window.location.href){
+    link.setAttribute('aria-current', 'page')
+  }
+})
 
 });  
