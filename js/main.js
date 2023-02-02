@@ -210,4 +210,58 @@ document.querySelectorAll('.nav-link').forEach(link => {
   }
 })
 
+                  // this code is for services page on the top, It slides up and down the services
+// The code crushes the animations when the user visit it back grom another page
+
+loop();
+function loop()
+{
+    let divs = [$(".services-it-consulting"), $(".services-web-dev"), $(".services-mobile-app-dev"),      $(".services-ui-ux-design"), $(".services-team-dev")];
+    let counter = 0;
+    for(let i = 0; i < divs.length; i++) {
+      setTimeout(function(){ divs[i].slideUp('slow') }, 1000 * counter);
+      counter++;
+     
+      
+    }
+    
+    var down=1;
+    for(let j = divs.length-1; j > 0; j--) {
+      setTimeout(function(){ 
+        divs[j].slideDown('slow');
+        down++;
+        // base case
+        if (down == divs.length) {
+            loop();
+        }
+      }, 1000 * counter);
+      counter++; 
+    }
+    
+    
+}
+
+
+
+// let divs = [$(".services-it-consulting"), $(".services-web-dev"), $(".services-mobile-app-dev"), $(".services-ui-ux-design"), $(".services-team-dev")];
+
+// let counter = 0;
+// for(let i = 0; i < divs.length; i++) {
+//   setTimeout(function(){ divs[i].slideUp('slow') }, 1000 * counter);
+//   counter++;
+// }
+
+// for(let j = divs.length-1; j >= 0; j--) {
+//   setTimeout(function(){ divs[j].slideDown('slow') }, 1000 * counter);
+//   counter++;
+// }
+
+// const loopTime = 5;
+
+// for (let aa = 0; aa < loopTime; aa++) {
+//     console.log(`Iteration is #${aa}`);
+// }
+
+
+
 });  

@@ -27,7 +27,7 @@
        <!-- Navigation section -->
 
 <nav class="navbar navbar-expand-lg bg-light navbar-light">
-    <div class="container">
+    <div class="container navigation-top">
         <a href="#" class="navbar-brand"><img src="./img/geniusgiant-logo.svg"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span
                 class="navbar-toggler-icon"></span></button>
@@ -41,7 +41,7 @@
                     <a href="services.html" class="nav-link">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a href="#team" class="nav-link">Team</a>
@@ -326,7 +326,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="software-development-process-model text-center">
-                    <img src="./img/software-development-process.svg" class="img-fluid" alt="...">
+                    <img src="./img/software-development-process.svg" class="img-fluid software-development-process-img" alt="...">
                 </div>
             </div>
         </div>
@@ -352,8 +352,8 @@
     <div class="container-fluid mt-5">
   
    <!-- Calendly inline widget begin -->
-  <div class="calendly-inline-widget my-5" data-url="https://calendly.com/johnmarkbondad/my-client" style="min-width:926x;height:791px;"></div>
-  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <!-- <div class="calendly-inline-widget my-5" data-url="https://calendly.com/johnmarkbondad/my-client" style="min-width:926x;height:791px;"></div>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
   <!-- Calendly inline widget end -->
   
   
@@ -504,46 +504,6 @@
     
     <!-- external js -->
     <script src="./js/main.js"></script>
- 
-    <script>
-
-
-$(document).ready(function() {
-  var divs = [$(".services-it-consulting"), $(".services-web-dev"), $(".services-mobile-app-dev"), $(".services-ui-ux-design"), $(".services-team-dev")];
-  var i = 0;
-  var duration = 1000;
-  function animateDivs() {
-    divs[i].slideDown(duration, function() {
-      setTimeout(function() {
-        divs[i].slideUp(duration, function() {
-          i++;
-          if (i >= divs.length) {
-            i = 0;
-          }
-          animateDivs();
-        });
-      }, duration);
-    });
-  }
-  animateDivs();
-});
-
-//       $(document).ready(function() {
-//   var divs = [$(".services-it-consulting"), $(".services-web-dev"), $(".services-mobile-app-dev"), $(".services-ui-ux-design"), $(".services-team-dev")];
-//   var i = 0;
-//   function animateDivs() {
-//     if (i < divs.length) {
-//       divs[i].slideDown(1000, function() {
-//         divs[i].slideUp(1000, function() {
-//           i++;
-//           animateDivs();
-//         });
-//       });
-//     }
-//   }
-//   animateDivs();
-// });
-    </script>
 
     
   </body>

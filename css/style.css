@@ -36,7 +36,9 @@ transition: all 0.3s ease;
 .bg-dark {
   background-color: #ffffff !important;
 }
-
+.container.navigation-top {
+  padding: 17px 0px;
+}
 #title {
   color: #12062E;
   font-size: 3rem;
@@ -2101,9 +2103,156 @@ color: #12062E;
   
   color: #6A6A8E;
 }
-
+.software-development-process-img{
+  max-width: 70%;
+}
                               /* Schedule a consultation section */
 
 section#software-development-process {
   margin-bottom: 5rem;
+}
+
+                                                                                    /* Portfolio page */
+/* .our-projects-bg-img{
+background-image: url('./img/portfolio-our-projects.png');
+height: 100vh
+} */
+
+/* .mission {
+  font-size: 40px;
+  color: #7DDB29;
+  line-height: 110%;
+  font-weight: bold;
+  margin-top: 5rem;
+} */
+section.bg-image.our-projects-bg-img {
+  height: 751px;
+}
+.left-side-our-projects {
+  margin-top: 175px;
+}
+.left-side-our-projects > h2 {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+margin-bottom: 20px;
+/* or 133% */
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+}
+.our-projects-about {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Primary/GG-Dark */
+  
+  color: #12062E;
+}
+
+                            /* A taste of creations section */
+
+section#taste-of-creations{
+  margin-bottom: 2rem;
+}
+/* animate the background image */
+.to_top{    
+  background-position: 150% 0%;
+}
+.creations-desc{
+  margin-top: 2rem;
+  margin-bottom: 3.75rem;
+}
+.creations-desc > h2{
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    /* Primary/GG-Dark */
+    color: #12062E;
+}
+.creations-desc > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  text-align: center;
+  text-transform: capitalize;
+  
+  /* Primary/GG-Dark */
+  
+  color: #12062E;
+}
+.creations-repitsocial-video{
+  border-radius: 20px;
+  background: linear-gradient(360deg, #A64BBB 0%, #34C3F9 100%);
+border-radius: 20px;
+}
+.about-repitsocial-inner {
+  padding-top: 35%;
+  padding-left: 10%;
+}
+.about-repitsocial-inner > h5{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+/* Primary/GG-Dark */
+color: #12062E;
+
+}
+.about-repitsocial-inner > h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+  
+  /* Primary/GG-Dark */
+  color: #12062E;
+}
+.about-repitsocial-inner > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+  text-transform: capitalize;
+  
+  /* Primary/GG-Dark */
+  
+  color: #12062E;
+}
+img.repitsocial-see-project {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 51px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 24px;
+  margin-left: 24px;
+}
+h4.repitsocial-link-to-project {
+  margin-top: 5%;
+}
+img.repitsocial-see-project:hover {
+  transform: scale(1.08);
 }
