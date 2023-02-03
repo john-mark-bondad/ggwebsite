@@ -2198,10 +2198,45 @@ section#taste-of-creations{
   
   color: #12062E;
 }
+#carouselFeaturedProjects{
+  margin: 22px 0px;
+}
+.carousel-indicators.featured-projects-indicators > button{
+  /* width: 18px; */
+  /* background: #12062E; */
+    width: 18px;
+    height: 18px;
+    background-color: #12062E;
+}
 .creations-repitsocial-video{
   border-radius: 20px;
   background: linear-gradient(360deg, #A64BBB 0%, #34C3F9 100%);
 border-radius: 20px;
+}
+.portfolio-repitsocial-video {
+  width: 298px;
+  height: 529px;
+  background: url(Untitled.png);
+  filter: drop-shadow(0px 10px 62px rgba(0, 0, 0, 0.4));
+  margin: auto;
+}
+.repitsocial-featured-video-caption {
+  /* font-size: 24px;
+  color: white;
+  font-weight: bold; */
+  /* display: none; */
+  opacity: 0;
+  margin-left: -12%;
+}
+.repitsocial-featured-video-caption > h5{
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+.repitsocial-featured-video-caption > p{
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
 }
 .about-repitsocial-inner {
   padding-top: 35%;

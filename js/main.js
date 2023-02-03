@@ -262,6 +262,14 @@ function loop()
 //     console.log(`Iteration is #${aa}`);
 // }
 
+                // this script is for Portfolio page in repitsocial video. When the user hover the video
 
+   $("#carouselFeaturedProjects").mouseenter(function () {
+     $(".repitsocial-featured-video-caption").css("opacity", "1");
+   });
+   $("#carouselFeaturedProjects").mouseleave(function () {
+    $(".repitsocial-featured-video-caption").css("opacity", "0");
+  });
+  
 
 });  
