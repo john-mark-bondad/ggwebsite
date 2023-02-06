@@ -2291,3 +2291,763 @@ h4.repitsocial-link-to-project {
 img.repitsocial-see-project:hover {
   transform: scale(1.08);
 }
+
+                                      /* Projects */
+.portfolio-projects-section{
+  margin: 60px 0px 48px 0px;
+}
+.portfolio-projects-title{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+/* Primary/GG-Dark */
+color: #12062E;
+}
+.portfolio-projects-title{
+  margin-top: 17px;
+}
+.projects-featured-projects {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.011em;
+    color: #7DDB29;
+    background: #12062E;
+    border: 1px solid #12062E;
+    border-radius: 6px;
+    width: 186px;
+    height: 60px;
+}
+.projects-featured-projects:hover{
+  color: #FFFFFF;
+}
+.projects-team-development{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+width: 205px;
+height: 60px;
+
+/* Secondary- White */
+
+background: #FFFFFF;
+/* Primary/GG-Dark */
+
+border: 1px solid #12062E;
+border-radius: 6px;
+}
+.projects-qa-portfolio{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+width: 140px;
+height: 60px;
+
+/* Secondary- White */
+
+background: #FFFFFF;
+/* Primary/GG-Dark */
+
+border: 1px solid #12062E;
+border-radius: 6px;
+}
+
+                              /* PROJECTS - REPITSOCIAL */
+.projects-repitsocial-row{
+  margin-top: 42px;
+  background: linear-gradient(180deg, #A64BBB 0%, #34C3F9 100%);
+}
+.repitsocial-quality-assurance{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 168px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.repitsocial-buttons {
+  margin-top: 24px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+.repitsocial-group {
+  width: 453px;
+  height: 557px;
+  margin-left: 79px;
+  margin-top: 51px;
+}
+.repitsocial-project-management{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 190px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.repitsocial-development{
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-transform: capitalize;
+    /* Secondary- White */
+    color: #FFFFFF;
+    width: 129px;
+    height: 44px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.repitsocial-ui-ux-design{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 125px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+margin-top: 10px;
+}
+.repitsocial-info{
+  width: 453px;
+  margin-bottom: 48px;
+}
+.repitsocial-group .repitsocial-info > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.repitsocial-group .repitsocial-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin: 7px auto;
+  
+}
+.repitsocial-group .repitsocial-info > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+img.repitsocial-info-arrow-forward {
+  margin-left: 20px;
+}
+.repitsocial-download{
+  width: 317px;
+}
+.repitsocial-download > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  /* Secondary- White */
+  color: #FFFFFF;
+}
+.repitsocial-download-app{
+  margin-top: 16px;
+}
+img.repitsocial-appstore-download {
+  margin-right: 8px;
+}
+
+                              /* PROJECTS - MOTIONSCLOUD */
+.projects-motionscloud-row{
+  margin-top: 42px;
+  background: linear-gradient(180deg, #0937DB 0%, #0936D9 100%);
+}
+.motionscloud-quality-assurance{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 168px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.motionscloud-buttons {
+  margin-top: 24px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+.motionscloud-group {
+  width: 453px;
+  height: 557px;
+  margin-left: 79px;
+  margin-top: 109px;
+}
+.motionscloud-project-management{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 190px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.motionscloud-development{
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-transform: capitalize;
+    /* Secondary- White */
+    color: #FFFFFF;
+    width: 129px;
+    height: 44px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.motionscloud-ui-ux-design{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 125px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+margin-top: 10px;
+}
+.motionscloud-info{
+  width: 453px;
+  margin-bottom: 48px;
+}
+.motionscloud-group .motionscloud-info > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.motionscloud-group .motionscloud-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin: 7px auto;
+  
+}
+.motionscloud-group .motionscloud-info > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+img.motionscloud-info-arrow-forward {
+  margin-left: 20px;
+}
+.motionscloud-download{
+  width: 317px;
+}
+.motionscloud-download > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  /* Secondary- White */
+  color: #FFFFFF;
+}
+.motionscloud-download-app{
+  margin-top: 16px;
+}
+img.motionscloud-appstore-download {
+  margin-right: 8px;
+}
+
+                              /* PROJECTS - EVER GAUZY */
+.projects-gauzy-row{
+  margin-top: 42px;
+  background: linear-gradient(360deg, #00275E 0%, #23272C 100%, #020C1F 100%);
+}
+.gauzy-quality-assurance{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 168px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.gauzy-buttons {
+  margin-top: 24px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+.gauzy-group {
+  width: 453px;
+  height: 557px;
+  margin-left: 79px;
+  margin-top: 109px;
+}
+.gauzy-project-management{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 190px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.gauzy-development{
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-transform: capitalize;
+    /* Secondary- White */
+    color: #FFFFFF;
+    width: 129px;
+    height: 44px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.gauzy-ui-ux-design{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 125px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+margin-top: 10px;
+}
+.gauzy-info{
+  width: 453px;
+  margin-bottom: 48px;
+}
+.gauzy-group .gauzy-info > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.gauzy-group .gauzy-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin: 7px auto;
+  
+}
+.gauzy-group .gauzy-info > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+img.gauzy-info-arrow-forward {
+  margin-left: 20px;
+}
+.gauzy-download{
+  width: 317px;
+}
+.gauzy-download > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  /* Secondary- White */
+  color: #FFFFFF;
+}
+.gauzy-download-app{
+  margin-top: 16px;
+}
+img.gauzy-appstore-download {
+  margin-right: 8px;
+}
+
+                              /* PROJECTS - EVER LEAGUES */
+.projects-everleagues-row{
+  margin-top: 42px;
+  background: linear-gradient(360deg, rgba(0, 255, 112, 0.5) 0%, rgba(70, 118, 187, 0.7) 100%);
+}
+.everleagues-quality-assurance{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 168px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.everleagues-buttons {
+  margin-top: 24px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+.everleagues-group {
+  width: 453px;
+  height: 557px;
+  margin-left: 79px;
+  margin-top: 109px;
+}
+.everleagues-project-management{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 190px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.everleagues-development{
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-transform: capitalize;
+    /* Secondary- White */
+    color: #FFFFFF;
+    width: 129px;
+    height: 44px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.everleagues-ui-ux-design{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 125px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+margin-top: 10px;
+}
+.everleagues-info{
+  width: 453px;
+  margin-bottom: 48px;
+}
+.everleagues-group .everleagues-info > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.everleagues-group .everleagues-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin: 7px auto;
+  
+}
+.everleagues-group .everleagues-info > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+img.everleagues-info-arrow-forward {
+  margin-left: 20px;
+}
+.everleagues-download{
+  width: 317px;
+}
+.everleagues-download > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  /* Secondary- White */
+  color: #FFFFFF;
+}
+.everleagues-download-app{
+  margin-top: 16px;
+}
+img.everleagues-appstore-download {
+  margin-right: 8px;
+}
+
+                          /* Looking for more portfolio */
+
+.portfolio-see-more > button{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Green */
+
+color: #7DDB29;
+height: 60px;
+
+/* Primary/GG-Dark */
+
+background: #12062E;
+border-radius: 6px;
+margin: 52px 0px 100px 0px;
+}
+
+.more-portfolio-title{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+
+margin-bottom: 27px;
+}
