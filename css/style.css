@@ -2296,6 +2296,7 @@ img.repitsocial-see-project:hover {
 .portfolio-projects-section{
   margin: 60px 0px 48px 0px;
 }
+
 .portfolio-projects-title{
   font-family: 'Poppins';
 font-style: normal;
@@ -2306,6 +2307,7 @@ line-height: 60px;
 
 /* Primary/GG-Dark */
 color: #12062E;
+border-bottom: none;
 }
 .portfolio-projects-title{
   margin-top: 17px;
@@ -2317,9 +2319,13 @@ color: #12062E;
     font-size: 16px;
     line-height: 28px;
     letter-spacing: -0.011em;
-    color: #7DDB29;
-    background: #12062E;
-    border: 1px solid #12062E;
+    color: #12062E;
+    /* width: 205px; */
+    height: 60px;
+    
+    /* Secondary- White */
+    
+    background: #FFFFFF;
     border-radius: 6px;
     width: 186px;
     height: 60px;
@@ -2327,6 +2333,30 @@ color: #12062E;
 .projects-featured-projects:hover{
   color: #FFFFFF;
 }
+
+/* new */
+.portfolio-nav-tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+  color: #12062E;
+  background: #FFFFFF;
+  border-color: 1px solid #12062E;
+  border-radius: 6px;
+
+border: 1px solid #12062E;
+}
+.portfolio-nav-tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  color: #7DDB29;
+  background-color: #12062E;
+  border-color: 1px solid #12062E;
+  border-radius: 6px;
+}
+
+#nav-team-development-tab{
+margin: 0px 10px;
+}
+
+
+/* end */
+
 .projects-team-development{
   font-family: 'Poppins';
 font-style: normal;
@@ -2378,8 +2408,11 @@ border-radius: 6px;
 
                               /* PROJECTS - REPITSOCIAL */
 .projects-repitsocial-row{
-  margin-top: 42px;
+  margin-top: 32px;
   background: linear-gradient(180deg, #A64BBB 0%, #34C3F9 100%);
+}
+.repitsocial-left-column {
+  padding: 0%;
 }
 .repitsocial-quality-assurance{
   font-family: 'Poppins';
@@ -2513,7 +2546,8 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 img.repitsocial-info-arrow-forward {
-  margin-left: 20px;
+  margin-left: 16px;
+  margin-top: -0.3%;
 }
 .repitsocial-download{
   width: 317px;
@@ -2537,8 +2571,11 @@ img.repitsocial-appstore-download {
 
                               /* PROJECTS - MOTIONSCLOUD */
 .projects-motionscloud-row{
-  margin-top: 42px;
+  margin-top: 48px;
   background: linear-gradient(180deg, #0937DB 0%, #0936D9 100%);
+}
+.motionscloud-left-column{
+  padding: 0%;
 }
 .motionscloud-quality-assurance{
   font-family: 'Poppins';
@@ -2672,7 +2709,8 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 img.motionscloud-info-arrow-forward {
-  margin-left: 20px;
+  margin-left: 16px;
+  margin-top: -0.3%;
 }
 .motionscloud-download{
   width: 317px;
@@ -2696,8 +2734,11 @@ img.motionscloud-appstore-download {
 
                               /* PROJECTS - EVER GAUZY */
 .projects-gauzy-row{
-  margin-top: 42px;
+  margin-top: 48px;
   background: linear-gradient(360deg, #00275E 0%, #23272C 100%, #020C1F 100%);
+}
+.gauzy-left-column{
+  padding: 0%;
 }
 .gauzy-quality-assurance{
   font-family: 'Poppins';
@@ -2831,7 +2872,8 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 img.gauzy-info-arrow-forward {
-  margin-left: 20px;
+  margin-left: 16px;
+  margin-top: -0.3%;
 }
 .gauzy-download{
   width: 317px;
@@ -2855,8 +2897,11 @@ img.gauzy-appstore-download {
 
                               /* PROJECTS - EVER LEAGUES */
 .projects-everleagues-row{
-  margin-top: 42px;
+  margin-top: 48px;
   background: linear-gradient(360deg, rgba(0, 255, 112, 0.5) 0%, rgba(70, 118, 187, 0.7) 100%);
+}
+.everleagues-left-column{
+  padding: 0%;
 }
 .everleagues-quality-assurance{
   font-family: 'Poppins';
@@ -2990,7 +3035,8 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 img.everleagues-info-arrow-forward {
-  margin-left: 20px;
+  margin-left: 16px;
+  margin-top: -0.3%;
 }
 .everleagues-download{
   width: 317px;
@@ -3011,6 +3057,864 @@ img.everleagues-info-arrow-forward {
 img.everleagues-appstore-download {
   margin-right: 8px;
 }
+
+                              /* PROJECTS - APICENTER */
+.projects-apicenter-row{
+  margin-top: 48px;
+  background: linear-gradient(180deg, #007FFF 0%, #00A4FF 100%);
+}
+.apicenter-left-column{
+  padding: 0%;
+}
+.apicenter-quality-assurance{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 168px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.apicenter-buttons {
+  margin-top: 24px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+.apicenter-group {
+  width: 453px;
+  height: 557px;
+  margin-left: 79px;
+  margin-top: 109px;
+}
+.apicenter-project-management{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 190px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.apicenter-development{
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-transform: capitalize;
+    /* Secondary- White */
+    color: #FFFFFF;
+    width: 129px;
+    height: 44px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.apicenter-ui-ux-design{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 125px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+margin-top: 10px;
+}
+.apicenter-info{
+  width: 453px;
+  margin-bottom: 48px;
+}
+.apicenter-group .apicenter-info > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.apicenter-group .apicenter-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin: 7px auto;
+  
+}
+.apicenter-group .apicenter-info > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+img.apicenter-info-arrow-forward {
+  margin-left: 16px;
+  margin-top: -0.3%;
+}
+.apicenter-download{
+  width: 317px;
+}
+.apicenter-download > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  /* Secondary- White */
+  color: #FFFFFF;
+}
+.apicenter-download-app{
+  margin-top: 16px;
+}
+img.apicenter-appstore-download {
+  margin-right: 8px;
+}
+
+                              /* PROJECTS - REPAIRQ */
+.projects-repairq-row{
+  margin-top: 48px;
+  background: linear-gradient(360deg, #0193CE 0%, #1FC0DE 100%);
+}
+.repairq-left-column{
+  padding: 0%;
+}
+.repairq-quality-assurance{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 168px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.repairq-buttons {
+  margin-top: 24px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+.repairq-group {
+  width: 453px;
+  height: 557px;
+  margin-left: 79px;
+  margin-top: 109px;
+}
+.repairq-project-management{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 190px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.repairq-development{
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-transform: capitalize;
+    /* Secondary- White */
+    color: #FFFFFF;
+    width: 129px;
+    height: 44px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.repairq-ui-ux-design{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 125px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+margin-top: 10px;
+}
+.repairq-info{
+  width: 453px;
+  margin-bottom: 48px;
+}
+.repairq-group .repairq-info > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.repairq-group .repairq-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin: 7px auto;
+  
+}
+.repairq-group .repairq-info > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+img.repairq-info-arrow-forward {
+  margin-left: 16px;
+  margin-top: -0.3%;
+}
+.repairq-download{
+  width: 317px;
+}
+.repairq-download > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  /* Secondary- White */
+  color: #FFFFFF;
+}
+.repairq-download-app{
+  margin-top: 16px;
+}
+img.repairq-appstore-download {
+  margin-right: 8px;
+}
+
+                              /* PROJECTS - WEBLIFY */
+
+.projects-weblify-row{
+  margin-top: 32px;
+  background: #F2035A;
+}
+.weblify-left-column{
+  padding: 0%;
+}
+.weblify-quality-assurance{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 168px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.weblify-buttons {
+  margin-top: 24px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+.weblify-group {
+  width: 453px;
+  height: 557px;
+  margin-left: 79px;
+  margin-top: 75px;
+}
+.weblify-info{
+  width: 453px;
+  margin-bottom: 102px;
+}
+.weblify-group .weblify-info > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.weblify-group .weblify-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin: 7px auto;
+  
+}
+.weblify-group .weblify-info > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+img.weblify-info-arrow-forward {
+  margin-left: 16px;
+  margin-top: -0.3%;
+}
+.weblify-download{
+  width: 317px;
+}
+.weblify-download > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  /* Secondary- White */
+  color: #FFFFFF;
+}
+.weblify-download-app{
+  margin-top: 16px;
+}
+img.weblify-appstore-download {
+  margin-right: 8px;
+}
+
+                              /* PROJECTS - NDAX */
+
+.projects-ndax-row{
+  margin-top: 48px;
+  background: linear-gradient(180deg, #1B2175 0%, rgba(19, 25, 107, 0.98) 100%);
+}
+.ndax-left-column{
+  padding: 0%;
+}
+.ndax-quality-assurance{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 168px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.ndax-buttons {
+  margin-top: 24px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+.ndax-group {
+  width: 453px;
+  height: 557px;
+  margin-left: 79px;
+  margin-top: 75px;
+}
+.ndax-info{
+  width: 453px;
+  margin-bottom: 102px;
+}
+.ndax-group .ndax-info > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.ndax-group .ndax-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin: 7px auto;
+  
+}
+.ndax-group .ndax-info > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+img.ndax-info-arrow-forward {
+  margin-left: 16px;
+  margin-top: -0.3%;
+}
+.ndax-download{
+  width: 317px;
+}
+.ndax-download > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  /* Secondary- White */
+  color: #FFFFFF;
+}
+.ndax-download-app{
+  margin-top: 16px;
+}
+img.ndax-appstore-download {
+  margin-right: 8px;
+}
+
+                             /* PROJECTS - LOGMEONCE */
+
+.projects-log-me-once-row{
+  margin-top: 48px;
+  background: linear-gradient(180deg, #FFA979 0%, #EC6519 100%);
+}
+.log-me-once-left-column{
+  padding: 0%;
+}
+.log-me-once-quality-assurance{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 168px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.log-me-once-buttons {
+  margin-top: 24px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+.log-me-once-group {
+  width: 453px;
+  height: 557px;
+  margin-left: 79px;
+  margin-top: 75px;
+}
+.log-me-once-info{
+  width: 453px;
+  margin-bottom: 102px;
+}
+.log-me-once-group .log-me-once-info > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.log-me-once-group .log-me-once-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin: 7px auto;
+  
+}
+.log-me-once-group .log-me-once-info > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+img.log-me-once-info-arrow-forward {
+  margin-left: 16px;
+  margin-top: -0.3%;
+}
+.log-me-once-download{
+  width: 317px;
+}
+.log-me-once-download > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  /* Secondary- White */
+  color: #FFFFFF;
+}
+.log-me-once-download-app{
+  margin-top: 16px;
+}
+img.log-me-once-appstore-download {
+  margin-right: 8px;
+}
+
+                             /* PROJECTS - STRATAPP */
+
+.projects-stratapp-row{
+  margin-top: 48px;
+  background: linear-gradient(0deg, #1E69B2 0%, #5EA7DC 100%);
+}
+.stratapp-left-column{
+  padding: 0%;
+}
+.stratapp-quality-assurance{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 168px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.stratapp-buttons {
+  margin-top: 24px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+.stratapp-group {
+  width: 453px;
+  height: 557px;
+  margin-left: 79px;
+  margin-top: 75px;
+}
+.stratapp-info{
+  width: 453px;
+  margin-bottom: 102px;
+}
+.stratapp-group .stratapp-info > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.stratapp-group .stratapp-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin: 7px auto;
+  
+}
+.stratapp-group .stratapp-info > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+img.stratapp-info-arrow-forward {
+  margin-left: 16px;
+  margin-top: -0.3%;
+}
+.stratapp-download{
+  width: 317px;
+}
+.stratapp-download > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  /* Secondary- White */
+  color: #FFFFFF;
+}
+.stratapp-download-app{
+  margin-top: 16px;
+}
+img.stratapp-appstore-download {
+  margin-right: 8px;
+}
+
+                            /* PROJECTS - Static Shift */
+
+.projects-static-shift-row{
+  margin-top: 48px;
+  background: linear-gradient(0deg, #031B3D 0%, #092B5E 100%);
+}
+.static-shift-left-column{
+  padding: 0%;
+}
+.static-shift-quality-assurance{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-transform: capitalize;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+width: 168px;
+height: 44px;
+
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background-color: transparent;
+}
+.static-shift-buttons {
+  margin-top: 24px;
+  width: 366px;
+  margin-bottom: 24px;
+}
+.static-shift-group {
+  width: 453px;
+  height: 557px;
+  margin-left: 79px;
+  margin-top: 75px;
+}
+.static-shift-info{
+  width: 453px;
+  margin-bottom: 102px;
+}
+.static-shift-group .static-shift-info > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.static-shift-group .static-shift-info > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin: 7px auto;
+  
+}
+.static-shift-group .static-shift-info > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+img.static-shift-info-arrow-forward {
+  margin-left: 16px;
+  margin-top: -0.3%;
+}
+.static-shift-download{
+  width: 317px;
+}
+.static-shift-download > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  /* Secondary- White */
+  color: #FFFFFF;
+}
+.static-shift-download-app{
+  margin-top: 16px;
+}
+img.static-shift-appstore-download {
+  margin-right: 8px;
+}
+
+
 
                           /* Looking for more portfolio */
 
