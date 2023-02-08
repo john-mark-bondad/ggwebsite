@@ -262,6 +262,7 @@ function loop()
 //     console.log(`Iteration is #${aa}`);
 // }
 
+
                 // this script is for Portfolio page in repitsocial video. When the user hover the video
 
    $("#carouselFeaturedProjects").mouseenter(function () {
@@ -273,3 +274,24 @@ function loop()
   
 
 });  
+
+
+
+                                                                    // Projects page -  See More button (show and hide hidden projects)
+
+var btnText = document.getElementById("myBtn"); 
+
+
+function QaPortfolioProjectsShowHide(divId)    // for hidden QA Portfolio projects
+{
+if(document.getElementById(divId).style.display == 'none')
+{
+document.getElementById(divId).style.display='block';
+btnText.innerHTML = "Show less"; 
+}
+else
+{
+document.getElementById(divId).style.display = 'none';
+btnText.innerHTML = "See More"; 
+}
+}
