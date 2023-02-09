@@ -279,19 +279,56 @@ function loop()
 
                                                                     // Projects page -  See More button (show and hide hidden projects)
 
-var btnText = document.getElementById("myBtn"); 
+                              // for hidden Featured projects
 
+ var btnFeaturedProjectsText = document.getElementById("myBtn1"); 
 
-function QaPortfolioProjectsShowHide(divId)    // for hidden QA Portfolio projects
+function FeaturedProjectsShowHide(divId1)   
 {
-if(document.getElementById(divId).style.display == 'none')
+if(document.getElementById(divId1).style.display == 'none')
 {
-document.getElementById(divId).style.display='block';
-btnText.innerHTML = "Show less"; 
+document.getElementById(divId1).style.display='block';
+btnFeaturedProjectsText.innerHTML = "Show less"; 
 }
 else
 {
-document.getElementById(divId).style.display = 'none';
-btnText.innerHTML = "See More"; 
+document.getElementById(divId1).style.display = 'none';
+btnFeaturedProjectsText.innerHTML = "See More"; 
+}
+}
+
+                        // for hidden Team Development projects
+
+var btnTeamDevelopmentProjectsText = document.getElementById("myBtn2"); 
+
+function TeamDevelopmentProjectsShowHide(divId2)    
+{
+if(document.getElementById(divId2).style.display == 'none')
+{
+document.getElementById(divId2).style.display='block';
+btnTeamDevelopmentProjectsText.innerHTML = "Show less"; 
+}
+else
+{
+document.getElementById(divId2).style.display = 'none';
+btnTeamDevelopmentProjectsText.innerHTML = "See More"; 
+}
+}
+
+                        // for hidden QA Portfolio projects
+
+var btnQaPortfolioText = document.getElementById("myBtn3"); 
+
+function QaPortfolioProjectsShowHide(divId3)    
+{
+if(document.getElementById(divId3).style.display == 'none')
+{
+document.getElementById(divId3).style.display='block';
+btnQaPortfolioText.innerHTML = "Show less"; 
+}
+else
+{
+document.getElementById(divId3).style.display = 'none';
+btnQaPortfolioText.innerHTML = "See More"; 
 }
 }

@@ -37,7 +37,7 @@ transition: all 0.3s ease;
   background-color: #ffffff !important;
 }
 .container.navigation-top {
-  padding: 17px 0px;
+  padding: 12px 0px;
 }
 #title {
   color: #12062E;
@@ -4760,8 +4760,6 @@ img.travoo-appstore-download {
 }
 
 
-
-
                           /* Looking for more portfolio */
 
 .portfolio-see-more > button{
@@ -4783,7 +4781,7 @@ height: 60px;
 
 background: #12062E;
 border-radius: 6px;
-margin: 52px 0px 100px 0px;
+margin: 100px 0px 30px 0px;
 }
 
 .more-portfolio-title{
@@ -4800,4 +4798,286 @@ line-height: 60px;
 color: #12062E;
 
 margin-bottom: 27px;
+}
+
+
+                                                                              /* OUR TEAM PAGE */
+
+nav.navbar.navbar-expand-lg.our-team-navigation {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}                                                                     
+
+ .our-team-carousel-container{
+  padding: 0;
+}
+#carouselOurTeamCaptions > .carousel-inner > .carousel-item > .carousel-caption{
+  margin-top: -4.5%;
+  }
+#carouselOurTeamCaptions > .carousel-inner > .carousel-item > .carousel-caption > h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+align-items: center;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+}
+#carouselOurTeamCaptions > .carousel-inner > .carousel-item > .carousel-caption > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+.our-team-link-to > li > a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  display: flex;
+  align-items: center;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+.our-team-link-to > li > a:hover{
+
+  
+  color: #7DDB29;
+}
+#carouselOurTeamCaptions > .carousel-indicators > button{
+  width: 18px;
+  height: 18px;
+  background-color: #FFFFFF;
+  opacity: 1;
+  margin: 0px 6px;
+}
+#carouselOurTeamCaptions > .carousel-indicators > button.active {
+  width: 61px;
+  height: 4px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  opacity: 0.5;
+  border-radius: 100px;
+  border-left: 10px;
+  border-right: 10px;
+  margin: 7px 1px;
+}
+#carouselOurTeamCaptions > .carousel-inner .carousel-item {
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease;
+  transition: transform 2s ease, -webkit-transform 2s ease;
+}
+
+#our-team-info{
+  margin-top: 60px;
+}
+.our-team-container{
+  width: 1091px;
+}
+.our-team-container > h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+color: #12062E;
+margin-bottom: 60px;
+}
+.our-team-description > p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+padding-bottom: 30px;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+}
+
+                              /* Schedule a consultaion section SAMPLE   */
+
+.our-team-appointment > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 110%;
+/* or 53px */
+width: 693px;
+
+color: #12062E;
+margin: 62px 0px;
+}
+.our-team-appointment > .row > div > h5{
+  width: 313px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+margin: 34px 0px;
+color: #12062E;
+}
+.our-team-appointment > .row > div >.appointment-time > p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+/* display: flex; */
+align-items: center;
+margin: 1px 0px 1px 0px;
+color: #12062E;
+}
+.appointment-time {
+  display: flex;
+}
+.appointment-time > img {
+  margin-right: 15px;
+}
+.appointment-conferencing {
+  display: flex;
+  width: 348px;
+  /* margin: 34px 0px; */
+}
+.appointment-conferencing > img{
+  margin-right: 15px;
+}
+.appointment-conferencing > p {
+  width: 309px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #12062E;
+  margin-top: 42px;
+}
+.appointment-forms{
+  background: #FFFFFF;
+box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.1);
+height: 616px;
+}
+.appointment-forms > .forms-info{
+margin-left: 68px;
+margin-top: 52px;;
+}
+
+.apointment-forms-row1 > .col > #apointment-company-name{
+  height: 55px;
+left: 7.34%;
+right: 51.73%;
+top: calc(50% - 55px/2 - 91.5px);
+
+/* Neutral/10 */
+
+background: #FFFFFF;
+border: 1px solid #F2F2F2;
+/* Shadow 1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+border-radius: 6px;
+}
+.apointment-forms-row1 {
+  /* margin-left: 68px;
+  margin-top: 71px; */
+  margin: 71px 68px 28px 68px;
+}
+.apointment-forms-row1 > .col > #apointment-your-name{
+  height: 55px;
+left: 7.34%;
+right: 51.73%;
+top: calc(50% - 55px/2 - 91.5px);
+
+/* Neutral/10 */
+
+background: #FFFFFF;
+border: 1px solid #F2F2F2;
+/* Shadow 1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+border-radius: 6px;
+}
+
+
+
+
+.apointment-forms-row2 > .col > #apointment-phone-number{
+  height: 55px;
+left: 7.34%;
+right: 51.73%;
+top: calc(50% - 55px/2 - 91.5px);
+
+/* Neutral/10 */
+
+background: #FFFFFF;
+border: 1px solid #F2F2F2;
+/* Shadow 1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+border-radius: 6px;
+}
+.apointment-forms-row2 {
+  /* margin-left: 68px;
+  margin-top: 71px; */
+  margin: 10px 68px 28px 68px;
+}
+.apointment-forms-row2 > .col > #apointment-email-address{
+  height: 55px;
+left: 7.34%;
+right: 51.73%;
+top: calc(50% - 55px/2 - 91.5px);
+
+/* Neutral/10 */
+
+background: #FFFFFF;
+border: 1px solid #F2F2F2;
+/* Shadow 1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+border-radius: 6px;
+}
+#appointment-submit{
+  /* width: 72px;
+  height: 28px; */
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  
+  letter-spacing: -0.011em;
+  
+  /* Neutral/10 */
+  
+  color: #FFFFFF;
+  width: 235px;
+height: 60px;
 }

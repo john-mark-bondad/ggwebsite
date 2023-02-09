@@ -44,7 +44,7 @@
                     <a href="portfolio.html" class="nav-link">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#team" class="nav-link">Team</a>
+                    <a href="our-team.html" class="nav-link">Team</a>
                 </li>
                 <li class="nav-item">
                     <a href="#contact-us" class="nav-link">Contact Us</a>
@@ -372,9 +372,10 @@ background-position-x: 120%;
 
 
                   <!-- HIDDEN FEATURED PROJECTS - SEE MORE   -->
+
                    <!-- Gauzy -->
 
-<!-- <div id="hidden-featured-projects" style="display: none;">
+ <div id="hidden-featured-projects" style="display: none;">
 
   <div class="row projects-gauzy-row">
     <div class="col-md-6 col-xl-5 col-xxl-5 gauzy-left-column">
@@ -413,14 +414,18 @@ background-position-x: 120%;
     </div>
   </div>
 
-</div> -->
+</div> 
+
+             <!-- See more button for Featured Projects -->
+
+  <div class="d-grid gap-2 col-6 mx-auto text-center portfolio-see-more">
+    <button class="btn btn-primary" type="button" onclick="javascript:FeaturedProjectsShowHide('hidden-featured-projects')" id="myBtn1">See More</button>
+  </div>
 
 
       </div> 
-
-
-
       <div class="tab-pane fade p-3" id="nav-team-development" role="tabpanel" aria-labelledby="nav-team-development-tab">
+
 
                                                          <!-- TEAM DEVELOPMENT -->
 
@@ -577,13 +582,61 @@ background-position-y: 23%;
   </div>
   </div>
 
+                                           <!-- HIDDEN TEAM DEVELOPMENT PROJECTS - SEE MORE   -->
 
+ <div id="hidden-team-development-projects" style="display: none;">
+
+<!-- API CENTER -->
+
+<div class="row projects-apicenter-row">
+  <div class="col-md-6 col-xl-5 col-xxl-5 apicenter-left-column">
+      <div class="apicenter-group">
+        <img src="./img/apicenter-logo.svg" class="img-fluid start-0" alt="API integrations designed to scale your application ecosystem and assure a fluid and secure flow of data.">
+        <div class="apicenter-buttons">
+          <button type="button" class="apicenter-quality-assurance">Quality Assurance</button>
+          <button type="button" class="apicenter-project-management">Project management</button>
+          <button type="button" class="apicenter-development">Development</button>
+          <!-- <button type="button" class="apicenter-ui-ux-design">UI/UX Design</button> -->
+        </div>
+        <div class="apicenter-info">
+          <h3>APICENTER</h3>
+          <p>Lorem ipsum dolor sit amet consectetur. Aenean elementum tellus sit amet sit eget orci. Malesuada non magna tincidunt</p>
+          <a href="https://apicenter.io/" target="_blank">Explore Website <img src="./img/projects-info-arrow-forward.svg" class="apicenter-info-arrow-forward"></a>
+        </div>
+        <div class="apicenter-download">
+            <h5>Download Now :</h5>
+            <div class="apicenter-download-app">
+              <a href="#" target="_blank" ><img src="./img/projects-appstore-download.svg" class="apicenter-appstore-download"></a>
+              <a href="#" target="_blank" ><img src="./img/projects-playstore-download.svg"></a>
+            </div>
+        </div>
+  
+      </div>             
+  </div>
+  <div class="col-md-6 col-xl-7 col-xxl-7" style="
+    background-image: url(./img/projects-apicenter.png);
+    background-repeat: no-repeat;
+    height: 659px;
+    background-position: left;
+    background-position-y: 17%;
+    margin: auto;
+    margin-bottom: 0%;"
+>  
+  </div>
+  </div>
+
+</div> 
+
+                             <!-- See more button for Featured Projects -->
+
+  <div class="d-grid gap-2 col-6 mx-auto text-center portfolio-see-more">
+    <button class="btn btn-primary" type="button" onclick="javascript:TeamDevelopmentProjectsShowHide('hidden-team-development-projects')" id="myBtn2">See More</button>
+  </div>
 
     </div>
-
-
     <div class="tab-pane fade p-3" id="nav-qa-portfolio" role="tabpanel" aria-labelledby="nav-qa-portfolio-tab">
-                                                  <!-- QA PORTFOLIO -->
+                                               
+                                                          <!-- QA PORTFOLIO -->
 
         <!-- WEBLIFY -->
 
@@ -884,7 +937,7 @@ background-position-x: 50%;
   </div>
 </div>
 
-                  <!-- HIDDEN QA PORTFOLIO PROJECTS - SEE MORE   -->
+                                        <!-- HIDDEN QA PORTFOLIO PROJECTS - SEE MORE   -->
 
 <div id="hidden-qa-portfolio-projects" style="display: none;">
 
@@ -1148,12 +1201,14 @@ background-position-x: 50%;
   </div>
 
 
-
 </div>
 
 
+                                                  <!-- See more button for QA Portfolio -->
 
-
+<div class="d-grid gap-2 col-6 mx-auto text-center portfolio-see-more">
+  <button class="btn btn-primary" type="button" onclick="javascript:QaPortfolioProjectsShowHide('hidden-qa-portfolio-projects')" id="myBtn3">See More</button>
+</div>
 
 
   </div>
@@ -1164,15 +1219,7 @@ background-position-x: 50%;
 
 
 
-<!-- See more button -->
-
-<div class="d-grid gap-2 col-6 mx-auto text-center portfolio-see-more">
-  <button class="btn btn-primary" type="button" onclick="javascript:QaPortfolioProjectsShowHide('hidden-qa-portfolio-projects')" id="myBtn">See More</button>
-</div>
-
-
-
-<!-- Looking for more portfolio -->
+                                              <!-- Looking for more portfolio? -->
 
 <section class="more-portfolio">
   <div class="container">
