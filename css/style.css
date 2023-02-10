@@ -4917,7 +4917,7 @@ padding-bottom: 30px;
 color: #12062E;
 }
 
-                              /* Schedule a consultaion section SAMPLE   */
+                              /* Schedule a consultaion form section */
 
 .our-team-appointment > h3{
   font-family: 'Poppins';
@@ -4930,6 +4930,9 @@ width: 693px;
 
 color: #12062E;
 margin: 62px 0px;
+}
+.container.our-team-appointment {
+  height: 1076px;
 }
 .our-team-appointment > .row > div > h5{
   width: 313px;
@@ -4987,6 +4990,36 @@ height: 616px;
 margin-left: 68px;
 margin-top: 52px;;
 }
+.appointment-forms > .forms-info > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  
+  /* Primary/GG-Dark */
+  
+  color: #12062E;
+  }
+  .appointment-forms > .forms-info > h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Primary/GG-Dark */
+    
+    color: #12062E;
+    }
 
 .apointment-forms-row1 > .col > #apointment-company-name{
   height: 55px;
@@ -5024,9 +5057,6 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 border-radius: 6px;
 }
 
-
-
-
 .apointment-forms-row2 > .col > #apointment-phone-number{
   height: 55px;
 left: 7.34%;
@@ -5062,10 +5092,339 @@ border: 1px solid #F2F2F2;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 border-radius: 6px;
 }
-#appointment-submit{
-  /* width: 72px;
-  height: 28px; */
+#appointment-submit {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.011em;
+  color: #FFFFFF;
+  /* width: 235px; */
+  height: 60px;
+  /* margin-left: 540px;
+  margin-top: 130px; */
+  padding: auto;
+  padding: 2% 8%;
+  background: #14A800;
+border-radius: 6px;
+border-color: #FFFFFF;
+}
+.text-end.appointment-submit-button {
+  margin-right: 76px;
+  margin-top: 9rem;
+}
+.appointment-bottom-many-plus-container{
+  padding: 0;
+}
+.position-absolute.bottom-0.start-0.appointment-bottom-many-plus {
+  z-index: -1;
+}
+.position-absolute.top-0.end-0.appointment-top-many-plus {
+  margin-top: 0rem;
+  z-index: -1;
+}
+                                /* Spacer */
+.container-fluid.appointment-bottom-spacer {
+    height: 130px;
+    padding: 0;
+    margin-top: -130px;
+    background-color: white;
+    z-index: 1;
+}  
+.container-fluid.appointment-top-spacer {
+  height: 130px;
+  padding: 0;
+  margin-bottom: -10px;
+  background-color: white;
+  z-index: 1;
+}    
+/* end spacer  */
+
+                                                                                  /* CONTACT US PAGE */
+
+#contact-us-page-form-section{
+  margin-top: 42px;
+ height: 1362px;
+}   
+.contact-us-page-form-container{
+border-radius: 20px;
+}  
+.contact-us-page-title-email-phone{
+  gap: 30px;
+  height: 129px;
+  padding-top: 62px;
+  padding-bottom: 49px;
+}
+.contact-us-page-title-email-phone > h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 110%;
+  /* identical to box height, or 66px */
   
+  text-align: center;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+.contact-us-page-email-phone {
+  display: flex;
+  padding: 0px;
+  gap: 38px;
+  margin-top: 30px;
+}
+
+.contact-us-page-email-phone > .contact-us-page-email > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 166.5%;
+  text-align: center;
+  color: #FFFFFF;
+  /* margin-top: 15px; */
+}
+.contact-us-page-email-phone > .contact-us-page-phone > p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 166.5%;
+/* or 33px */
+
+text-align: center;
+
+/* Secondary- White */
+
+color: #FFFFFF;
+}
+.contact-us-page-email{
+  display: flex;
+padding: 0px;
+gap: 14px;
+
+}
+.contact-us-page-email > img{
+  width: 28.15px;
+  height: 27.45px;
+  margin-top: 3px;
+}
+.contact-us-page-phone > img{
+  width: 28.15px;
+  height: 27.45px;
+  margin-top: 1px;
+  }
+.contact-us-page-phone{
+  display: flex;
+gap: 14px;
+}
+
+/* Form */
+.contact-us-page-form {
+  width: 95%;
+  /* height: 810px; */
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 16px 30px rgba(200, 200, 200, 0.25);
+  border-radius: 20px;
+  position: relative;
+  /* padding: 0; */
+  /* margin: 0; */
+  height: 1010px;
+  margin-top: 112px;
+}
+.contact-us-page-form-details{
+  margin: 0px 72px;
+  padding-top: 119px;
+}
+#contact-us-page-input-full-name{  /* input full name */
+  width: 100%px;
+  height: 80px;
+  
+  background: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 20px;
+}
+#contact-us-page-input-email{  /* input email */
+  width: 100%;
+height: 80px;
+
+background: #FFFFFF;
+border: 1px solid #DCDCDC;
+border-radius: 20px;
+}
+.contact-us-page-form-label-full-name{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+text-transform: capitalize;
+
+color: #242331;
+padding-bottom: 19px;
+}
+.contact-us-page-form-label-email{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+text-transform: capitalize;
+
+color: #242331;
+padding-bottom: 19px;
+}
+.contact-us-page-row-name-email {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 14px; /* it should be gap: 38px but by default input forms has 12 px excess margin left and right */
+  margin: 0px 72px;
+  padding-top: 99px;
+}
+
+.contact-us-page-row-phone-company {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 14px; /* it should be gap: 38px but by default input forms has 12 px excess margin left and right */
+  margin: 0px 72px;
+  padding-top: 48px;
+}
+.contact-us-page-row-message {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 14px; /* it should be gap: 38px but by default input forms has 12 px excess margin left and right */
+  margin: 0px 72px;
+  padding-top: 48px;
+}
+#contact-us-page-input-phone{  /* input phone */
+  width: 100%;
+height: 80px;
+
+background: #FFFFFF;
+border: 1px solid #DCDCDC;
+border-radius: 20px;
+}
+#contact-us-page-input-company{  /* input company */
+  width: 100%;
+height: 80px;
+
+background: #FFFFFF;
+border: 1px solid #DCDCDC;
+border-radius: 20px;
+}
+.contact-us-page-form-label-phone{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+text-transform: capitalize;
+
+color: #242331;
+padding-bottom: 19px;
+}
+.contact-us-page-form-label-company{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+text-transform: capitalize;
+
+color: #242331;
+padding-bottom: 19px;
+}
+.contact-us-page-form-label-message{   /* Message form lable */
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+text-transform: capitalize;
+
+color: #242331;
+padding-bottom: 19px;
+}
+#contact-us-page-input-message{  /* input Message */
+  width: 100%;
+height: 300px;
+
+background: #FFFFFF;
+border: 1px solid #DCDCDC;
+border-radius: 20px;
+resize: none;
+padding-bottom: 48px;
+}
+
+
+                                  /* Styling the placeholder text */
+
+.contact-us-page-form-control-full-name::placeholder {
+  padding-left: 19px;  /* it should be padding-left: 31px but by default input forms has 12 px excess margin left and right */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  color: #808080;
+}
+.contact-us-page-form-control-email::placeholder {
+  padding-left: 7px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+color: #808080;
+text-decoration: underline;
+}
+.contact-us-page-form-control-phone::placeholder {
+  padding-left: 19px;  /* it should be padding-left: 31px but by default input forms has 12 px excess margin left and right */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  color: #808080;
+}
+.contact-us-page-form-control-message::placeholder {
+  padding-left: 19px;  /* it should be padding-left: 31px but by default input forms has 12 px excess margin left and right */
+  padding-top: 19px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  color: #808080;
+}
+
+/* button */
+#contact-us-page-submit{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -5075,9 +5434,23 @@ border-radius: 6px;
   
   letter-spacing: -0.011em;
   
-  /* Neutral/10 */
+  /* Primary/GG-Dark */
   
-  color: #FFFFFF;
-  width: 235px;
+  color: #12062E;
+
+width: 235px;
 height: 60px;
+
+background: #7DDB29;
+border-radius: 6px;
+border-color: white;
+
+}
+.contact-us-page-submit-button{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 0px 72px;
+  padding-top: 48px;
 }

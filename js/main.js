@@ -332,3 +332,19 @@ document.getElementById(divId3).style.display = 'none';
 btnQaPortfolioText.innerHTML = "See More"; 
 }
 }
+
+
+                                                                                        // Our Team page
+
+// Appointment Form - To get the Day, Month, Year, Hours & Seconds
+
+ // var time = new Date();
+// console.log(
+//   time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
+// );
+
+var options = {  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true };
+var prnDt = 'Appointment on ' + new Date().toLocaleTimeString('en-us', options);
+
+document.getElementById("appointment-date-time").textContent = new Date().toLocaleTimeString('en-us', options);
+console.log(prnDt);                                                                                                                                                                              
