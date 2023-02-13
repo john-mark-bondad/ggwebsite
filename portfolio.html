@@ -128,11 +128,6 @@
       <div class="row">
         <div class="col-xl-7 col-xxl-7 creations-repitsocial-video">
             <div class="text-center">
-                <!-- <video class="video portfolio-repitsocial-video" autoplay loop controls playsinline muted controlslist="nodownload" title="RepitSocial">
-                  <source src="https://repitsocial.com/wp-content/uploads/2021/10/REPITSOCIAL-WEB-VIDEO-720.mov" type="video/mp4">
-                  </video>
-                  <figcaption class="figure-caption repitsocial-video-title">We don't say it. We Rep It!</figcaption> -->
-
                   <div id="carouselFeaturedProjects" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
                     <div class="carousel-indicators featured-projects-indicators">
                       <button type="button" data-bs-target="#carouselFeaturedProjects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -141,8 +136,11 @@
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <video class="video portfolio-repitsocial-video text-center" loop controls playsinline muted controlslist="nodownload"
-                          title="RepitSocial We don't say it. We Rep It!">
+
+                        <!-- Chrome does not support autoplay without muted. Video is muted by default -->
+                        
+                        <video class="video portfolio-repitsocial-video text-center"  autoplay="autoplay" loop="loop" controls="controls" controlslist="nodownload"
+                         title="RepitSocial We don't say it. We Rep It!">
                           <source src="https://repitsocial.com/wp-content/uploads/2021/10/REPITSOCIAL-WEB-VIDEO-720.mov" type="video/mp4">
                         </video>
                         <div class="carousel-caption d-none d-md-block text-start repitsocial-featured-video-caption">
@@ -1387,7 +1385,6 @@ background-position-x: 50%;
 
     <script>
 
-
         $(document).ready(function () {
     //   $(".inner-section-our-projects").toggleClass("to_top");
       // window.setInterval(function(){
@@ -1395,7 +1392,7 @@ background-position-x: 50%;
       // },4000);
     });    
 
-
+                                // this script is for background image will appear from bottom to top when the page is loaded
 $(document).ready(function(){
   function animation(){
     setTimeout(function(){

@@ -83,6 +83,7 @@ window.addEventListener("scroll", reveal);
 
 
  // This script is for services section when images is clicked
+ 
  $(document).ready(function(){
   $("#services-slider-img1").click(function(){ 
     $("#card-title-services").text("Web Development");
@@ -347,4 +348,5 @@ var options = {  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
 var prnDt = 'Appointment on ' + new Date().toLocaleTimeString('en-us', options);
 
 document.getElementById("appointment-date-time").textContent = new Date().toLocaleTimeString('en-us', options);
-console.log(prnDt);                                                                                                                                                                              
+console.log(prnDt);     
+

@@ -1214,7 +1214,7 @@ color: #7DDB29;
   background: #7DDB29;
   border-radius: 6px;
 }
-.it-consulting-left .learn-more-btn > button{
+.it-consulting-left .learn-more-btn > a{
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -1227,6 +1227,7 @@ letter-spacing: -0.011em;
 /* Primary/GG-Dark */
 
 color: #12062E;
+text-decoration: none;
 }
 .it-consulting-images {
   width: 614px;
@@ -5241,21 +5242,35 @@ gap: 14px;
   margin: 0px 72px;
   padding-top: 119px;
 }
-#contact-us-page-input-full-name{  /* input full name */
-  width: 100%px;
+ /* input full name */
+#contact-us-page-input-full-name {
+  width: 100%;
   height: 80px;
-  
   background: #FFFFFF;
   border: 1px solid #DCDCDC;
   border-radius: 20px;
+  padding-left: 31px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  color: #808080;
 }
-#contact-us-page-input-email{  /* input email */
-  width: 100%;
+ /* input email */
+#contact-us-page-input-email{ 
+width: 100%;
 height: 80px;
-
 background: #FFFFFF;
 border: 1px solid #DCDCDC;
 border-radius: 20px;
+padding-left: 31px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+color: #808080;
 }
 .contact-us-page-form-label-full-name{
   font-family: 'Poppins';
@@ -5311,21 +5326,34 @@ padding-bottom: 19px;
   margin: 0px 72px;
   padding-top: 48px;
 }
-#contact-us-page-input-phone{  /* input phone */
-  width: 100%;
+/* input phone */
+#contact-us-page-input-phone{  
+width: 100%;
 height: 80px;
-
 background: #FFFFFF;
 border: 1px solid #DCDCDC;
 border-radius: 20px;
+padding-left: 31px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+color: #808080;
 }
 #contact-us-page-input-company{  /* input company */
-  width: 100%;
+width: 100%;
 height: 80px;
-
 background: #FFFFFF;
 border: 1px solid #DCDCDC;
 border-radius: 20px;
+padding-left: 31px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+color: #808080;
 }
 .contact-us-page-form-label-phone{
   font-family: 'Poppins';
@@ -5366,22 +5394,31 @@ text-transform: capitalize;
 color: #242331;
 padding-bottom: 19px;
 }
-#contact-us-page-input-message{  /* input Message */
-  width: 100%;
+/* input Message */
+#contact-us-page-input-message{  
+width: 100%;
 height: 300px;
-
 background: #FFFFFF;
 border: 1px solid #DCDCDC;
 border-radius: 20px;
 resize: none;
 padding-bottom: 48px;
+padding-left: 31px;
+padding-top: 31px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+color: #808080;
+
 }
 
 
                                   /* Styling the placeholder text */
 
 .contact-us-page-form-control-full-name::placeholder {
-  padding-left: 19px;  /* it should be padding-left: 31px but by default input forms has 12 px excess margin left and right */
+  
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -5402,7 +5439,7 @@ color: #808080;
 text-decoration: underline;
 }
 .contact-us-page-form-control-phone::placeholder {
-  padding-left: 19px;  /* it should be padding-left: 31px but by default input forms has 12 px excess margin left and right */
+ 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -5412,8 +5449,8 @@ text-decoration: underline;
   color: #808080;
 }
 .contact-us-page-form-control-message::placeholder {
-  padding-left: 19px;  /* it should be padding-left: 31px but by default input forms has 12 px excess margin left and right */
-  padding-top: 19px;
+  
+  /* padding-top: 19px; */
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -5453,4 +5490,411 @@ border-color: white;
   padding: 0px;
   margin: 0px 72px;
   padding-top: 48px;
+}
+
+                                                    /* Our Office section */
+
+section.our-office-section {
+    margin: 74px 0px 104px 0px;
+}                                                    
+.our-office-container-description > h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 110%;
+/* identical to box height, or 53px */
+
+/* Primary/GG-Dark */
+color: #12062E;
+padding-bottom: 36px;
+} 
+.our-office-container-location {
+  display: flex;
+  padding-bottom: 14px;
+}    
+.our-office-container-location > img {
+  margin-right: 10px;
+} 
+.our-office-container-location > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #12062E;
+  margin: 1px 0px 0px 0px;
+}                                          
+.our-office-container-address > p{
+  width: 524px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+}
+.our-office-container-description {
+  margin-bottom: 42px;
+}
+.our-office-email-address {
+  display: flex;
+  margin-bottom: 33px;
+}
+.our-office-email-address > img{
+  margin-right: 14px;
+}
+.our-office-email-address > p{
+  width: 339px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 166.5%;
+  /* or 33px */
+  
+  text-align: center;
+  
+  /* Primary/GG-Dark */
+  
+  color: #12062E;
+  margin: 1px;
+  }
+  .our-office-phone-number{
+    display: flex;
+  }
+  .our-office-phone-number > img{
+    margin-right: 14px;
+  }
+  .our-office-phone-number > p{
+    width: 193px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 166.5%;
+    /* or 33px */
+    
+    text-align: center;
+    
+    /* Primary/GG-Dark */
+    
+    color: #12062E;
+    margin: 1px;
+  }
+  /* .our-office-maps{
+    margin-left: 80px;
+  } */
+  .our-office-container {
+    margin-left: 80px;
+}
+
+                                                                                    /* IT CONSULTING SERVICES  */
+.it-consulting-bg-img{
+  padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+}  
+.it-consulting-featured-img{
+  position: relative;
+  text-align: center;
+  color: white;
+}     
+.it-consulting-featured-img-content {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 583px;
+}
+.it-consulting-title-description{
+margin-bottom: 48px;
+}
+.it-consulting-title-description > h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+  
+  align-items: center;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+.it-consulting-title-description > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+
+.it-consulting-featured-img-content > a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.011em;
+    color: #12062E;
+    padding: 16px 62px;
+    /* gap: 10px; */
+    width: 235px;
+    height: 60px;
+    background: #7DDB29;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+                        /* CONTENT SECTION */
+.it-consulting-content-section{
+  margin-top: 79px;
+} 
+.it-consulting-content-section > .it-consulting-content-title > h2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.2px;
+text-transform: capitalize;
+
+/* systemGrey/900 */
+
+color: #212121;
+margin: 70px 156px;
+}  
+.container.it-consulting-content-container {
+  /* padding: 0px 10rem; */
+  margin-bottom: 70px;
+} 
+.it-consulting-left-content-top > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+text-transform: capitalize;
+
+/* systemGrey/900 */
+
+color: #212121;
+}   
+.it-consulting-left-content-top > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  
+  /* systemGrey/600 */
+  
+  color: #757575;
+}    
+.it-consulting-left-content-top {
+  margin-bottom: 42px;
+} 
+
+       /* Software Implementation Strategy */
+
+.it-consulting-left-content-bottom > .content-bottom-top {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  margin-bottom: 40px;
+} 
+.it-consulting-left-content-bottom > .content-bottom-top > .content-bottom-top-description > h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  
+  /* systemGrey/900 */
+  
+  color: #212121;
+}       
+.it-consulting-left-content-bottom > .content-bottom-top > .content-bottom-top-description > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  
+  /* systemGrey/600 */
+  
+  color: #757575;
+  
+} 
+
+      /* Technology Advisory Services */
+
+.it-consulting-left-content-bottom > .content-bottom-middle {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  margin-bottom: 40px;
+} 
+.it-consulting-left-content-bottom > .content-bottom-middle > .content-bottom-midle-description > h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  
+  /* systemGrey/900 */
+  
+  color: #212121;
+}       
+.it-consulting-left-content-bottom > .content-bottom-middle > .content-bottom-midle-description > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  
+  /* systemGrey/600 */
+  
+  color: #757575;
+  
+} 
+
+     /* Business Solution Consulting */
+
+.it-consulting-left-content-bottom > .content-bottom-last {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  /* margin-bottom: 40px; */
+} 
+.it-consulting-left-content-bottom > .content-bottom-last > .content-bottom-last-description > h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  
+  /* systemGrey/900 */
+  
+  color: #212121;
+}       
+.it-consulting-left-content-bottom > .content-bottom-last > .content-bottom-last-description > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  
+  /* systemGrey/600 */
+  
+  color: #757575;
+  
+} 
+
+/* Right coloumn img */
+.it-consulting-content-right-img{
+filter: drop-shadow(0px 4px 32px rgba(0, 0, 0, 0.25));
+margin: 10% 0%;
+}
+
+            /* Trusted by the Top International Brands section */
+.international-brands-section{
+  margin: 100px 0px 86px 0px;
+}
+.international-brands-container{
+  gap: 40px;
+}
+.international-brands-container > h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+
+/* display: flex;
+align-items: center; */
+text-align: center;
+letter-spacing: 0.2px;
+text-transform: capitalize;
+
+/* systemGrey/900 */
+
+color: #212121;
+}
+.international-brands-row{
+  margin-top: 40px;
 }
