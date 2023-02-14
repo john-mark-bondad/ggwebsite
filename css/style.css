@@ -741,7 +741,7 @@ div> div> div> div> h5.card-title:hover {
 /* Contact Us form section  */
 
 .contact-us-form {
-  margin-top: 8rem;
+  margin-top: 4rem;
   background-image: repeating-linear-gradient(135deg,#63D24B 30%,#7DDB29 70%);
 }
 .contact-desc > h2{
@@ -1002,50 +1002,25 @@ color: #7DDB29;
   color: #12062E;
 }
 
-.contact-us-btn {
+.left-side-services > .contact-us-btn > a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.011em;
+  color: #12062E;
   display: flex;
-  /* flex-direction: row; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  padding: 16px 0px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 16px 205px; */
   gap: 10px;
-}
-.contact-us-btn > button{
-
-width: 235px;
-height: 60px;
-
-/* Primary/GG-Green */
-
-background: #7DDB29;
-border-radius: 6px;
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 28px;
-/* identical to box height, or 140% */
-
-letter-spacing: -0.011em;
-
-/* Primary/GG-Dark */
-
-color: #12062E;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  width: 235px;
+  height: 60px;
+  background: #7DDB29;
+  border-radius: 6px;
+  text-decoration: none;
 }
 img.services-page-scroll {
   position: absolute;
@@ -1202,7 +1177,7 @@ line-height: 38px;
 
 color: #7DDB29;
 }
-.it-consulting-left .learn-more-btn {
+.learn-more-btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1214,7 +1189,7 @@ color: #7DDB29;
   background: #7DDB29;
   border-radius: 6px;
 }
-.it-consulting-left .learn-more-btn > a{
+.learn-more-btn > a{
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -2145,6 +2120,38 @@ margin-bottom: 20px;
 
 color: #12062E;
 }
+.portfolio-contact-us-btn > a{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: -0.011em;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+/* padding: 16px 205px; */
+gap: 10px;
+
+/* position: absolute; */
+width: 235px;
+height: 60px;
+left: calc(50% - 235px/2 - 538.5px);
+top: calc(50% - 60px/2 + 113.5px);
+
+/* Primary/GG-Green */
+
+background: #7DDB29;
+border-radius: 6px;
+text-decoration: none;
+}
 .our-projects-about {
   font-family: 'Poppins';
   font-style: normal;
@@ -2158,6 +2165,7 @@ color: #12062E;
   /* Primary/GG-Dark */
   
   color: #12062E;
+  margin-bottom: 30px;
 }
 
                             /* A taste of creations section */
@@ -5872,7 +5880,7 @@ margin: 10% 0%;
 
             /* Trusted by the Top International Brands section */
 .international-brands-section{
-  margin: 100px 0px 86px 0px;
+  margin: 150px 0px 136px 0px;
 }
 .international-brands-container{
   gap: 40px;
@@ -5897,4 +5905,296 @@ color: #212121;
 }
 .international-brands-row{
   margin-top: 40px;
+}
+img.international-brands-ever-leagues {
+  margin-top: 7px;
+}
+img.international-brands-api-center {
+  margin-top: 8px;
+}
+
+                        /* How It Works section */
+.it-consulting-how-it-works-section{
+  margin-bottom: 100px;
+}                       
+.how-it-works-section-title-description{
+margin-bottom: 70px;
+}
+.how-it-works-section-title-description > h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.2px;
+text-transform: capitalize;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+margin-bottom: 32px;
+}                       
+.how-it-works-section-title-description > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  
+  /* systemGrey/600 */
+  
+  color: #757575;
+} 
+.how-it-works-row{
+
+}
+.how-it-works-step1 {
+  display: flex;
+  gap: 15px;
+  margin-left: -6rem;
+  padding-right: 90px;
+  margin-bottom: 103px;
+}
+.how-it-works-step1 > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.how-it-works-step1 > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #000000;
+}
+.how-it-works-step2 {
+  display: flex;
+  gap: 15px;
+  padding-right: 50px;
+  margin-left: 3.7vw;
+  margin-bottom: 184px;
+}
+.how-it-works-step2 > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.how-it-works-step2 > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #000000;
+}
+.how-it-works-step3 {
+  display: flex;
+  gap: 15px;
+  padding-right: 50px;
+  margin-left: 3.7vw;
+  margin-bottom: 164px;
+}
+.how-it-works-step3 > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.how-it-works-step3 > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #000000;
+}
+.how-it-works-img {
+  width: 100%;
+}
+.how-it-works-step4 {
+  display: flex;
+  gap: 15px;
+  padding-right: 90px;
+  margin-left: -6rem;
+  margin-bottom: 1vh;
+}
+.how-it-works-step4 > h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.how-it-works-step4 > p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #000000;
+}
+.how-it-works-img {
+  width: 100%;
+}
+
+                            /* UI/UX Design Services page */
+.ui-ux-design-content-right-img-container {
+    height: 662px;
+    position: relative;
+    /* border: 3px solid #dbe4ed; */
+} 
+ .ui-ux-design-content-right-img-container > img{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+ }                          
+                            
+ .ui-ux-design-services-projects-repitsocial-row {
+    margin-top: 100px;
+    margin-bottom: 35px;
+    background: linear-gradient(180deg, #A64BBB 0%, #34C3F9 100%);
+    height: 587px;
+}                           
+                            
+
+.ui-ux-design-services-repitsocial-group-container {
+  height: 587px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+}
+ .ui-ux-design-services-repitsocial-container {
+  height: 587px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+}
+img.img-fluid.ui-ux-design-services-repitsocial-project-img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-53%, -50%);
+}
+.ui-ux-design-services-repitsocial-group {
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  left: 55%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.ui-ux-design-services-repitsocial-group > img, .ui-ux-design-services-motionscloud-group > img{
+  margin-bottom: 17px;
+}
+.ui-ux-design-services-repitsocial-info, .ui-ux-design-services-motionscloud-info {
+  width: 453px;
+  margin-bottom: 48px;
+}
+.ui-ux-design-services-repitsocial-group .ui-ux-design-services-repitsocial-info > h3, .ui-ux-design-services-motionscloud-info > h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+  
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+.ui-ux-design-services-repitsocial-group .ui-ux-design-services-repitsocial-info > p, .ui-ux-design-services-motionscloud-info > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+.ui-ux-design-services-repitsocial-group .ui-ux-design-services-repitsocial-info > a, .ui-ux-design-services-motionscloud-info > a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+.ui-ux-design-services-projects-motionscloud-row{
+  height: 587px;
+  background: linear-gradient(180deg, #0937DB 0%, #0936D9 100%);
+}
+.ui-ux-design-services-motionscloud-container {
+  height: 587px; 
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+}
+img.img-fluid.ui-ux-design-services-motionscloud-project-img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-53%, -50%);
+}
+.ui-ux-design-services-motionscloud-group-container {
+  height: 587px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+}
+.ui-ux-design-services-motionscloud-group {
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  left: 55%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }

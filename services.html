@@ -93,7 +93,9 @@
                             </div>
                         </div>
                         <div class="contact-us-btn">
-                            <button type="button" class="btn btn-lg">Contact Us</button>
+                          <a href="contact-us.html" target="_blank" title="Contact Us through email or phone.">Contact Us</a>
+                            <!-- <button type="button" class="btn btn-lg">Contact Us</button> -->
+                            
                         </div>
                     </div>               
             </div>
@@ -139,7 +141,7 @@
                     </div>
                 </div>
                 <div class="learn-more-btn">
-                    <a href="services-it-consulting.html" target="_blank">LEARN MORE</a>
+                    <a href="services-it-consulting.html" target="_blank" title="Learn more about IT Consulting Services">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -170,7 +172,7 @@
                     </div>
                 </div>
                 <div class="learn-more-btn">
-                    <button type="button" class="btn btn-lg">LEARN MORE</button>
+                  <a href="services-ui-ux-design.html" target="_blank" title="Learn more about UI/UX Design Services">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -334,37 +336,56 @@
     
   </section>
 
-  <!-- Schedule a consultaion section-->
+                                                                       <!-- Schedule a consultaion form section    -->
 
-<section class="p-5 bg-white">
+<section>
+  <div class="container-fluid appointment-top-spacer">
 
-    <div class="position-relative">
-      <div class="position-absolute top-0 start-0">
-        <div class="schedule-call">
-          <h2>Schedule a consultation call <br>to discuss your project</h2>
+</div>
+<div class="container-fluid appointment-top-many-plus-container">
+  <div class="position-relative">
+    <div class="position-absolute top-0 end-0 appointment-top-many-plus">
+      <img src="./img/our-team-appointent-top-many-plus.svg" alt="...">
+    </div> 
+  </div>
+</div>
+  <div class="container our-team-appointment">
+      <h3>Schedule a consulation call to discuss your project</h3>
+      <div class="row">
+          <div class="col-md-4 col-xl-4 col-xxl-4">
+              <img src="./img/appointment-with-jeff.svg" alt="Appointment with Jeff Ray Dy">
+              <h5>Appointment with Jeff Ray Dy</h5>
+              <div class="appointment-time">
+                  <img src="./img/schedule-clock-icon.svg"><p> 30 Minutes</p>
+              </div>
+              <div class="appointment-conferencing">
+                  <img src="./img/schedule-video-icon.svg"> <p>Web conferencing details provided upon confirmation.</p>
+              </div>
+          </div>
+          <div class="col-md-8 col-xl-8 col-xxl-8 calendy-appointment-forms" >
+
+                    <!-- Calendly inline widget begin -->
+                    <div class="calendly-inline-widget"
+                    data-url="https://calendly.com/jmbondad/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=12062e&primary_color=14a800"
+                    style="min-width:100%;height: 750px; background-color: #FFFFFF;
+                              box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.1);"></div>
+                  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                  <!-- Calendly inline widget end -->
+
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid appointment-bottom-many-plus-container">
+        <div class="position-relative">
+          <div class="position-absolute bottom-0 start-0 appointment-bottom-many-plus">
+            <img src="./img/our-team-appointent-many-plus.svg" alt="...">
+          </div> 
         </div>
       </div>
-      <div class="position-absolute top-0 end-0 schedule-call-many-plus">
-        <img src="./img/many-plus.svg" alt="...">
+      <div class="container-fluid appointment-bottom-spacer">
+
       </div>
-    </div>
-  
-    <div class="container-fluid mt-5">
-  
-   <!-- Calendly inline widget begin -->
-  <div class="calendly-inline-widget my-5" data-url="https://calendly.com/johnmarkbondad/my-client" style="min-width:926x;height:791px;"></div>
-  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <!-- Calendly inline widget end -->
-  
-  
-    </div>
-    <div class="position-relative">
-      <div class="position-absolute start-0 schedule-call-many-plus-bottom">
-        <img src="./img/schedule-call-many-plus.svg" alt="...">
-      </div>
-    </div>
-  
-  </section>
+</section>
 
 <!-- Contact Us form section -->
 
