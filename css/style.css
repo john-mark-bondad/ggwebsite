@@ -2,7 +2,7 @@
   font-family: 'Poppins';
 } */
 body { 
-  font-family:'Poppins', sans-serif!important;
+  font-family:'Poppins';
 }
 /* when next and preview button is hover */
 img.client1:hover {
@@ -6126,7 +6126,6 @@ img.img-fluid.ui-ux-design-services-repitsocial-project-img {
   margin-bottom: 48px;
 }
 .ui-ux-design-services-repitsocial-group .ui-ux-design-services-repitsocial-info > h3, .ui-ux-design-services-motionscloud-info > h3 {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -6139,7 +6138,6 @@ img.img-fluid.ui-ux-design-services-repitsocial-project-img {
   color: #FFFFFF;
 }
 .ui-ux-design-services-repitsocial-group .ui-ux-design-services-repitsocial-info > p, .ui-ux-design-services-motionscloud-info > p {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -6155,7 +6153,6 @@ img.img-fluid.ui-ux-design-services-repitsocial-project-img {
   color: #FFFFFF;
 }
 .ui-ux-design-services-repitsocial-group .ui-ux-design-services-repitsocial-info > a, .ui-ux-design-services-motionscloud-info > a {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -6198,3 +6195,463 @@ img.img-fluid.ui-ux-design-services-motionscloud-project-img {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+                    /* UI/UX Design Process section */   
+
+.ui-ux-design-process{
+ margin-bottom: 150px;
+}
+.ui-ux-design-process-info h2{
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.2px;
+text-transform: capitalize;
+
+/* Primary/GG-Dark */
+color: #12062E;
+margin-bottom: 20px;
+}      
+.ui-ux-design-process-info p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  
+  /* systemGrey/600 */
+  
+  color: #757575;
+  margin-bottom: 20px;
+}   
+
+                    /* Tools we use in Designing section */
+.tools-we-use-in-designing-info{
+
+}
+.tools-we-use-in-designing-info h3{
+  font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.2px;
+text-transform: capitalize;
+
+/* Primary/GG-Dark */
+
+color: #12062E;
+margin-bottom: 32px;
+}                    
+.tools-we-use-in-designing-info p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  
+  /* systemGrey/600 */
+  
+  color: #757575;
+  margin-bottom: 54px;
+}  
+
+                                  /* Figma */
+
+.tools-we-use-figma-row {
+    margin-bottom: 35px;
+    background-image: url(../img/figma-background-image-row.png);
+    height: 698px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    margin-bottom: 54px;
+}  
+.figma-group-container{
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+} 
+.figma-group {
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  left: 55%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}  
+.figma-info {
+  width: 453px;
+  margin-bottom: 48px;
+}   
+.figma-info > h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #12062E;
+}  
+.figma-info > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-transform: capitalize;
+  color: #12062E;
+}  
+.figma-left-container {
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+}                       
+.figma-left-img{
+  margin: 0;
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-53%, -50%);
+  filter: drop-shadow(0px 50px 50px rgba(0, 0, 0, 0.25));
+}
+
+                                  /* Photoshop */
+
+.tools-we-use-photoshop-row {
+    margin-bottom: 35px;
+    background-image: url(../img/photoshop-background-image-row.png);
+    height: 698px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    margin-bottom: 54px;
+}  
+.photoshop-group-container{
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+} 
+.photoshop-group {
+  margin: 0;
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.photoshop-info {
+  width: 453px;
+  margin-bottom: 48px;
+}   
+.photoshop-info > h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #12062E;
+}  
+.photoshop-info > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-transform: capitalize;
+  color: #12062E;
+}  
+.photoshop-left-container {
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+}                       
+.photoshop-left-container img {
+  margin: 0;
+  position: absolute;
+  top: 51%;
+  left: 58%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-53%, -50%);
+  filter: drop-shadow(0px 50px 50px rgba(0, 0, 0, 0.50));
+}
+
+                                  /* Adobe XD */
+
+.tools-we-use-xd-row {
+    margin-bottom: 35px;
+    background-image: url(../img/xd-background-image-row.png);
+    height: 698px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    margin-bottom: 54px;
+}  
+.xd-group-container{
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+} 
+.xd-group {
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  left: 55%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}  
+.xd-info {
+  width: 453px;
+  margin-bottom: 48px;
+}   
+.xd-info > h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #12062E;
+}  
+.xd-info > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-transform: capitalize;
+  color: #12062E;
+}  
+.xd-left-container {
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+}                       
+.xd-left-container img{
+  margin: 0;
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-53%, -50%);
+  filter: drop-shadow(0px 50px 50px rgba(0, 0, 0, 0.50));
+}
+
+                                 /* Adobe Illustrator */
+
+.tools-we-use-illustrator-row {
+    margin-bottom: 35px;
+    background-image: url(../img/illustrator-background-image-row.png);
+    height: 698px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    margin-bottom: 54px;
+}  
+.illustrator-group-container{
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+} 
+.illustrator-group {
+  margin: 0;
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.illustrator-info {
+  width: 453px;
+  margin-bottom: 48px;
+}   
+.illustrator-info > h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #12062E;
+}  
+.illustrator-info > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-transform: capitalize;
+  color: #12062E;
+}  
+.illustrator-left-container {
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+}                       
+.illustrator-left-container img {
+  margin: 0;
+  position: absolute;
+  top: 54%;
+  left: 58%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-53%, -50%);
+  filter: drop-shadow(0px 50px 50px rgba(0, 0, 0, 0.50));
+}
+
+                                 /* Adobe After Effects */
+
+.tools-we-use-after-effects-row {
+    margin-bottom: 35px;
+    background-image: url(../img/after-effects-background-image-row.png);
+    height: 698px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    margin-bottom: 54px;
+}  
+.after-effects-group-container{
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+} 
+.after-effects-group {
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  left: 55%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}  
+.after-effects-info {
+  width: 453px;
+  margin-bottom: 48px;
+}   
+.after-effects-info > h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #12062E;
+}  
+.after-effects-info > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-transform: capitalize;
+  color: #12062E;
+}  
+.after-effects-left-container {
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+}                       
+.after-effects-left-container img{
+  margin: 0;
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-53%, -50%);
+  filter: drop-shadow(0px 50px 50px rgba(0, 0, 0, 0.50));
+}
+
+                                 /* Adobe Premiere Pro */
+
+.tools-we-use-premiere-pro-row {
+    margin-bottom: 35px;
+    background-image: url(../img/premiere-pro-background-image-row.png);
+    height: 698px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    margin-bottom: 54px;
+}  
+.premiere-pro-group-container{
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+} 
+.premiere-pro-group {
+  margin: 0;
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.premiere-pro-info {
+  width: 453px;
+  margin-bottom: 48px;
+}   
+.premiere-pro-info > h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #12062E;
+}  
+.premiere-pro-info > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-transform: capitalize;
+  color: #12062E;
+}  
+.premiere-pro-left-container {
+  height: 698px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+}                       
+.premiere-pro-left-container img {
+  margin: 0;
+  position: absolute;
+  top: 58%;
+  left: 58%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-53%, -50%);
+  filter: drop-shadow(0px 50px 50px rgba(0, 0, 0, 0.50));
+}
+
+                                                                      /* PROJECT MANAGEMENT page */
+.project-management-content{
+  margin-top: 120px;
+} 
+.project-management-left-content {
+  margin: 7% auto;
+  padding: 0% 3% 0% 3%;
+}
+.project-management-left-content h3{
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+align-items: center;
+letter-spacing: 0.2px;
+text-transform: capitalize;
+color: #212121;
+}   
+.project-management-left-content p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #757575;
+  }                                                                                                                       
+
+                         /* New Trusted Brands section */
+
+ /* .first-row-brands .col{
+  margin: 0;
+  padding: 0;
+ }  */

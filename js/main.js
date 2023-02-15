@@ -85,6 +85,7 @@ window.addEventListener("scroll", reveal);
  // This script is for services section when images is clicked
  
  $(document).ready(function(){
+  
   $("#services-slider-img1").click(function(){ 
     $("#card-title-services").text("Web Development");
     $("#webdevsum").text("Lorem ipsum dolor sit amet consectetur. Nunc sit fringilla suspendisse erat tempor rhoncus. Sed velit donec euismod nisl nisl. Fames magna bibendum nibh consequat.");
