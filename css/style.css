@@ -1,6 +1,9 @@
-/* * {
-  font-family: 'Poppins';
-} */
+/* * star means select every element */
+*{ 
+  box-sizing: border-box; 
+    margin: 0;
+padding: 0;
+}
 body { 
   font-family:'Poppins';
 }
@@ -5880,7 +5883,7 @@ margin: 10% 0%;
 
             /* Trusted by the Top International Brands section */
 .international-brands-section{
-  margin: 150px 0px 136px 0px;
+  margin: 100px 0px 136px 0px;
 }
 .international-brands-container{
   gap: 40px;
@@ -6507,12 +6510,12 @@ margin-bottom: 32px;
                                  /* Adobe After Effects */
 
 .tools-we-use-after-effects-row {
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
     background-image: url(../img/after-effects-background-image-row.png);
     height: 698px;
     background-repeat: no-repeat, no-repeat;
     background-position: right, left;
-    margin-bottom: 54px;
+    /* margin-bottom: 54px; */
 }  
 .after-effects-group-container{
   height: 698px;
@@ -6647,11 +6650,329 @@ color: #212121;
   letter-spacing: 0.2px;
   text-transform: capitalize;
   color: #757575;
-  }                                                                                                                       
+  }     
 
-                         /* New Trusted Brands section */
 
- /* .first-row-brands .col{
+                                                                                    /* WEB AND MOBILE DEVELOPMENT PAGE */
+                              /* FEATURED IMAGE section   */
+.web-mobile-dev-featured-img-content {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 748px;
+}
+.web-mobile-dev-title-description{
+margin-bottom: 48px;
+}
+.web-mobile-dev-title-description > h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+  
+  align-items: center;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+.web-mobile-dev-title-description > p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  
+  /* Secondary- White */
+  
+  color: #FFFFFF;
+}
+
+.web-mobile-dev-featured-img-content > a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.011em;
+    color: #12062E;
+    padding: 16px 62px;
+    /* gap: 10px; */
+    width: 235px;
+    height: 60px;
+    background: #7DDB29;
+    border-radius: 6px;
+    text-decoration: none;
+}   
+
+                  /* CONTENT section */            
+
+.web-mobile-dev-content{
+  margin-top: 130px
+} 
+.web-mobile-dev-left-content {
+  margin: 17% auto;
+  padding: 0% 3% 0% 3%;
+}
+.web-mobile-dev-left-content h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #212121;
+}   
+.web-mobile-dev-left-content p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #757575;
+  } 
+  .web-mobile-dev-title{
+margin: 0px 0px 52px 0px;
+  }  
+  .web-mobile-dev-title h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #212121;  
+    padding: 0px 174px;
+  }         
+
+                  /* INTERNATIONAL TRUSTED BRANDS section */
+
+.web-mobile-dev-international-brands-row{
+  margin-top: 39px;
+}  
+.web-mobile-dev-international-brands-row .international-brands-motionscloud{
+  padding-top: 8px;
+}  
+.web-mobile-dev-international-brands-row .international-brands-repitsocial{
+  padding-top: 10px;
+}  
+.web-mobile-dev-international-brands-row .international-brands-apicenter{
+  padding-top: 13px;
+}  
+.web-mobile-dev-international-brands-row .international-brands-evergauzy{
+  padding-top: 11px;
+}            
+
+                  /* Our Development Services section */
+.our-development-services{
+  margin-bottom: 166px;
+}
+.our-development-info h2{
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+letter-spacing: 0.2px;
+text-transform: capitalize;
+color: #12062E;
+margin-bottom: 0px; /* By default bootstrap has .5rem (80x) margin bottom */
+}
+.our-development-info p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #757575;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  }
+.web-dev-container {
+    height: 479px;
+    position: relative;
+    /* border: 3px solid #dbe4ed; */
+}
+.web-dev-info-group {
   margin: 0;
-  padding: 0;
- }  */
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-width: 624px;
+}
+.web-dev-info-group h4{
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 110%;
+color: #FFFFFF;
+margin-bottom: 20px;
+}  
+.web-dev-info-group p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #FFFFFF;
+} 
+                    /* Web Development */
+.web-dev-row {
+  height: 479px;
+  background: #12062E;
+  box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
+  border-radius: 0px 32px 32px 32px;
+  margin: 80px 0px 40px 0px;
+  overflow: hidden;
+}
+.web-dev-right-content {
+  height: 479px;
+  position: relative;
+}
+.web-dev-right-content img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+                    /* Mobile Development */
+ .mobile-dev-row {
+  height: 479px;
+  background: #12062E;
+  box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
+  border-radius: 0px 32px 32px 32px;
+  margin: 40px 0px 40px 0px;
+  overflow: hidden;
+}
+.mobile-dev-right-content {
+  height: 479px;
+  position: relative;
+}
+.mobile-dev-right-content img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+                    /* Maintenance and Support */
+ .maintenance-support-row {
+  height: 479px;
+  background: #12062E;
+  box-shadow: 0px 4px 28px rgba(18, 6, 46, 0.1);
+  border-radius: 0px 32px 32px 32px;
+  margin: 40px 0px 40px 0px;
+  overflow: hidden;
+}
+.maintenance-support-right-content {
+  height: 479px;
+  position: relative;
+}
+.maintenance-support-right-content img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+                      /* Our Web Development Process section */
+ section.our-web-development-process {
+    margin-bottom: 169px;
+}                     
+.our-web-development-process-info h2{
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+letter-spacing: 0.2px;
+text-transform: capitalize;
+color: #12062E;
+margin-bottom: 0px;
+} 
+.row.our-web-development-process-row {
+  margin-top: 80px;
+}                     
+.our-web-development-process-row img{
+  width: 90%;
+}
+
+                  /* What we use for Developement section */
+
+.development-tools {
+    background: #12062E;
+    /* height: 727px; */
+    padding-top: 40px;
+}                 
+.development-tools h2{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+margin-bottom: 0px;
+}
+
+                    /* Development Tools logos */
+
+.development-tools-row1{
+  margin-top: 53px;
+} 
+.development-tools-row2{
+  margin-top: 0px;
+} 
+.php-development-tools, .ios-development-tools, .android-development-tools, .hybrid-app-development-tools, .python-development-tools, .wordpress-development-tools {
+  background-color: transparent;
+  margin-bottom: 74px;
+}
+.shopify-development-tools, .frontend-development-tools, .laravel-development-tools, .codeigniter-development-tools, .node-js-development-tools, .java-development-tools{
+  background-color: transparent;
+  margin-bottom: 90px;  
+}
+.php-development-tools .card-body, .ios-development-tools .card-body, .python-development-tools .card-body, .laravel-development-tools .card-body{
+  padding: 10px 0px 0px 0px;
+}
+.hybrid-app-development-tools .card-body, .codeigniter-development-tools .card-body{
+  padding: 3px 0px 0px 0px;
+}
+.wordpress-development-tools .card-body{
+  padding: 20px 0px 0px 0px;
+}
+.android-development-tools .card-body, .shopify-development-tools .card-body, .frontend-development-tools .card-body, .node-js-development-tools .card-body,
+.java-development-tools .card-body{
+  padding: 15px 0px 0px 0px;
+}
+.php-development-tools p, .ios-development-tools p, .android-development-tools p, .hybrid-app-development-tools p, .python-development-tools p, .wordpress-development-tools p,
+.shopify-development-tools p, .frontend-development-tools p, .laravel-development-tools p, .codeigniter-development-tools p, .node-js-development-tools p, .java-development-tools p{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
