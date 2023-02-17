@@ -177,6 +177,13 @@ img.about-us-arrow {
 .about-us-section-arrow:hover{
   padding-left: 30px;
 }
+#about-us-section{
+  background-image: url("../img/circle-green.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  /* shortcut */
+  /* background: url("../img/circle-green.svg") no-repeat top right; */
+}
 
 /* Testing Services section */
 
@@ -6773,7 +6780,7 @@ margin: 0px 0px 52px 0px;
 }  
 .web-mobile-dev-international-brands-row .international-brands-evergauzy{
   padding-top: 11px;
-}            
+}          
 
                   /* Our Development Services section */
 .our-development-services{
@@ -6814,7 +6821,7 @@ margin-bottom: 0px; /* By default bootstrap has .5rem (80x) margin bottom */
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  min-width: 624px;
+  min-width: 90%;
 }
 .web-dev-info-group h4{
 font-style: normal;
@@ -6830,6 +6837,7 @@ margin-bottom: 20px;
   font-size: 20px;
   line-height: 38px;
   color: #FFFFFF;
+  width: 99%;
 } 
                     /* Web Development */
 .web-dev-row {
@@ -6847,11 +6855,11 @@ margin-bottom: 20px;
 .web-dev-right-content img {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 54%;
   left: 55%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 90%;
+  /* width: 90%; */
 }
                     /* Mobile Development */
  .mobile-dev-row {
@@ -6898,6 +6906,7 @@ margin-bottom: 20px;
 }
 
                       /* Our Web Development Process section */
+                      
  section.our-web-development-process {
     margin-bottom: 169px;
 }                     
@@ -6975,4 +6984,259 @@ margin-bottom: 0px;
   line-height: 30px;
   text-align: center;
   color: #FFFFFF;
+}
+
+                                                                            /* QUALITY ASSURANCE page */
+
+.quality-assurance-ndax-logo{
+  margin: -3px 0px 0px 0px;
+}   
+.quality-assurance-weblify-logo {
+  margin: 2% 0px 0px 27%;
+} 
+.quality-assurance-international-brands-row{
+  margin-top: 78px;
+}    
+.quality-assurance-cinshare-logo{
+  margin: -3px 0px 0px 0px;
+}     
+.quality-assurance-stratapp-logo{
+  margin: 0px 0px 0px 4px;
+} 
+.quality-assurance-ever-leagues-logo {
+  margin: 0px 0px 0px -9%;
+} 
+.quality-assurance-tech-hub-logo {
+  margin: -7% 0px 0px 11%;
+} 
+.quality-assurance-selfbook-logo {
+  margin: 0px 0px 0px -13%;
+}   
+.quality-assurance-nexterus-logo{
+  margin: 0px -9% 0px 0px;
+}   
+.quality-assurance-nexterus-logo {
+  margin: 0px 0px 0px 13%;
+}                                                   
+
+                      /* Our QA Services section */
+
+                  /* Manual Testing */
+
+.our-qa-services{
+  margin-bottom: 0px;
+}
+
+.manual-testing-right-content {
+  height: 479px;
+  position: relative;
+}
+.manual-testing-right-content img {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 35%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* width: 90%; */
+}
+.manual-testing-info-group {
+  margin: 0;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-width: 90%;
+}
+.manual-testing-info-group h4{
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 110%;
+color: #FFFFFF;
+margin-bottom: 20px;
+}  
+.manual-testing-info-group p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #FFFFFF;
+  width: 90%;
+} 
+
+                    /* Load Testing */
+
+.load-testing-right-content {
+  height: 479px;
+  position: relative;
+}
+.load-testing-right-content img {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.load-testing-container {
+  height: 479px;
+  position: relative;
+  /* border: 3px solid #dbe4ed; */
+}
+.load-testing-info-group {
+  margin: 0;
+  position: absolute;
+  top: 53%;
+  left: 60%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-width: 90%;
+}
+.load-testing-info-group h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.load-testing-info-group p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #FFFFFF;
+  width: 91%;
+}
+
+              /* Mobile/Web Testing  */
+
+.mobile-web-testing-container {
+    height: 479px;
+    position: relative;
+    /* border: 3px solid #dbe4ed; */
+}
+.mobile-web-testing-info-group {
+  margin: 0;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-width: 90%;
+}
+.mobile-web-testing-info-group h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.mobile-web-testing-info-group p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #FFFFFF;
+  width: 94%;
+}
+.mobile-web-testing-right-content {
+    height: 479px;
+    position: relative;
+}  
+.mobile-web-testing-right-content img {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 35%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 134%;
+}          
+
+                      /* Security Testing */
+
+.security-testing-right-content {
+  height: 479px;
+  position: relative;
+}  
+.security-testing-right-content img {
+margin: 0;
+position: absolute;
+top: 51%;
+left: 35%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+max-width: 134%;
+}  
+
+                      /* Automation Testing */
+
+.automation-testing-right-content {
+  height: 479px;
+  position: relative;
+}
+.automation-testing-right-content  img {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 112%;
+}
+
+                      /* Accessibility Testing */
+
+.accessibility-testing-right-content {
+    height: 479px;
+    position: relative;
+}        
+.accessibility-testing-right-content img {
+  margin: 0;
+  position: absolute;
+  top: 54%;
+  left: 35%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* max-width: 134%; */
+}              
+
+
+                                                                        /* TEAM DEVELOPMENT PAGE */
+ 
+                    /* Software Development Team – Key Roles & Structure section      */
+
+section.software-development-team-process {
+    margin-bottom: 0px;
+}
+.software-development-team-process-info h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #12062E;
+  margin-bottom: 20px;
+}
+.software-development-team-process-info p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #757575;
+}
+.row.software-development-team-process-row {
+  margin-top: 60px;
+}
+.software-development-team-process-row img {
+  width: 90%;
 }
