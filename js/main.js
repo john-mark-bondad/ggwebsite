@@ -268,12 +268,25 @@ function loop()
                 // this script is for Portfolio page in repitsocial video. When the user hover the video
 
    $("#carouselFeaturedProjects").mouseenter(function () {
-     $(".repitsocial-featured-video-caption").css("opacity", "1");
+     $(".repitsocial-featured-video-caption, .swiftgrade-featured-video-caption, .evergauzy-featured-video-caption, .everleagues-featured-video-caption").css("opacity", "1");
    });
    $("#carouselFeaturedProjects").mouseleave(function () {
-    $(".repitsocial-featured-video-caption").css("opacity", "0");
+    $(".repitsocial-featured-video-caption, .swiftgrade-featured-video-caption, .evergauzy-featured-video-caption, .everleagues-featured-video-caption").css("opacity", "0");
   });
+
+
+          //by default show the first slide description
+          let html = jQuery('#caption-0').html();
+          jQuery('#newTextPosition').html(html);
   
+          jQuery("#carouselFeaturedProjects").on('slide.bs.carousel', function(evt) {
+  
+              //step - current slide e.g 0, 1, 2
+              let step = jQuery(evt.relatedTarget).index(); 
+              html = jQuery('#caption-' + step).html();
+              jQuery('#newTextPosition').html(html);
+  
+          });
 
 });  
 
