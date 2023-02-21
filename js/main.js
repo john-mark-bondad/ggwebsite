@@ -265,7 +265,10 @@ function loop()
 // }
 
 
-                // this script is for Portfolio page in repitsocial video. When the user hover the video
+
+                                                                  // PORTFOLIO page
+
+   // this script is for Portfolio page in repitsocial video. When the user hover the video
 
    $("#carouselFeaturedProjects").mouseenter(function () {
      $(".repitsocial-featured-video-caption, .swiftgrade-featured-video-caption, .evergauzy-featured-video-caption, .everleagues-featured-video-caption").css("opacity", "1");
@@ -273,7 +276,6 @@ function loop()
    $("#carouselFeaturedProjects").mouseleave(function () {
     $(".repitsocial-featured-video-caption, .swiftgrade-featured-video-caption, .evergauzy-featured-video-caption, .everleagues-featured-video-caption").css("opacity", "0");
   });
-
 
           //by default show the first slide description
           let html = jQuery('#caption-0').html();
@@ -288,9 +290,29 @@ function loop()
   
           });
 
+
 });  
 
+                                            // HOME PAGE carousel slideshow
 
+
+$(document).ready(function(){
+                                          
+
+          //by default show the first slide description
+          let html = jQuery('#caption-0').html();
+          jQuery('#newCarouselTextPosition').html(html);
+  
+          jQuery("#carouselHomeCarousel").on('slide.bs.carousel', function(evt) {
+  
+              //step - current slide e.g 0, 1, 2
+              let step = jQuery(evt.relatedTarget).index(); 
+              html = jQuery('#caption-' + step).html();
+              jQuery('#newCarouselTextPosition').html(html);
+  
+          });
+
+        });  
 
                                                                     // Projects page -  See More button (show and hide hidden projects)
 

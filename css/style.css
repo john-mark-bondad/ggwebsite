@@ -74,28 +74,226 @@ img.float-start {
 
 /* to make the carousel button dotted green */
 .carousel-indicators [data-bs-target] {
-  box-sizing: content-box;
+  /* box-sizing: content-box;
   flex: 0 1 auto;
   width: 10px;
-  /* change width */
   height: 10px;
-  /* change height */
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
   background-color: #7DDB29;
-  /* #7DDB29 */
+
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   opacity: .5;
   transition: opacity .6s ease;
-  border-radius: 100%;
-  /* add border-radius */
+  border-radius: 100%; */
+
 }
+
+/* =========================================================================================== */
+
+                                                                                         /* NEW CAROUSEL SLIDESHOW */
+
+#carouselHomeCarousel > .carousel-indicators{
+  margin-bottom: -1px;
+}                                                                                       
+
+ #carouselHomeCarousel > .carousel-indicators > button.active {
+  width: 12px;
+  height: 12px;
+  background-color:#D9D9D9;
+  margin: 22px 7px;
+  border: 5px solid #7DDB29;
+  border-radius: 100px;
+}
+#carouselHomeCarousel > .carousel-indicators > .buttons-slide1, #carouselHomeCarousel > .carousel-indicators > .buttons-slide2,
+#carouselHomeCarousel > .carousel-indicators > .buttons-slide3, #carouselHomeCarousel > .carousel-indicators > .buttons-slide4,
+#carouselHomeCarousel > .carousel-indicators > .buttons-slide5{
+  width: 12px;
+  height: 12px;
+  background-color: #D9D9D9;
+  margin: 22px 7px;
+  border: 5px solid #eee;
+  border-radius: 100px;
+}
+#carouselHomeCarousel > .carousel-indicators > .previous-slides {
+  background-image: url("../img/carousel/previous-slide-icon.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 1%;
+  margin-left: 4%;
+  width: 31px;
+  height: 31px;
+  opacity: 1;
+}
+#carouselHomeCarousel > .carousel-indicators > .next-slides {
+  background-image: url("../img/carousel/next-slide-icon.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 1%;
+  margin-right: 4%;
+  width: 31px;
+  height: 31px;
+  opacity: 1;
+}
+
+.home-carousel-indicators {
+  z-index: 2;
+  /* margin-left: 25%; */
+  margin-right: 0px;
+  width: 80%;
+  background: white;
+}
+                                           
+
+/* EACH CAROUSEL STYLINGS */
+
+/* only for HOME PAGE - video carousel section */
+.home-carousel-img1-container .carousel-caption, .home-carousel-img2-container .carousel-caption, .home-carousel-img3-container .carousel-caption,
+.home-carousel-img4-container .carousel-caption, .home-carousel-img5-container .carousel-caption{  
+  /* not to display caption at its current position */
+  display: none !important;
+  background: #FFFFFF;
+}
+
+.home-carousel-content{
+  position: relative;
+  top: 25%;
+  left: 0%;
+
+}
+
+
+/* .home-carousel-container, #carouselHomeCarousel .carousel-inner{
+  height: 831px;
+} */
+
+/* First slide */
+
+.home-carousel-img1-container{
+  height: 751px;
+  }
+.home-carousel-img1-container img{
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 33%;
+    margin-top: 48px;
+}
+  
+.home-carousel-content{
+  /* padding-top: 35%; */
+  padding-left: 9%;
+  }
+.home-carousel-content h1, .home-carousel-content h2{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  align-items: center;
+  color: #12062E;
+  width: 90%;
+  margin-bottom: 22px;
+}
+.home-carousel-content h1 span, .home-carousel-content h2 span{
+  color: #7DDB29;
+}
+.home-carousel-content p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  text-transform: capitalize;
+  color: #12062E;
+}
+/* @keyframes updown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  50% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.button-image {
+  animation: updown 2s ease infinite;
+  width: 100px;
+  height: 100px;
+} */
+
+    /* Desktops and laptops ----------- */
+    @media (min-width : 1200px) and (max-width: 1561px) {
+      .home-carousel-content{
+        padding-left: 2%;
+        }
+      .home-carousel-content h1, .home-carousel-content h2{
+        width: 100%;
+      }
+      .home-carousel-content p{
+        width: 85%;
+      }
+    }
+
+
+/* Second slide */
+.home-carousel-img2-container{
+  height: 751px;
+  }
+  .home-carousel-img2-container img {
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 5rem;
+    padding: 0;
+}
+
+/* THIRD slide */
+.home-carousel-img3-container{
+  height: 751px;
+  }
+  .home-carousel-img3-container img {
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: -7rem;
+    padding: 0;
+}
+
+
+/* FOURTH slide */
+.home-carousel-img4-container{
+  height: 751px;
+  }
+  .home-carousel-img4-container img {
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 1rem;
+    padding: 0;
+    margin-left: 10%;
+}
+
+/* FIFTH slide */
+.home-carousel-img5-container{
+  height: 751px;
+  }
+  .home-carousel-img5-container img {
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 0rem;
+    padding: 0;
+    /* margin-left: 1%; */
+}
+
+/* ======================================================================================= */
+
+
 
 
 /* About Us section */
@@ -2235,12 +2433,14 @@ section#taste-of-creations{
   margin: 10px 1px;
   padding: 0px 20px;
 }
-.carousel-indicators.featured-projects-indicators > button{
+.carousel-indicators.featured-projects-indicators > button {
   opacity: 0.5;
-    width: 18px;
-    height: 18px;
-    background-color: #FFFFFF;
-    margin: 0px 6px;
+  width: 18px;
+  height: 18px;
+  background-color: #FFFFFF;
+  margin: 10px 6px;
+  border-radius: 100px;
+  border: 10px;
 }
 
 /* only for Portfolio page - video carousel section */
@@ -2252,8 +2452,8 @@ section#taste-of-creations{
 
 .about-repitsocial{
     position: relative;
-    top: 20%;
-    left: 10%;
+    top: 25%;
+    left: 0%;
 
 }
 .about-repitsocial-inner{
@@ -5129,24 +5329,26 @@ color: #FFFFFF;
   
   color: #7DDB29;
 }
-#carouselOurTeamCaptions > .carousel-indicators > button{
+#carouselOurTeamCaptions > .carousel-indicators > button {
   width: 18px;
   height: 18px;
   background-color: #FFFFFF;
   opacity: 1;
   margin: 0px 6px;
+  border: 100px;
+  border-radius: 100px;
 }
 #carouselOurTeamCaptions > .carousel-indicators > button.active {
   width: 61px;
-  height: 4px;
+  height: 18px;
   left: 0px;
   top: 0px;
   background: #FFFFFF;
   opacity: 0.5;
-  border-radius: 100px;
-  border-left: 10px;
+  /* border-radius: 100px; */
+  /* border-left: 10px; */
   border-right: 10px;
-  margin: 7px 1px;
+  margin: 0px 1px;
 }
 #carouselOurTeamCaptions > .carousel-inner .carousel-item {
   transition: -webkit-transform 2s ease;
