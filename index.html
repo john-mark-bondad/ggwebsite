@@ -103,7 +103,7 @@
 
 
     <section id="gg-services-carousel">
-      <div class="container-fluid">
+      <div class="container-fluid ">
         
         <div class="row">
           <div class="col-xl-6 col-xxl-6">
@@ -136,9 +136,13 @@
                                                   <!-- FIRST SLIDE -->
                         <div class="carousel-item active home-carousel-img1-container">
 
-                          <!-- <img class="button-image" src="./img/carousel/moving-box1.png"> -->
-
                           <img src="./img/carousel/first-slide.png" class="home-carousel-first-img" alt="Virtual Reality">
+                          <div id="animate-box-1" class="moving-box1 position-absolute top-0 start-50">
+                            <img src="./img/carousel/moving-box1.png">
+                          </div>
+                          <div id="animate-box-2" class="moving-box2 position-absolute top-50 start-0">
+                            <img src="./img/carousel/moving-box2.png">
+                          </div>
 
                            <!-- CAPTIONS OUTSIDE THE IMAGE -->
                           <div id="caption-0" class="carousel-caption d-none d-md-block text-start">
@@ -178,6 +182,15 @@
                                                                   <!-- FOURTH SLIDE -->
                         <div class="carousel-item home-carousel-img4-container">
                           <img src="./img/carousel/fourth-slide.png" class="home-carousel-fourth-img" alt="Bulb">
+                          <!-- <div class="hidden-div position-absolute top-0 start-0">
+
+                          </div> -->
+                          <!-- <div class="slide4-animate1 position-absolute top-0 start-0">
+                            <img class="bulb float-left" src="./img/carousel/slide4-bulb.png" alt="Bulb">
+                            <img class="settings float-right" src="./img/carousel/slide4-settings.png" alt="Settings">
+                            <img src="./img/carousel/slide4-search.png" alt="Search">
+                            <img src="./img/carousel/slide4-cycle.png" alt="Cycle">
+                          </div> -->
 
                            <!-- CAPTIONS OUTSIDE THE IMAGE -->
                           <div id="caption-3" class="carousel-caption d-none d-md-block text-start">
@@ -208,6 +221,13 @@
 
         </div>
 
+        <div class="position-relative">
+          <div class="position-absolute bottom-0 start-0">
+            <img src="./img/many-plus.svg" alt="">
+          </div> 
+        </div>
+
+        <img src="./img/services-page-scroll.svg" class="services-page-scroll" alt="...">
 
       </div>
     </section>
@@ -218,7 +238,7 @@
 <section id="about-us-section" class="section">
 
   <div class="position-relative">
-    <div class="position-absolute top-0 start-0">
+    <div class="position-absolute top-0 start-0 ">
       <img src="./img/about-us-arrow.svg" class="about-us-section-arrow" alt="Arrow icon">
     </div>
     <div class="position-absolute top-0 end-0">
@@ -386,7 +406,7 @@
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
-        <div class="card h-100 requirements">
+        <div class="card h-100 requirements" id="worflow-box1">
           <h3 class="workflow-requirements">Requirements</h3>
           <div class="card-body">
             <h5 class="card-title">Requirements</h5>
@@ -395,16 +415,16 @@
         </div>
       </div>
       <div class="col">
-        <div class="card h-100 planning">
+        <div class="card h-100 planning" id="worflow-box2">
           <h3 class="workflow-planning">Planning</h3>
           <div class="card-body">
-            <h5 class="card-title">Planning</h5>
+            <h5 class="card-title" >Planning</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. Id habitant pellentesque pellentesque tristique.</p>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100 design">
+        <div class="card h-100 design" id="worflow-box3">
           <h3 class="workflow-design">Design</h3>
           <div class="card-body">
             <h5 class="card-title">Design</h5>
@@ -413,7 +433,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card h-100 development">
+        <div class="card h-100 development" id="worflow-box4">
           <h3 class="workflow-development">Development</h3>
           <div class="card-body">
             <h5 class="card-title">Development</h5>
@@ -422,7 +442,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card h-100 quality-checking">
+        <div class="card h-100 quality-checking" id="worflow-box5">
           <h3 class="workflow-quality-checking">Quality Checking</h3>
           <div class="card-body">
             <h5 class="card-title">Quality Checking</h5>
@@ -431,7 +451,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card h-100 release-and-monitor">
+        <div class="card h-100 release-and-monitor" id="worflow-box6">
           <h3 class="workflow-release-and-monitor">Realease & Monitor</h3>
           <div class="card-body">
             <h5 class="card-title">Realease & Monitor</h5>
@@ -483,6 +503,7 @@
   </div>
 </section>
 
+
 <section class="clients">
   <div class="container clients-container">
     <!-- <img src="./img/arrow-left.svg">
@@ -501,7 +522,7 @@
   </div> -->
 
 
-    <div id="carouselExampleControlsClients" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+     <div id="carouselClientsFeedback" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./img/clients-review.svg" class="d-block w-100" alt="...">
@@ -514,23 +535,80 @@
         </div>
       </div>
 
-      <button class="to-the-left carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsClients"
+      <button class="to-the-left carousel-control-prev" type="button" data-bs-target="#carouselClientsFeedback"
       data-bs-slide="prev">
       <img src="./img/arrow-left.svg" class="client1">
     </button>
-    <button class="to-the-right carousel-control-next" type="button" data-bs-target="#carouselExampleControlsClients"
+    <button class="to-the-right carousel-control-next" type="button" data-bs-target="#carouselClientsFeedback"
       data-bs-slide="next">
       <img src="./img/arrow-right.svg" class="client1">
     </button>
-    </div>
+    </div>  
 
-  </div>
+
+    <!-- NEW CAROUSEL -->
+
+    <!-- <div id="AboutClientsFeedback" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="./img/appointment-with-jeff.svg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="./img/appointment-with-jeff.svg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      <button class="to-the-left carousel-control-prev" type="button" data-bs-target="#AboutClientsFeedback"
+      data-bs-slide="prev">
+      <img src="./img/arrow-left.svg" class="client1">
+    </button>
+    <button class="to-the-right carousel-control-next" type="button" data-bs-target="#AboutClientsFeedback"
+      data-bs-slide="next">
+      <img src="./img/arrow-right.svg" class="client1">
+    </button>
+    </div> 
+ -->
+
+
+
+
+  </div>  <!-- end container -->
+
   <div class="position-relative">
     <div class="position-absolute start-0 review-manyplus">
       <img src="./img/many-plus.svg" alt="...">
     </div>
+  </div>
 
-</section>
+</section> 
 
 
 <!-- Trusted Brands section-->
@@ -717,11 +795,11 @@
           <div class="col-md-8 col-xl-8 col-xxl-8 calendy-appointment-forms" >
             
             <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget"
+            <!-- <div class="calendly-inline-widget"
               data-url="https://calendly.com/jmbondad/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=12062e&primary_color=14a800"
               style="min-width:100%;height: 750px; background-color: #FFFFFF;
                         box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.1);"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
             <!-- Calendly inline widget end -->
 
               </div>
@@ -742,33 +820,37 @@
 
 <!-- Contact Us form section -->
 
-<section class="p-3 bg-white contact-us-form">
-  <div class="container mt-5">
-    <div class="contact-desc">
-      <h2 class="text-center">Don’t be a stranger! Just say hello. <br>Lets us do something amazing. <br>Contact us!
-      </h2>
+<scetion class="main-contact-us-form">
+  <div class="container">
+    <div class="text-center main-contact-us-form-info">
+      <h2>Don’t be a stranger! Just say hello. Lets us do something amazing. Contact us!</h2>
     </div>
-  </div>
-    <div class="container mt-5 container-contact-us">
-      <form action="" class="row g-3 form-contact">
-        <div class="col-md-12">
-          <input type="text" class="form-control fullname" id="fullName" placeholder="Full Name" required>
-        </div>
-        <div class="col-md-6">
-          <input type="email" class="form-control" id="email" placeholder="Email Address" required>
-        </div>
-        <div class="col-md-6">
-          <input type="text" class="form-control" id="phone" placeholder="Phone" required>
-        </div>
-        <div class="col-md-12">
-          <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
-        </div>
-        <div class="col-md-12">
-          <button class="btn btn-primary" type="submit">Submit</button>
-        </div>
+    <div class="row main-contact-us-form-row">
+    <div class="col-2"></div>
+    <div class="col-8">
+      <form action="" class="row g-3" id="main-contact-us-form">
+          <div class="col-sm-12 col-12">
+            <input type="text" class="form-control" id="inputFullname" placeholder="Full Name">
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+          </div>
+          <div class="col-sm-12 col-12 mb-3">
+            <textarea class="form-control" id="inputMessage" rows="3" placeholder="Message"></textarea>
+          </div>
+          <div class="col-sm-12 col-12 d-grid gap-2">
+            <button id="submit-form" type="submit" class="btn btn-primary">Submit</button>
+          </div>
       </form>
     </div>
-</section>
+    <div class="col-2"></div>
+    </div>
+  </div>
+</scetion>
+
 
 
 <!-- Footer -->

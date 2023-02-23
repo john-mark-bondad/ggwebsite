@@ -203,6 +203,8 @@ window.addEventListener("scroll", reveal);
 
 // anim_loop(0); // start with the first element
 
+$('#animate-box-1').slideDown('slow');
+
 
 
 // this script is for navbar text-decoration underline
@@ -263,6 +265,7 @@ function loop()
 // for (let aa = 0; aa < loopTime; aa++) {
 //     console.log(`Iteration is #${aa}`);
 // }
+
 
 
 
@@ -385,4 +388,8 @@ var prnDt = 'Appointment on ' + new Date().toLocaleTimeString('en-us', options);
 
 document.getElementById("appointment-date-time").textContent = new Date().toLocaleTimeString('en-us', options);
 console.log(prnDt);     
+
+
+
+
 
