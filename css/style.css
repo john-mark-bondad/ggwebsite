@@ -170,12 +170,11 @@ img.float-start {
     background-repeat: no-repeat;
     background-position: left;
     background-position-y: 33%;
-    margin-top: 48px;
+    margin-top: 18.5%;
 }
   
 .home-carousel-content{
-  /* padding-top: 35%; */
-  padding-left: 9%;
+  padding-left: 0%;
   }
 .home-carousel-content h1, .home-carousel-content h2{
   font-style: normal;
@@ -222,10 +221,10 @@ img.float-start {
   margin-left: 25%;
 }
 @media (min-width: 1700px){
-  .moving-box1{
-    margin-top: 10%;
-    margin-left: 5%;
-  }
+  .moving-box1 {
+    margin-top: 12%;
+    margin-left: 20%;
+}
 }
 @keyframes updown2 {
   /* 0% {
@@ -299,7 +298,7 @@ img.float-start {
     /* Desktops and laptops ----------- */
     @media (min-width : 1200px) and (max-width: 1561px) {
       .home-carousel-content{
-        padding-left: 2%;
+        padding-left: 0%;
         }
       .home-carousel-content h1, .home-carousel-content h2{
         width: 100%;
@@ -317,7 +316,7 @@ img.float-start {
   .home-carousel-img2-container img {
     background-repeat: no-repeat;
     background-position: left;
-    margin-top: 5rem;
+    margin-top: 9rem;
     padding: 0;
 }
 
@@ -859,6 +858,70 @@ color: #6A6A8E;
   background: black;
 } */
 
+/* PREVIOUS AND NEXT BUTTON */
+
+#carouselClientsSays .arrow-left-black-button, #carouselClientsSays .arrow-right-black-button{
+  opacity: 1;
+  width: 30%;
+}
+#carouselClientsSays .arrow-left-black-button img, #carouselClientsSays .arrow-right-black-button img {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 51px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  padding: 24px;
+}
+.client-says-img-1 {
+  /* margin: 63px 30px 107px 53px; */
+}
+.clients-says-card-1{
+  border: none;
+  /* background: url('../img/clients-says-bg.svg') no-repeat; */
+  background: #FFFFFF;
+box-shadow: 0px 20px 51px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+height: 294px;
+}
+.clients-says-inner{
+  /* overflow: visible;  */
+}
+.clients-says-inner::-webkit-scrollbar {
+  display: none;
+}
+.clients-says-body {
+  margin: 7% 0px;
+  padding: 1rem 0rem;
+}
+.client-says-img-1 {
+  margin: 7% 0 0 0%;
+}
+.clients-says-body p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6A6A8E;
+  width: 92%;
+}
+.clients-name-and-company{
+  margin-top: 18px;
+}
+.clients-name-and-company h5, .clients-name-and-company p{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #12062E;
+}
+.clients-name-and-company p{
+  font-weight: 500;
+}
+.clients-quote {
+  margin-left: -10%;
+}
+
+
+
+
 
 
 /* Our Team section */
@@ -997,12 +1060,11 @@ margin-left: 15px;
         }
     } 
 
-div> div> div> div> h5.card-title:hover {
+/* div> div> div> div> h5.card-title:hover {
   font-size: 24px;
   font-weight: 600;
   padding: 7px 0px;
-  /* color: #7DDB29; */
-}
+} */
 
 
 
@@ -1093,7 +1155,7 @@ color: #7DDB29;
 
  /* Use Bootstrap breakpoints for img consistency. */
 
-.our-moment-display .carousel-item {
+.our-moment-display .carousel-item{
   object-fit: cover;
   height: 69vh;
 }
@@ -1295,114 +1357,68 @@ margin-top: 119px;
 
 }
 .about-software-dev{
-  /* Auto layout */
-
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 gap: 1px;
-
 width: 866px;
 height: 270px;
 z-index: 1;
-
-
-/* Inside auto layout */
-
 flex: none;
 order: 0;
 flex-grow: 0;
+width: 90%;
 }
 .about-software-dev > h2{
-  width: 668px;
+width: 89%;
 height: 128px;
-
-font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
 line-height: 64px;
-/* or 133% */
-
 display: flex;
 align-items: center;
-
-/* Primary/GG-Dark */
-
 color: #12062E;
-
-
-/* Inside auto layout */
-
 flex: none;
 order: 0;
 flex-grow: 0;
 }
 /* slide up */
 .services-slide-up{
-  width: 866px;
+width: 90%;
 height: 92px;
 overflow: hidden;
 }
 .services-slide-up h3{
-  /* position: absolute;
-width: 541px;
-height: 570px;
-left: 0px;
-top: 0px; */
-
-font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
 line-height: 95px;
-/* or 238% */
-
 display: flex;
 align-items: center;
-
-/* Primary/GG-Green */
-
 color: #7DDB29;
 }
 .about-software-dev .description{
-  width: 536px;
+  width: 64%;
   height: 48px;
-  
-  
-  /* Inside auto layout */
-  
   flex: none;
   order: 2;
   flex-grow: 0;
 }
 
 .about-software-dev .description > p{
-  /* position: absolute;
-  width: 536px;
-  height: 48px;
-  left: 0px;
-  top: 0px; */
-  
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-  
   display: flex;
   align-items: center;
   text-transform: capitalize;
-  
-  /* Primary/GG-Dark */
-  
   color: #12062E;
 }
 
 .left-side-services > .contact-us-btn > a {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1435,30 +1451,16 @@ img.services-page-scroll {
   padding: 0px;
   gap: 12px;
   margin-top: 3.25rem;
-  
-  /* position: absolute; */
-  /* width: 819px;
-  height: 125px;
-  left: 310px;
-  top: 883px */
 }
 .services-our-services > h2{
   width: 311px;
   height: 53px;
-  
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 110%;
-  /* identical to box height, or 53px */
-  
-  
   color: #7DDB29;
-  
-  
-  /* Inside auto layout */
-  
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1466,19 +1468,12 @@ img.services-page-scroll {
 .services-our-services > p{
   width: 819px;
   height: 60px;
-  
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
-  
   color: #6A6A8E;
-  
-  
-  /* Inside auto layout */
-  
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -1492,6 +1487,105 @@ img.services-page-scroll {
 .position-absolute.end-0.mt-5.our-services-arrow-right {
   margin-right: -2%;
 }
+/* .ellipse-bg-gray{
+  background: url("../img/ellipse-bg-gray.svg") no-repeat;
+  width: 100%;
+  height: 100%;
+} */
+
+              /* MOVING GADGETS */
+
+    /* LAPTOP */
+@keyframes servicesUpdown {
+  25% {
+    transform: translateY(3%);
+  }
+
+  25% {
+    transform: translateY(-3%);
+  }
+}
+.moving-services-laptop img {
+  animation: servicesUpdown 7s ease infinite;
+  width: 100%;
+  height: 100%;
+} 
+.moving-services-laptop {
+  margin-top: 12%;
+  margin-left: 3%;
+}
+@media (min-width: 1700px){
+  .moving-services-laptop {
+    margin-top: 8%;
+    margin-left: 1%;
+}
+}
+/* tablet */
+@keyframes servicesTabletUpdown {
+  25% {
+    transform: translateY(-10%);
+  }
+  25% {
+    transform: translateY(10%);
+  }
+}
+.moving-services-tablet > .tablet-img {
+  animation: servicesTabletUpdown 7s ease infinite;
+  /* width: 100%; */
+  height: 100%;
+} 
+.moving-services-tablet {
+  margin-left: -6%;
+  margin-top: -10%;
+  display: flex;
+}
+@media (min-width: 992px) and (max-width: 1399px){  /* xl */
+   .moving-services-laptop img{
+    width: 90%;
+  }
+}
+@media (min-width: 2300px){  /* xl */
+  .moving-services-tablet {
+    margin-left: -6%;
+    margin-top: -14%;
+    display: flex;
+}
+}
+
+/* phone */
+@keyframes servicesPhoneUpdown {
+  25% {
+    transform: translateY(-10%);
+  }
+  25% {
+    transform: translateY(10%);
+  }
+}
+.services-phone .phone-img {
+  animation: servicesPhoneUpdown 7s ease infinite;
+  height: 100%;
+} 
+.moving-services-tablet .services-phone {
+  margin-left: 16rem;
+  margin-top: 15%;
+}
+/* .moving-services-phone img {
+  animation: servicesPhoneUpdown 7s ease infinite;
+  width: 100%;
+  height: 100%;
+} 
+.moving-services-phone {
+  margin-top: -2%;
+  margin-left: 23%;
+}
+@media (min-width: 1200px) and (max-width: 1600px){
+  .moving-services-phone{
+    margin-left: 28%;
+  }
+} */
+
+
+
 
                                /* IT Consulting Services */
 .it-consulting-services{

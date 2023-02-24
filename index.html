@@ -69,41 +69,13 @@
     
     </nav>
 
-    <!-- Showcase -->
-    
-    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./img/slider1.svg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/slider3.svg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/slider5.svg" class="d-block w-100" alt="...">
-        </div>
-      </div> -->
-      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button> -->
-    <!-- </div> -->
+  
 
-
-    <!-- NEW CAROUSEL SLIDESHOW -->
+    <!-- CAROUSEL SLIDESHOW -->
 
 
     <section id="gg-services-carousel">
-      <div class="container-fluid ">
+      <div class="container">
         
         <div class="row">
           <div class="col-xl-6 col-xxl-6">
@@ -111,7 +83,7 @@
               <!-- CAPTIONS OUTSIDE THE IMAGE -->
             </div>
         </div>
-          <div class="col-xl-6 col-xxl-6">
+          <div class="col-xl-6 col-xxl-6 slideshow-right-side">
               <div class="text-center creations-repitsocial-video" id="video-div">
                     <div id="carouselHomeCarousel" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
                       <div class="carousel-indicators home-carousel-indicators">
@@ -136,7 +108,8 @@
                                                   <!-- FIRST SLIDE -->
                         <div class="carousel-item active home-carousel-img1-container">
 
-                          <img src="./img/carousel/first-slide.png" class="home-carousel-first-img" alt="Virtual Reality">
+                          <img src="./img/carousel/first-slide.png" class="home-carousel-first-img overflow-hidden" alt="Virtual Reality">
+
                           <div id="animate-box-1" class="moving-box1 position-absolute top-0 start-50">
                             <img src="./img/carousel/moving-box1.png">
                           </div>
@@ -155,7 +128,7 @@
   
                                                   <!-- SECOND SLIDE -->
                         <div class="carousel-item home-carousel-img2-container">
-                          <img src="./img/carousel/second-slide.png" class="home-carousel-second-img" alt="Laptop screen with React.js logo">
+                          <img src="./img/carousel/second-slide.png" class="home-carousel-second-img overflow-hidden" alt="Laptop screen with React.js logo">
 
                            <!-- CAPTIONS OUTSIDE THE IMAGE -->
                           <div id="caption-1" class="carousel-caption d-none d-md-block text-start">
@@ -168,7 +141,7 @@
   
                                                                           <!-- THIRD SLIDE -->
                         <div class="carousel-item home-carousel-img3-container">
-                          <img src="./img/carousel/third-slide.png" class="home-carousel-third-img" alt="Target by pencil">
+                          <img src="./img/carousel/third-slide.png" class="home-carousel-third-img overflow-hidden" alt="Target by pencil">
 
                            <!-- CAPTIONS OUTSIDE THE IMAGE -->
                           <div id="caption-2" class="carousel-caption d-none d-md-block text-start">
@@ -203,7 +176,7 @@
 
                                                                   <!-- FIFTH SLIDE -->
                         <div class="carousel-item home-carousel-img5-container">
-                          <img src="./img/carousel/fifth-slide.png" class="home-carousel-fifth-img" alt="Painted face">
+                          <img src="./img/carousel/fifth-slide.png" class="home-carousel-fifth-img overflow-hidden" alt="Painted face">
                            <!-- CAPTIONS OUTSIDE THE IMAGE -->
                           <div id="caption-4" class="carousel-caption d-none d-md-block text-start">
                             <div class="home-carousel-content">
@@ -221,14 +194,13 @@
 
         </div>
 
-        <div class="position-relative">
-          <div class="position-absolute bottom-0 start-0">
-            <img src="./img/many-plus.svg" alt="">
-          </div> 
-        </div>
-
         <img src="./img/services-page-scroll.svg" class="services-page-scroll" alt="...">
 
+      </div>
+      <div class="position-relative">
+        <div class="position-absolute bottom-0 start-0">
+          <img src="./img/many-plus.svg" alt="">
+        </div> 
       </div>
     </section>
 
@@ -505,97 +477,87 @@
 
 
 <section class="clients">
-  <div class="container clients-container">
-    <!-- <img src="./img/arrow-left.svg">
-    <p>dad</p> -->
+  <div class="container-fluid clients-container">
 
-
-<!-- <div class="position-relative"> -->
-  <!-- <div class="position-absolute top-0 start-0"><button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControlsClients" data-bs-slide="prev">
-    <img src="./img/arrow-left.svg"  class="left-arrow" alt="..."></div>
-  <div class="position-absolute top-0 end-0">
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsClients" data-bs-slide="next">
-    <img src="./img/arrow-right.svg" alt="...">
+    <div id="carouselClientsSays" class="row carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="col-1">
+      </div>
+      <div class="col-1">
+        <button class="carousel-control-prev arrow-left-black-button" type="button" data-bs-target="#carouselClientsSays" data-bs-slide="prev">
+          <img src="./img/clients-says-arrow-left.svg" class="" alt="Arrow left black">
+        </button>
+      </div>
     
-  </button>
-  </div> -->
+      <div class="col-8" style="margin: 0 auto">
+    
+        <div class="carousel-inner clients-says-inner">
+    
+        <div class="carousel-item mt-5 mb-5 clients-says-item active">
+        <div class="card clients-says-card-1" style="width: 90%; height: 95%; margin: 0 auto;">
 
-
-     <div id="carouselClientsFeedback" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./img/clients-review.svg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/clients-review.svg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/clients-review.svg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-
-      <button class="to-the-left carousel-control-prev" type="button" data-bs-target="#carouselClientsFeedback"
-      data-bs-slide="prev">
-      <img src="./img/arrow-left.svg" class="client1">
-    </button>
-    <button class="to-the-right carousel-control-next" type="button" data-bs-target="#carouselClientsFeedback"
-      data-bs-slide="next">
-      <img src="./img/arrow-right.svg" class="client1">
-    </button>
-    </div>  
-
-
-    <!-- NEW CAROUSEL -->
-
-    <!-- <div id="AboutClientsFeedback" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="card">
-          <div class="row">
-            <div class="col-md-4">
-              <img src="./img/appointment-with-jeff.svg" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
+          <div class="position-relative">
+            <div class="position-absolute top-0 start-100 translate-middle clients-quote">
+              <img src="./img/clients-quote.svg">
             </div>
           </div>
-        </div>
-
-        </div>
-        <div class="carousel-item">
-          <div class="card">
-          <div class="row">
-            <div class="col-md-4">
-              <img src="./img/appointment-with-jeff.svg" class="img-fluid rounded-start" alt="...">
+          
+          <div class="row g-0 clients-says-row">
+            <div class="col-md-3 text-center client-says-img-1">
+              <img src="./img/appointment-with-jeff.svg" class="img-fluid rounded-start" alt="Jeff photo">
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="col-md-9">
+              <div class="card-body clients-says-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. 
+                  Id habitant pellentesque pellentesque tristique. Suscipit diam facilisis consectetur enim nunc commodo. Diam placerat bibendum in in.</p>
+                  <div class="clients-name-and-company">
+                    <h5>Jeffray Dy</h5>
+                    <p>GENUIS GIANT</p>
+                  </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    
+      <div class="carousel-item mt-5 mb-5 clients-says-item">
+        <div class="card clients-says-card-1" style="width: 90%; height: 95%; margin: 0 auto;">
 
+          <div class="position-relative">
+            <div class="position-absolute top-0 start-100 translate-middle clients-quote">
+              <img src="./img/clients-quote.svg">
+            </div>
+          </div>
+
+          <div class="row g-0 clients-says-row">
+            <div class="col-md-3 text-center client-says-img-1">
+              <img src="./img/appointment-with-jeff.svg" class="img-fluid rounded-start" alt="Jeff photo">
+            </div>
+            <div class="col-md-9">
+              <div class="card-body clients-says-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. 
+                  Id habitant pellentesque pellentesque tristique. Suscipit diam facilisis consectetur enim nunc commodo. Diam placerat bibendum in in.</p>
+                  <div class="clients-name-and-company">
+                    <h5>Jeffray Dy</h5>
+                    <p>GENUIS GIANT</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <button class="to-the-left carousel-control-prev" type="button" data-bs-target="#AboutClientsFeedback"
-      data-bs-slide="prev">
-      <img src="./img/arrow-left.svg" class="client1">
-    </button>
-    <button class="to-the-right carousel-control-next" type="button" data-bs-target="#AboutClientsFeedback"
-      data-bs-slide="next">
-      <img src="./img/arrow-right.svg" class="client1">
-    </button>
-    </div> 
- -->
+    
+      </div> <!-- end carousel-inner -->
+    
+      </div>
+    
+      <div class="col-1">
+        <button class="carousel-control-next arrow-right-black-button" type="button" data-bs-target="#carouselClientsSays" data-bs-slide="next">
+          <img src="./img/clients-says-arrow-right.svg" class="" alt="Arrow right black">
+        </button>
+      </div>
+      <div class="col-1"></div>
+    
+     </div>  <!-- end row -->
 
 
 
