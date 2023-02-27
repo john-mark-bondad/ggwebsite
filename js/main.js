@@ -203,8 +203,6 @@ window.addEventListener("scroll", reveal);
 
 // anim_loop(0); // start with the first element
 
-$('#animate-box-1').slideDown('slow');
-
 
 
 // this script is for navbar text-decoration underline
@@ -274,10 +272,10 @@ function loop()
    // this script is for Portfolio page in repitsocial video. When the user hover the video
 
    $("#carouselFeaturedProjects").mouseenter(function () {
-     $(".repitsocial-featured-video-caption, .swiftgrade-featured-video-caption, .evergauzy-featured-video-caption, .everleagues-featured-video-caption").css("opacity", "1");
+     $(".repitsocial-featured-video-caption, .motionscloud-featured-video-caption, .swiftgrade-featured-video-caption, .evergauzy-featured-video-caption, .everleagues-featured-video-caption").css("opacity", "1");
    });
    $("#carouselFeaturedProjects").mouseleave(function () {
-    $(".repitsocial-featured-video-caption, .swiftgrade-featured-video-caption, .evergauzy-featured-video-caption, .everleagues-featured-video-caption").css("opacity", "0");
+    $(".repitsocial-featured-video-caption, .motionscloud-featured-video-caption, .swiftgrade-featured-video-caption, .evergauzy-featured-video-caption, .everleagues-featured-video-caption").css("opacity", "0");
   });
 
           //by default show the first slide description
