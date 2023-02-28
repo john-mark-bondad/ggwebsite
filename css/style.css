@@ -224,9 +224,154 @@ img.float-start {
   margin-top: 10%;
   margin-left: 25%;
 }
+
+/* for MEDIUM devices (TABLET) */
+
+@media (min-width: 768px) and (max-width: 991px){
+  .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: transparent;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../img/navbar-icon-black.svg");
+}
+
+  /* CAROUSEL SLIDESHOW */
+  
+    /* left column */
+    .home-carousel-content {
+      top: 15%;
+  }
+  .home-carousel-content h1, .home-carousel-content h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .home-carousel-content p {
+    font-size: 16px;
+  }
+  
+  /* right column */
+    .moving-box1 {
+      margin-top: 10%;
+      margin-left: 25%;
+  }
+  .moving-box2 .slide1-img-box2 {
+    width: 60%;
+    height: auto;
+}
+.moving-box1 .slide1-img-box1{
+  width: 80%;
+  height: auto;
+}
+  #carouselHomeCarousel .carousel-inner .carousel-item{
+    height: 400px;
+  }
+  .home-carousel-img1-container{
+    background-position: center;
+  }
+  #carouselHomeCarousel > .carousel-indicators > .buttons-slide1, #carouselHomeCarousel > .carousel-indicators > .buttons-slide2, #carouselHomeCarousel > .carousel-indicators > .buttons-slide3, #carouselHomeCarousel > .carousel-indicators > .buttons-slide4, #carouselHomeCarousel > .carousel-indicators > .buttons-slide5 {
+    width: 5.5px;
+    height: 5.5px;
+    margin: 15px 3px;
+    opacity: 0.3;
+    border: 2px solid #14A800;
+}
+#carouselHomeCarousel > .carousel-indicators > button.active {
+  width: 5.5px;
+  height: 5.5px;
+  margin: 15px 3px;
+  opacity: 1;
+  border: 2.3px solid #14A800;
+}
+#carouselHomeCarousel > .carousel-indicators > .previous-slides {
+  width: 27px;
+  height: 12px;
+  color: #14A800;
+}
+#carouselHomeCarousel > .carousel-indicators > .next-slides {
+  margin-right: 4%;
+  width: 20px;
+  height: 12px;
+  padding-right: 14px;
+  color: #14A800;
+}
+
+/* ABOUT US section */
+
+.about-us-section-arrow, .services-section-arrow, .workflow-section-arrow {
+  width: 70%;
+  height: auto;
+}
+div .founded, div .affordability{
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+#about-us-section .container {
+  padding-bottom: 0rem!important;
+}
+
+/* HOW WE WORK section */
+#workflow .container-fluid .workflow-desc {
+  margin-top: 5rem;
+}
+.workflow-desc .wf-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 110%;
+  color: #7DDB29;
+}
+.workflow-desc .wf-desc{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #6A6A8E;
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+/* CARDS */
+.ct-title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #12062E;
+}
+.ct-desc{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+color: #12062E;
+}
+#workflow #worflow-box1, #workflow #worflow-box2, #workflow #worflow-box3, #workflow #worflow-box4, #workflow #worflow-box5, #workflow #worflow-box6 {
+  padding: 38px 29px 38px 29px;
+  margin: 0;
+}
+#worflow-box1 .card-body, #worflow-box2 .card-body, #worflow-box3 .card-body, #worflow-box4 .card-body, #worflow-box5 .card-body, #worflow-box6 .card-body{
+  padding: 0rem 0rem;
+}
+#workflow{
+  background-image: url("../img/services-circle-green.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-position-y: -2%;
+}
+
+
+}  /* end of MEDIUM braces */
+
+
 /* for LARGE devices */
 
 @media (min-width: 992px) and (max-width: 1199px){
+
+/* CAROUSEL SLIDESHOW */
+
   /* left column */
   .home-carousel-content {
     top: 15%;
@@ -239,7 +384,7 @@ img.float-start {
   font-size: 20px;
 }
 
-  /* right column */
+/* right column */
   .moving-box1 {
     margin-top: 10%;
     margin-left: 25%;
@@ -251,16 +396,69 @@ img.float-start {
   background-position: center;
 }
 
-/* section */
-/* .mission, .we-are-here {
-  font-size: 2.3em;
+
+/* ABOUT US section */
+.number-of-years .displayNumber{
+  font-size: 110px;
 }
-.workflow-desc > h2 {
-  font-size: 2.3em;
+
+/* SERVICES section */  
+
+/* FOR LARGE DEVICESS */
+.services-card-title-position h3{
+  font-size: 32px;
 }
-.workflow-desc > p, .review-desc > p, .team-desc > p {
+.services-card-position .services-card{
+  max-width: 30.75rem;
+}
+.card-body .card-webdev{
+  font-size: 24px;
+}
+.card-body .card-webdev-sum{
   font-size: 16px;
-} */
+}
+
+/* FEEDBACK section */
+.clients-says-body  .cl-feedback, .clients-says-body .cl-name, .clients-says-body .cl-company{
+  font-size: 16px;
+}
+.client-says-img-1 img{
+  width: 80%;
+}
+#worflow-box1 .workflow-requirements, #worflow-box2 .workflow-planning, #worflow-box3 .workflow-design, #worflow-box4 .workflow-development, 
+#worflow-box5 .workflow-quality-checking, #worflow-box6 .workflow-release-and-monitor {
+  font-size: 98px;
+}
+
+/* Some of Brands Trust Us images */
+.tb-img-plus2{
+  width: 40%;
+  height: auto;
+}
+.tb-img-finfolio{
+  width: 85%;
+  height: auto;
+}
+.tb-img-apicenter{
+  width: 90%;
+}
+.tb-img-vellabox, .tb-img-repitsocial{
+  width: 90%;
+  height: auto;
+}
+.tb-img-staticshift, .tb-img-ascriptica, .tb-img-breeze-ventures, .tb-img-motionscloud{
+  width: 95%;
+  height: auto;
+}
+.tb-img-repitsocial{
+  width: 98%;
+  height: auto;
+}
+
+/* Schedule a consulation call to discuss your project section */
+.our-team-appointment .ota-title{
+  font-size: 40px;
+}
 
 
 }
@@ -466,13 +664,72 @@ img.about-us-arrow {
   margin-top: 40px;
 }
 
-/* Testing Services section */
+                    /* Services section for SMALL TO MEDIUM LARGE DEVICES */
 
 
+/* FOR SMALL DEVICES */
+#services-for-small{
+  margin-top: 82px;
+}
+.services-title {
+  margin: 53px 0;
+}
+.services-title h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 110%;
+  color: #7DDB29;
+}
+.services-container-fluid{
+  background: #12062E;
+}
+.ss-info {
+  margin: 175px 0 53px 0;
+}
+.ss-info h5{
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 110%;
+color: #FFFFFF;
+}
+.ss-info p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150.5%;
+  color: #FFFFFF;
+}
+.ss-images{
+  margin-bottom: 40px;
+}
+.ss-images-last{
+  margin-bottom: 87px;
+}
+.services-title-fluid{
+  padding-right: 0;
+  padding-left: 0;
+}
+.ss-many-plus{
+  z-index: -1;
+  margin-top: -7rem;
+}
+.ss-arrow {
+  margin-top: -6rem;
+}
+.ss-gradient-green {
+  margin-top: -2rem;
+  z-index: -1;
+  width: 50%;
+  transform: translate(48%, 4%);
+}
+.ss-gradient-green img{
+width: 100%;
+}
 
 
-
-                    /* Services section */
+                    /* Services section for LARGE TO EXTRA LARGE DEVICES */
 
 .services-container{
   padding-top: 3rem!important;

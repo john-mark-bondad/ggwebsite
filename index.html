@@ -75,12 +75,12 @@
       <div class="container">
         
         <div class="row row-carousel-right">
-          <div class="col-lg-6 col-xl-6 col-xxl-6">
+          <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <div id="newCarouselTextPosition" class="home-carousel-content">
               <!-- CAPTIONS OUTSIDE THE IMAGE -->
             </div>
         </div>
-          <div class="col-lg-6 col-xl-6 col-xxl-6 slideshow-right-side">
+          <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 slideshow-right-side">
               <div class="text-center creations-repitsocial-video" id="video-div">
                     <div id="carouselHomeCarousel" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
                       <div class="carousel-indicators home-carousel-indicators">
@@ -106,10 +106,10 @@
                         <div class="carousel-item active home-carousel-img1-container">
 
                           <div id="animate-box-1" class="moving-box1 position-absolute top-0 start-50">
-                            <img src="./img/carousel/moving-box1.png">
+                            <img src="./img/carousel/moving-box1.png" class="slide1-img-box1">
                           </div>
                           <div id="animate-box-2" class="moving-box2 position-absolute top-50 start-0">
-                            <img src="./img/carousel/moving-box2.png">
+                            <img src="./img/carousel/moving-box2.png" class="slide1-img-box2">
                           </div>
 
                            <!-- CAPTIONS OUTSIDE THE IMAGE -->
@@ -203,9 +203,9 @@
     </div>
   </div>
 
-  <div class="container py-5">
+  <div class="container py-5" id="container-mission">
     <div class="row align-items-center justify-content-between">
-      <div class="col-md">
+      <div class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block col-md-12 col-lg-6 col-xl-6 col-xxl-6">
 
         <!-- <img src="./img/years-of-service.svg"  alt=""> -->
         <!-- <h3 class="display-3 numberPlus">+</h3> -->
@@ -226,7 +226,7 @@
       <img src="./img/many-plus.svg" class="float-start about-us-plus-icons" alt="...">
       </div>  -->
       </div>
-      <div class="col-md p-5">
+      <div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6 p-5">
         <h2 class="py-3 company">How our company started</h2>
         <p class="founded">Founded in 2017, GeniusGiant Website Development & QA services is a company propelled by
           strong commitment to quality affordability and professionalism. Our team stresses on producing good results
@@ -242,12 +242,12 @@
   </div>
 
   <div class="position-relative">
-    <div class="position-absolute start-0 manyPlus">
+    <div class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block position-absolute start-0 manyPlus">
       <img src="./img/many-plus.svg" alt="...">
     </div>
 
 
-    <div class="position-absolute bottom-0 end-0">
+    <div class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block position-absolute bottom-0 end-0">
       <img src="./img/gradient-green.svg" alt="...">
     </div>
   </div>
@@ -256,12 +256,79 @@
   </div>
 </section>
 
-<!-- Test for services section -->
+
+<!-- Services section for SMALL DEVICES DEVICES -->
+
+<section id="services-for-small" class="section d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+  <div class="container-fluid services-title-fluid">
+    <div class="position-relative">
+      <div class="position-absolute top-0 start-0  ss-arrow">
+       <img src="./img/services-arrow.svg" class="services-section-arrow" alt="Arrow black right icon">
+     </div> 
+      <div class="position-absolute top-0 end-0 ss-many-plus">
+       <img src="./img/services-medium-many-plus.svg" alt="Small many plus icon">
+     </div>
+   </div>
+   <div class="position-relative">
+    <div class="position-absolute top-0 start-0 ss-gradient-green ">
+      <img src="./img/services-stacked-blob.svg" class="img-fluid" alt="Gradient blob green">
+    </div>
+   </div>
+   <div class="container">
+    <div class="text-start services-title">
+      <h3>We are here to help you <br>with all possible points.</h3>
+    </div>
+   </div>
+  </div><!-- end of container-fluid -->
+
+  <div class="container-fluid services-container-fluid">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="ss-info">
+          <h5>Web Development</h5>
+          <p>Lorem ipsum dolor sit amet consectetur. Nunc sit fringilla suspendisse erat tempor rhoncus. Sed velit donec euismod nisl nisl. Fames magna bibendum nibh consequat.</p>
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-1.png"  class="img-fluid"
+            alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-2.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-3.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-4.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-5.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-6.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images-last">
+          <img src="./img/services-img-7.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+      </div>
+    </div>
+  </div> <!-- end of container -->
+
+  </div> <!-- end of container-fluid -->
+</section>
 
 
-<!-- Services section -->
 
-<section id="services-section" class="section">
+<!-- Services section for LARGE TO EXTRA LARGE DEVICES -->
+
+<section id="services-section" class="section d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
   <div class="position-relative">
     <div class="position-absolute start-0 services-arrow">
       <img src="./img/services-arrow.svg" class="services-section-arrow" alt="">
@@ -296,7 +363,7 @@
       
       </div>
     </div>
-  </div>
+  </div> <!-- end of container-fluid -->
 
   <div class="position-relative">
     <div class="position-absolute bottom-0 services-card-title-position">
@@ -312,31 +379,26 @@
         </div>
       </div>
     </div>
-    <!-- <div class="position-absolute bottom-0 web-development-card">
-      <img src="./img/web-development.svg" alt="..."> -->
-      <!-- <img src="./img/team-development.svg" alt="...">
-      <img src="./img/project--development.svg" alt="...">
-      <img src="./img/quality-assurance.svg" alt="...">
-      <img src="./img/mobile-development.svg" alt="...">
-      <img src="./img/backend-development.svg" alt="...">
-      <img src="./img/ui-ux-design.svg" alt="..."> -->
-    <!-- </div> -->
-
     <div class="position-absolute start-0 services-gradient-green ">
       <img src="./img/services-gradient-green.svg" alt="...">
     </div>
     <div class="position-absolute bottom-50 services-circle-green">
       <img src="./img/services-circle-green.svg" alt="...">
     </div>
-    <!-- <div class="position-absolute bottom-0 services-img-2">
-      <img src="./img/services-img-2-old.png" class="img-fluid top-0 end-0" alt="">
-    </div> -->
+
   </div>
-  </div>
-  </div>
+
 </section>
 
 <!-- Our customized workflow section-->
+
+<!-- <div class="container-fluid d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+  <div class="position-relative">
+    <div class="position-absolute top-0 end-0">
+      <img src="./img/services-circle-green.svg"  class="" alt="">
+    </div>
+  </div>
+</div> -->
 
 <section id="workflow" class="p-5 bg-white">
   <div class="position-relative">
@@ -346,73 +408,88 @@
   </div>
   <div class="container-fluid mt-5">
     <div class="workflow-desc">
-      <h2 class="text-center">Our customized workflow</h2>
-      <p class="lead text-center mb-5">
-        Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. Id <br>habitant pellentesque pellentesque tristique.
+      <h2 class="text-center wf-title">Our customized workflow</h2>
+      <p class="lead text-center mb-5 wf-desc">
+        Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan.
       </p>
     </div>
-    <!-- <div class="row g-4">
-<div class="col-md-6 col-lg-3">
-  <div class="card bg-light">
-    <div class="card-body text-center">
-      <img src="./img/requirements.svg" class="mb-3" alt="">
-    </div>
-  </div>
-</div>
-    </div> -->
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
+      <div class="col-md-6 col-lg-6 col-xl-4 col-xxl-4">
         <div class="card h-100 requirements" id="worflow-box1">
-          <h3 class="workflow-requirements">Requirements</h3>
+          <h3 class="workflow-requirements d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Requirements</h3>
           <div class="card-body">
-            <h5 class="card-title">Requirements</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. Id habitant pellentesque pellentesque tristique.</p>
+            <h5 class="card-title ct-title">Requirements</h5>
+            <p class="card-text ct-desc">
+              Lorem ipsum dolor sit amet consectetur. Vel pretium cursus scelerisque leo maecenas aliquet erat diam. Neque eget erat amet pellentesque. 
+              Aliquet iaculis arcu elit volutpat proin ut. In ut morbi ligula facilisi nunc nec hendrerit vestibulum. Ac et vestibulum adipiscing adipiscing 
+              adipiscing et fusce mattis. Massa pellentesque tellus aliquet nec convallis.
+            </p>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-md-6 col-lg-6 col-xl-4 col-xxl-4">
         <div class="card h-100 planning" id="worflow-box2">
-          <h3 class="workflow-planning">Planning</h3>
+          <h3 class="workflow-planning d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Planning</h3>
           <div class="card-body">
-            <h5 class="card-title" >Planning</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. Id habitant pellentesque pellentesque tristique.</p>
+            <h5 class="card-title ct-title">Planning</h5>
+            <p class="card-text ct-desc">
+              Lorem ipsum dolor sit amet consectetur. Vel pretium cursus scelerisque leo maecenas aliquet erat diam. Neque eget erat amet pellentesque. 
+              Aliquet iaculis arcu elit volutpat proin ut. In ut morbi ligula facilisi nunc nec hendrerit vestibulum. Ac et vestibulum adipiscing adipiscing 
+              adipiscing et fusce mattis. Massa pellentesque tellus aliquet nec convallis.
+            </p>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-md-6 col-lg-6 col-xl-4 col-xxl-4">
         <div class="card h-100 design" id="worflow-box3">
-          <h3 class="workflow-design">Design</h3>
+          <h3 class="workflow-design d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Design</h3>
           <div class="card-body">
-            <h5 class="card-title">Design</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. Id habitant pellentesque pellentesque tristique.</p>
+            <h5 class="card-title ct-title">Design</h5>
+            <p class="card-text ct-desc">
+              Lorem ipsum dolor sit amet consectetur. Vel pretium cursus scelerisque leo maecenas aliquet erat diam. Neque eget erat amet pellentesque. 
+              Aliquet iaculis arcu elit volutpat proin ut. In ut morbi ligula facilisi nunc nec hendrerit vestibulum. Ac et vestibulum adipiscing adipiscing 
+              adipiscing et fusce mattis. Massa pellentesque tellus aliquet nec convallis.
+            </p>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-md-6 col-lg-6 col-xl-4 col-xxl-4">
         <div class="card h-100 development" id="worflow-box4">
-          <h3 class="workflow-development">Development</h3>
+          <h3 class="workflow-development d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Development</h3>
           <div class="card-body">
-            <h5 class="card-title">Development</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. Id habitant pellentesque pellentesque tristique.</p>
+            <h5 class="card-title ct-title">Development</h5>
+            <p class="card-text ct-desc">
+              Lorem ipsum dolor sit amet consectetur. Vel pretium cursus scelerisque leo maecenas aliquet erat diam. Neque eget erat amet pellentesque. 
+              Aliquet iaculis arcu elit volutpat proin ut. In ut morbi ligula facilisi nunc nec hendrerit vestibulum. Ac et vestibulum adipiscing adipiscing 
+              adipiscing et fusce mattis. Massa pellentesque tellus aliquet nec convallis.
+            </p>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-md-6 col-lg-6 col-xl-4 col-xxl-4">
         <div class="card h-100 quality-checking" id="worflow-box5">
-          <h3 class="workflow-quality-checking">Quality Checking</h3>
+          <h3 class="workflow-quality-checking d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Quality Checking</h3>
           <div class="card-body">
-            <h5 class="card-title">Quality Checking</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. Id habitant pellentesque pellentesque tristique.</p>
+            <h5 class="card-title ct-title">Quality Checking</h5>
+            <p class="card-text ct-desc">
+              Lorem ipsum dolor sit amet consectetur. Vel pretium cursus scelerisque leo maecenas aliquet erat diam. Neque eget erat amet pellentesque. 
+              Aliquet iaculis arcu elit volutpat proin ut. In ut morbi ligula facilisi nunc nec hendrerit vestibulum. Ac et vestibulum adipiscing adipiscing 
+              adipiscing et fusce mattis. Massa pellentesque tellus aliquet nec convallis.
+            </p>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-md-6 col-lg-6 col-xl-4 col-xxl-4">
         <div class="card h-100 release-and-monitor" id="worflow-box6">
-          <h3 class="workflow-release-and-monitor">Realease & Monitor</h3>
+          <h3 class="workflow-release-and-monitor d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Realease & Monitor</h3>
           <div class="card-body">
-            <h5 class="card-title">Realease & Monitor</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur. Magna diam metus <br>diam accumsan. Id habitant pellentesque pellentesque tristique.</p>
+            <h5 class="card-title ct-title">Realease & Monitor</h5>
+            <p class="card-text ct-desc">
+              Lorem ipsum dolor sit amet consectetur. Vel pretium cursus scelerisque leo maecenas aliquet erat diam. Neque eget erat amet pellentesque. 
+              Aliquet iaculis arcu elit volutpat proin ut. In ut morbi ligula facilisi nunc nec hendrerit vestibulum. Ac et vestibulum adipiscing adipiscing 
+              adipiscing et fusce mattis. Massa pellentesque tellus aliquet nec convallis.
+            </p>
           </div>
         </div>
       </div>
@@ -483,11 +560,11 @@
             </div>
             <div class="col-md-9">
               <div class="card-body clients-says-body">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. 
+                <p class="card-text cl-feedback">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. 
                   Id habitant pellentesque pellentesque tristique. Suscipit diam facilisis consectetur enim nunc commodo. Diam placerat bibendum in in.</p>
                   <div class="clients-name-and-company">
-                    <h5>Jeffray Dy</h5>
-                    <p>GENUIS GIANT</p>
+                    <h5 class="cl-name">Jeffray Dy</h5>
+                    <p class="cl-company">GENUIS GIANT</p>
                   </div>
               </div>
             </div>
@@ -510,11 +587,11 @@
             </div>
             <div class="col-md-9">
               <div class="card-body clients-says-body">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. 
+                <p class="card-text cl-feedback">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. 
                   Id habitant pellentesque pellentesque tristique. Suscipit diam facilisis consectetur enim nunc commodo. Diam placerat bibendum in in.</p>
                   <div class="clients-name-and-company">
-                    <h5>Jeffray Dy</h5>
-                    <p>GENUIS GIANT</p>
+                    <h5 class="cl-name">Jeffray Dy</h5>
+                    <p class="cl-company">GENUIS GIANT</p>
                   </div>
               </div>
             </div>
@@ -564,7 +641,7 @@
 
       <div class="col-md-2 col-lg-2" id="tb-apicenter-col">
         <div class="text-center tb-apicenter">
-          <a href="https://apicenter.io/" target="_blank"><img src="./img/apicenter-logo.svg" class="" alt="API CENTER logo" width="189" height="45"></a>
+          <a href="https://apicenter.io/" target="_blank"><img src="./img/apicenter-logo.svg" class="tb-img-apicenter" alt="API CENTER logo" width="189" height="45"></a>
         </div>
       </div>
       <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
@@ -584,7 +661,7 @@
       </div>
       <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
         <div class="text-center tb-soldlyve">
-          <a href="https://www.vellabox.com/" target="_blank"><img src="./img/vellabox-logo-trusted-brand.png" class="" alt="SoldLyve logo" width="191" height="50"></a>
+          <a href="https://www.vellabox.com/" target="_blank"><img src="./img/vellabox-logo-trusted-brand.png" class="tb-img-vellabox" alt="Vellabox logo" width="191" height="50"></a>
         </div>
       </div>
 
@@ -617,7 +694,7 @@
       </div>
       <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
         <div class="text-center tb-soldlyve">
-          <a href="https://www.staticshift.com.au/" target="_blank"><img src="./img/tb-static-shift-logo.png" class="" alt="StaticShift logo" width="178" height="39"></a>
+          <a href="https://www.staticshift.com.au/" target="_blank"><img src="./img/tb-static-shift-logo.png" class="tb-img-staticshift" alt="StaticShift logo" width="178" height="39"></a>
         </div>
       </div>
       <div class="col-md-1 col-lg-1"></div>
@@ -630,7 +707,7 @@
 
       <div class="col-md-2 col-lg-2" id="tb-plus2-col">
         <div class="text-center tb-plus2">
-          <a href="#" target="_blank"><img src="./img/tb-plus2-logo.png" class="" alt="Plus2 logo" width="61" height="61"></a>
+          <a href="#" target="_blank"><img src="./img/tb-plus2-logo.png" class="tb-img-plus2" alt="Plus2 logo" width="61" height="61"></a>
         </div>
       </div>
       <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
@@ -640,17 +717,17 @@
       </div>
       <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
         <div class="text-center tb-soldlyve">
-          <a href="https://www.finfolio.com/" target="_blank"><img src="./img/tb-finfolio-logo.png" class="" alt="SoldLyve logo" width="157" height="50"></a>
+          <a href="https://www.finfolio.com/" target="_blank"><img src="./img/tb-finfolio-logo.png" class="tb-img-finfolio" alt="Finfolio logo" width="157" height="50"></a>
         </div>
       </div>
       <div class="col-md-2 col-lg-2" id="tb-repitsocial-col">
         <div class="text-center tb-repitsocial">
-          <a href="https://repitsocial.com/" target="_blank"><img src="./img/tb-repitsocial-logo.png" class="" alt="RepItSocial logo" width="213" height="24"></a>
+          <a href="https://repitsocial.com/" target="_blank"><img src="./img/tb-repitsocial-logo.png" class="tb-img-repitsocial" alt="RepItSocial logo" width="213" height="24"></a>
         </div>
       </div>
       <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
         <div class="text-center tb-soldlyve">
-          <a href="https://www.ascriptica.com/" target="_blank"><img src="./img/tb-ascriptica-logo.png" class="" alt="Ascriptica logo" width="182" height="44"></a>
+          <a href="https://www.ascriptica.com/" target="_blank"><img src="./img/tb-ascriptica-logo.png" class="tb-img-ascriptica" alt="Ascriptica logo" width="182" height="44"></a>
         </div>
       </div>
 
@@ -687,7 +764,7 @@
         </div>
         <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
           <div class="text-center tb-soldlyve">
-            <a href="#" target="_blank"><img src="./img/tb-breeze-ventures-logo.png" class="" alt="Breeze Ventures Management logo" width="212" height="50"></a>
+            <a href="#" target="_blank"><img src="./img/tb-breeze-ventures-logo.png" class="tb-img-breeze-ventures" alt="Breeze Ventures Management logo" width="212" height="50"></a>
           </div>
         </div>
   
@@ -700,7 +777,7 @@
   
         <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
           <div class="text-center tb-soldlyve">
-            <a href="https://motionscloud.com/" target="_blank"><img src="./img/tb-motionscloud-logo.png" class="" alt="MotionsCloud logo" width="201" height="41"></a>
+            <a href="https://motionscloud.com/" target="_blank"><img src="./img/tb-motionscloud-logo.png" class="tb-img-motionscloud" alt="MotionsCloud logo" width="201" height="41"></a>
           </div>
         </div>
         <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
@@ -871,7 +948,7 @@
   </div>
 </div>
   <div class="container our-team-appointment">
-      <h3>Schedule a consulation call to discuss your project</h3>
+      <h3 class="ota-title">Schedule a consulation call to discuss your project</h3>
       <div class="row">
           <div class="col-md-4 col-xl-4 col-xxl-4">
               <img src="./img/appointment-with-jeff.svg" alt="Appointment with Jeff Ray Dy">
