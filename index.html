@@ -82,7 +82,7 @@
         </div>
           <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 slideshow-right-side">
               <div class="text-center creations-repitsocial-video" id="video-div">
-                    <div id="carouselHomeCarousel" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
+                    <div id="carouselHomeCarousel" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
                       <div class="carousel-indicators home-carousel-indicators">
 
                         <button class="carousel-control-prev previous-slides" type="button" data-bs-target="#carouselHomeCarousel" data-bs-slide="prev">
@@ -1162,7 +1162,6 @@
                     <div class="card-body genius-name-job">
                       <h5 class="card-title text-center">Jeffray Dy</h5>
                       <p class="card-text text-center">Project Manager</p>
-                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                     </div>
                   </div>
                 </div>
@@ -1178,7 +1177,6 @@
                     <div class="card-body genius-name-job">
                       <h5 class="card-title text-center">Jeffray Dy</h5>
                       <p class="card-text text-center">Project Manager</p>
-                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                     </div>
                   </div>
                   
@@ -1195,7 +1193,6 @@
                     <div class="card-body genius-name-job">
                       <h5 class="card-title text-center">Jeffray Dy</h5>
                       <p class="card-text text-center">Project Manager</p>
-                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                     </div>
                 </div>
               </div>
@@ -1223,9 +1220,6 @@
 
 
 
-
-
-
                                                                      <!-- Schedule a consultaion form section    -->
 
 <section id="sm-appointment">
@@ -1242,10 +1236,13 @@
   <div class="container our-team-appointment">
       <h3 class="ota-title">Schedule a consulation call to discuss your project</h3>
       <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
-            <img src="./img/sm-feedback-avatar.svg" class="apt-jeff" alt="Appointment with Jeff Ray Dy">
-              <!-- <img src="./img/appointment-with-jeff.svg" alt="Appointment with Jeff Ray Dy"> -->
-              <h5>Appointment with Jeff <br>Ray Dy</h5>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4" id="sm-apt-col-1">
+            <img src="./img/home/jeff-ray-dy-img-circle.png" class="apt-jeff" alt="Appointment with Jeff Ray Dy">
+
+              <h5 class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Appointment with Jeff <br>Ray Dy</h5> <!-- visible on large devices -->
+
+              <h5 class="apt-name d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">Appointment with Jeff Ray Dy</h5> <!-- visible on small devices -->
+
               <div class="appointment-time d-xs-none d-sm-none d-md-none d-lg-flex d-xl-flex d-xxl-flex">
                   <img src="./img/schedule-clock-icon.svg"><p> 30 Minutes</p>
               </div>
@@ -1255,16 +1252,53 @@
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 calendy-appointment-forms" >
             
-            <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget"
-              data-url="https://calendly.com/jmbondad/30min?hide_event_type_details=1&hide_gdpr_banner=1&text_color=12062e&primary_color=14a800"
-              style="min-width:100%;height: 750px; background-color: #FFFFFF;
-                        box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.1);"></div>
+            <div class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block"> <!-- calendy form for large devices -->
+          <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/coc2dy-jeffray/30min?hide_event_type_details=1&hide_gdpr_banner=1" 
+            style="min-width:320px;height:740px;"></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            <!-- Calendly inline widget end -->
+          <!-- Calendly inline widget end -->
+            </div>
+
+            <div class="d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none"> <!-- calendy form for small devices -->
+          <!-- Calendly inline widget begin -->
+          <div class="calendly-inline-widget" data-url="https://calendly.com/coc2dy-jeffray/30min?hide_event_type_details=1&hide_gdpr_banner=1" 
+          style="min-width:320px;height:710px;"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+            </div>
 
               </div>
           </div>
+
+                        <!-- CONTACT FORM - visible on small devices -->
+               
+              <!-- <div class="container d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none sm-cform">
+                <div class="sm-forms-info" >
+                  <h5>Your Information</h5>
+                  <h6 id="appointment-date-time"></h6>
+                </div>
+                <form class="sm-form-inputs">
+                  <div class="row sm-cform-row">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                      <input type="text" class="form-control" placeholder="Company Name" name="company-name" id="appointment-company-name" required>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                      <input type="text" class="form-control" placeholder="Your Name" name="your-name" id="appointment-your-name" required>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                      <input type="text" class="form-control" placeholder="Phone Number" name="phone-number" id="appointment-phone-number" required>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                      <input type="email" class="form-control" placeholder="Email Address" name="email" id="appointment-email-address" required>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                      <button type="submit" class="btn btn-success" id="appointment-submit" value="Submit">Submit</button>
+                    </div>
+                  </div> 
+                </form>
+              </div>  -->
+
       </div>
       <div class="container-fluid appointment-bottom-many-plus-container d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
         <div class="position-relative">
@@ -1284,30 +1318,44 @@
 <scetion class="main-contact-us-form">
   <div class="container">
     <div class="text-center main-contact-us-form-info">
-      <h2>Don’t be a stranger! Just say hello. Lets us do something amazing. Contact us!</h2>
+      <h2 class="main-ct-title">Don’t be a stranger! Just say hello. Lets us do something amazing. Contact us!</h2>
     </div>
     <div class="row main-contact-us-form-row">
-    <div class="col-2"></div>
-    <div class="col-8">
+    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-2 col-xl-2 col-xxl-2"></div>
+
+    <div class="col-xs-0 col-sm-0 col-md-10 col-lg-8 col-xl-8 col-xxl-8 sm-main-col">
+
       <form action="" class="row g-3" id="main-contact-us-form">
-          <div class="col-sm-12 col-12">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <input type="text" class="form-control" id="inputFullname" placeholder="Full Name">
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
             <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
           </div>
-          <div class="col-sm-12 col-md-6">
+          <!-- for Large Devices only -->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
             <input type="text" class="form-control" id="inputAddress" placeholder="Address">
           </div>
-          <div class="col-sm-12 col-12 mb-3">
+          <!-- for Small Devices only -->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+            <input type="text" class="form-control" id="inputPhone" placeholder="Phone Number">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mb-3 sm-msg-col">
             <textarea class="form-control" id="inputMessage" rows="3" placeholder="Message"></textarea>
           </div>
-          <div class="col-sm-12 col-12 d-grid gap-2">
-            <button id="submit-form" type="submit" class="btn btn-primary">Submit</button>
+           <!-- for Large Devices only -->
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-12 col-xl-12 col-xxl-12 d-grid gap-2 sm-submit-col">
+            <button id="submit-form" type="submit" class="btn btn-primary sm-submit-input">Submit</button>
           </div>
+          <!-- for Small Devices only -->
+          <!-- <div class="col-xs-12 col-sm-12 col-md-10 col-lg-12 col-xl-12 col-xxl-12 d-grid gap-2 d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none sm-submit-col">
+            <button id="submit-form" type="submit" class="btn btn-primary sm-submit-input">Submit</button>
+          </div> -->
       </form>
+
     </div>
-    <div class="col-2"></div>
+
+    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-2 col-xl-2 col-xxl-2"></div>
     </div>
   </div>
 </scetion>

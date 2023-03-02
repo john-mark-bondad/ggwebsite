@@ -393,11 +393,153 @@ width: 70%;
 #sm-appointment .our-team-appointment{
   height: 100%;
 }
+#sm-apt-col-1{
+  text-align: center;
+}
+#sm-apt-col-1 .apt-jeff {
+  background: #FFFFFF;
+  border: 2px solid #E0E6FE;
+  border-radius: 100%;
+  padding: 0.5%;
+  width: 75px;
+  height: 75px;
+}
+#sm-apt-col-1 .apt-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #12062E;
+  margin-top: 20px;
+}
+/* =====================  CONTACT FORM - visible on small devices */
+/* .sm-cform{
+  background: #FFFFFF;
+box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.1);
+padding: 40px 41px;
+}
+.sm-cform h5{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #12062E;
+}
+.sm-cform-row{
+  margin-top: 20px;
+}
+.sm-cform #appointment-date-time{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #12062E;
+  }
+.sm-cform-row #appointment-company-name, .sm-cform-row #appointment-your-name, .sm-cform-row #appointment-phone-number, .sm-cform-row #appointment-email-address {
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  font-size: 14px;
+} 
+.sm-cform-row #appointment-company-name, .sm-cform-row #appointment-your-name{
+  margin-bottom: 20px;
+}
+.sm-cform-row #appointment-phone-number, .sm-cform-row #appointment-email-address{
+  margin-bottom: 40px;
+}
+.sm-cform form #appointment-submit{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: -0.011em;
+color: #FFFFFF;
+padding: 6px 38px;
+background: #14A800;
+border-radius: 6px;
+height: 40px;
+float: right;
+} */
+/* ==================================== */
+
+.calendy-appointment-forms .calendly-inline-widget{
+  min-width:100%;height: 350px;
+}
+
+/* CONTACT FORM  */
+.sm-main-col #main-contact-us-form {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 40px 30px 45px;
+  margin: 25px 0px;
+}
+.main-contact-us-form-info {
+  padding: 40px 10px 25px;
+}
+.main-contact-us-form .main-ct-title{
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 110%;
+text-align: center;
+color: #FFFFFF;
+padding: 0;
+/* width: 80%; */
+}
+.sm-main-col #main-contact-us-form #inputFullname, .sm-main-col #main-contact-us-form #inputEmail, .sm-main-col #main-contact-us-form #inputPhone {
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #F2F2F2;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+border-radius: 6px;
+padding-left: 12px;
+}
+.sm-main-col #main-contact-us-form #inputMessage{
+  height: 124px;
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  padding-left: 12px;
+  margin: 0px 0px 40px;
+}
+.sm-submit-col {
+margin: 0 auto;
+}
+#main-contact-us-form #submit-form{
+  background: #12062E;
+  color: #7DDB29;
+  height: 60px;
+  font-size: 16px;
+  border-radius: 6px;
+  border-color: #12062E;
+  height: 44px;
+}
+
+/* Styling the text in placeholder */
+
+.sm-main-col #main-contact-us-form #inputFullname::placeholder, .sm-main-col #main-contact-us-form #inputEmail::placeholder, 
+.sm-main-col #main-contact-us-form #inputPhone::placeholder, .sm-main-col #main-contact-us-form #inputMessage::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.011em;
+  color: #838D95;
+}
+
+
+
 
 }  /* end of MEDIUM braces */
 
 
-/* for LARGE devices */
+
+
+                                                                  /* for LARGE devices */
 
 @media (min-width: 992px) and (max-width: 1199px){
 
@@ -1720,13 +1862,15 @@ color: #7DDB29;
   margin: 20px 0px;
   resize: none;
 }
-#main-contact-us-form #submit-form{
-  background: #12062E;
-  color: #7DDB29;
-  height: 60px;
-  font-size: 20px;
-  border-radius: 6px;
-  border-color: #12062E;
+@media (min-width: 992px){
+  #main-contact-us-form #submit-form{
+    background: #12062E;
+    color: #7DDB29;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 6px;
+    border-color: #12062E;
+  }
 }
                                 /* Styling the placeholder text */
 
@@ -6321,7 +6465,7 @@ width: 124px;
 height: 124px;
 }
 
-.apointment-forms-row1 > .col > #apointment-company-name{
+.apointment-forms-row1 > .col > #appointment-company-name{
 height: 55px;
 left: 7.34%;
 right: 51.73%;
@@ -6334,7 +6478,7 @@ border-radius: 6px;
 .apointment-forms-row1 {
   margin: 71px 68px 28px 68px;
 }
-.apointment-forms-row1 > .col > #apointment-your-name{
+.apointment-forms-row1 > .col > #appointment-your-name{
   height: 55px;
 left: 7.34%;
 right: 51.73%;
@@ -6345,7 +6489,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 border-radius: 6px;
 }
 
-.apointment-forms-row2 > .col > #apointment-phone-number{
+.apointment-forms-row2 > .col > #appointment-phone-number{
   height: 55px;
 left: 7.34%;
 right: 51.73%;
@@ -6358,7 +6502,7 @@ border-radius: 6px;
 .apointment-forms-row2 {
   margin: 10px 68px 28px 68px;
 }
-.apointment-forms-row2 > .col > #apointment-email-address{
+.apointment-forms-row2 > .col > #appointment-email-address{
   height: 55px;
 left: 7.34%;
 right: 51.73%;
@@ -6542,7 +6686,6 @@ display: flex;
 color: #808080;
 }
 .contact-us-page-form-label-full-name{
-  font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -6555,15 +6698,11 @@ color: #242331;
 padding-bottom: 19px;
 }
 .contact-us-page-form-label-email{
-  font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 150%;
-/* identical to box height, or 30px */
-
 text-transform: capitalize;
-
 color: #242331;
 padding-bottom: 19px;
 }
@@ -6656,10 +6795,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 150%;
-/* identical to box height, or 30px */
-
 text-transform: capitalize;
-
 color: #242331;
 padding-bottom: 19px;
 }
@@ -6683,12 +6819,9 @@ color: #808080;
 
 }
 
-
                                   /* Styling the placeholder text */
 
 .contact-us-page-form-control-full-name::placeholder {
-  
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -6697,8 +6830,7 @@ color: #808080;
   color: #808080;
 }
 .contact-us-page-form-control-email::placeholder {
-  padding-left: 7px;
-  font-family: 'Poppins';
+ padding-left: 7px;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -6708,8 +6840,6 @@ color: #808080;
 text-decoration: underline;
 }
 .contact-us-page-form-control-phone::placeholder {
- 
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -6718,9 +6848,6 @@ text-decoration: underline;
   color: #808080;
 }
 .contact-us-page-form-control-message::placeholder {
-  
-  /* padding-top: 19px; */
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -6736,17 +6863,10 @@ text-decoration: underline;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-  /* identical to box height, or 140% */
-  
   letter-spacing: -0.011em;
-  
-  /* Primary/GG-Dark */
-  
   color: #12062E;
-
-width: 235px;
+width: 22%;
 height: 60px;
-
 background: #7DDB29;
 border-radius: 6px;
 border-color: white;

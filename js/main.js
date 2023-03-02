@@ -222,9 +222,9 @@ function loop()
     let counter = 0;
     for(let i = 0; i < divs.length; i++) {
       setTimeout(function(){ 
-        divs[i].slideUp('slow') 
+        divs[i].delay(5000).slideUp('slow') 
       }, 
-      1000 * counter);
+      5000 * counter);
       counter++;
      
       
@@ -239,11 +239,10 @@ function loop()
         if (down == divs.length) {
             loop();
         }
-      }, 1000 * counter);
+      }, 5000 * counter);
       counter++; 
     }
-    
-    
+
 }
 
 
