@@ -221,7 +221,10 @@ function loop()
     let divs = [$(".services-it-consulting"), $(".services-web-dev"), $(".services-mobile-app-dev"),      $(".services-ui-ux-design"), $(".services-team-dev")];
     let counter = 0;
     for(let i = 0; i < divs.length; i++) {
-      setTimeout(function(){ divs[i].slideUp('slow') }, 1000 * counter);
+      setTimeout(function(){ 
+        divs[i].slideUp('slow') 
+      }, 
+      1000 * counter);
       counter++;
      
       

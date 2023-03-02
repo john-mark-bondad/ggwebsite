@@ -1493,6 +1493,13 @@ p.card-text.text-center {
   flex: 1 1 auto;
   padding: 2.56rem 1rem;
 }
+.genius-name-job h5{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #12062E;
+}
 
 /* button.genius-team-to-the-left.carousel-control-prev {
 
@@ -1961,8 +1968,8 @@ color: #7DDB29;
 img.services-page-scroll {
   position: absolute;
   width: 23px;
-  height: 217px;
-  left: 42px;
+  /* height: 217px;
+  left: 42px; */
   top: 594px;
 }
 .services-our-services{
@@ -6227,14 +6234,11 @@ color: #12062E;
                               /* Schedule a consultaion form section */
 
 .our-team-appointment > h3{
-  font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
 line-height: 110%;
-/* or 53px */
 width: 693px;
-
 color: #12062E;
 margin: 62px 0px;
 }
@@ -6242,8 +6246,7 @@ margin: 62px 0px;
   height: 1076px;
 }
 .our-team-appointment > .row > div > h5{
-  width: 313px;
-  font-family: 'Poppins';
+/* width: 60%; */
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -6252,14 +6255,10 @@ margin: 34px 0px;
 color: #12062E;
 }
 .our-team-appointment > .row > div >.appointment-time > p{
-  font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 30px;
-/* identical to box height */
-
-/* display: flex; */
 align-items: center;
 margin: 1px 0px 1px 0px;
 color: #12062E;
@@ -6273,14 +6272,12 @@ color: #12062E;
 .appointment-conferencing {
   display: flex;
   width: 90%;
-  /* margin: 34px 0px; */
 }
 .appointment-conferencing > img{
   margin-right: 15px;
 }
 .appointment-conferencing > p {
-  width: 309px;
-  font-family: 'Poppins';
+  width: 77%;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -6298,54 +6295,43 @@ margin-left: 68px;
 margin-top: 52px;;
 }
 .appointment-forms > .forms-info > h5{
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
-  /* identical to box height */
-  
   display: flex;
   align-items: center;
-  
-  /* Primary/GG-Dark */
-  
   color: #12062E;
   }
   .appointment-forms > .forms-info > h6{
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    /* identical to box height */
-    
     display: flex;
     align-items: center;
-    
-    /* Primary/GG-Dark */
-    
     color: #12062E;
-    }
+}
+.apt-jeff{  /* jeff image */
+background: #FFFFFF;
+border: 2px solid #E0E6FE;
+border-radius: 100%;
+padding: 1.7%;
+width: 124px;
+height: 124px;
+}
 
 .apointment-forms-row1 > .col > #apointment-company-name{
-  height: 55px;
+height: 55px;
 left: 7.34%;
 right: 51.73%;
 top: calc(50% - 55px/2 - 91.5px);
-
-/* Neutral/10 */
-
 background: #FFFFFF;
 border: 1px solid #F2F2F2;
-/* Shadow 1 */
-
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 border-radius: 6px;
 }
 .apointment-forms-row1 {
-  /* margin-left: 68px;
-  margin-top: 71px; */
   margin: 71px 68px 28px 68px;
 }
 .apointment-forms-row1 > .col > #apointment-your-name{
@@ -6353,13 +6339,8 @@ border-radius: 6px;
 left: 7.34%;
 right: 51.73%;
 top: calc(50% - 55px/2 - 91.5px);
-
-/* Neutral/10 */
-
 background: #FFFFFF;
 border: 1px solid #F2F2F2;
-/* Shadow 1 */
-
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 border-radius: 6px;
 }
@@ -6369,19 +6350,12 @@ border-radius: 6px;
 left: 7.34%;
 right: 51.73%;
 top: calc(50% - 55px/2 - 91.5px);
-
-/* Neutral/10 */
-
 background: #FFFFFF;
 border: 1px solid #F2F2F2;
-/* Shadow 1 */
-
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 border-radius: 6px;
 }
 .apointment-forms-row2 {
-  /* margin-left: 68px;
-  margin-top: 71px; */
   margin: 10px 68px 28px 68px;
 }
 .apointment-forms-row2 > .col > #apointment-email-address{
@@ -6389,28 +6363,19 @@ border-radius: 6px;
 left: 7.34%;
 right: 51.73%;
 top: calc(50% - 55px/2 - 91.5px);
-
-/* Neutral/10 */
-
 background: #FFFFFF;
 border: 1px solid #F2F2F2;
-/* Shadow 1 */
-
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
 border-radius: 6px;
 }
 #appointment-submit {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: -0.011em;
   color: #FFFFFF;
-  /* width: 235px; */
   height: 60px;
-  /* margin-left: 540px;
-  margin-top: 130px; */
   padding: auto;
   padding: 2% 8%;
   background: #14A800;
