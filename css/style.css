@@ -592,16 +592,25 @@ section#workflow {
 
                     /* Cards */
 
-#workflow .card{
+#workflow #worflow-box1, #workflow #worflow-box2, #workflow #worflow-box3{
   border-radius: 30px;
   background-color: #F2F4FA;
   border-color: #fff;
-  padding: 35px 20px 55px 20px;
+  padding: 45px 20px 45px 20px;
   margin: 1px 5px;
-  /* box-shadow: .5px .5px .1px rgba(242,244,250)!important; */
   white-space: nowrap;
   overflow: hidden;
 }
+ #workflow #worflow-box4, #workflow #worflow-box5, #workflow #worflow-box6{
+  border-radius: 30px;
+  background-color: #F2F4FA;
+  border-color: #fff;
+  padding: 33px 20px 33px 20px;
+  margin: 1px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 #workflow p.card-text {
   white-space: normal;
   overflow: unset;
@@ -635,13 +644,13 @@ section#workflow {
   padding-left: 30px;
 }
 .workflow-requirements, .workflow-planning, .workflow-design, .workflow-development, .workflow-quality-checking, .workflow-release-and-monitor{
-  font-size: 128px;
+  font-size: 96px;
   font-weight: bold;
   /* transition: all 0.3s ease; */
 }
 
 /* Cards hover effects */
-.workflow-requirements:hover{
+.workflow-requirements:hover {
   /* padding-left: 3rem; */
   /* animation: marquee 5s linear infinite; */
   animation: requirements 2s ease infinite alternate, 
@@ -651,20 +660,20 @@ section#workflow {
 @keyframes requirements {
 
   0%   { transform: translate(0, 0); }
-  100% { transform: translate(-33rem, 0%); }
+  100% { transform: translate(-20rem, 0%); }
 }
 
 .workflow-planning:hover, .workflow-design:hover{
   /* padding-left: 3rem; */
   /* animation: marquee 5s linear infinite; */
-  animation: planning 1s ease infinite alternate, 
-    nudge 1s linear infinite alternate;
+  animation: planning 0.7s ease infinite alternate, 
+    nudge 0.7s linear infinite alternate;
 }
 
 @keyframes planning {
 
   0%   { transform: translate(0, 0); }
-  100% { transform: translate(-10rem, 0%); }
+  100% { transform: translate(-6rem, 0%); }
 }
 .workflow-design:hover{
   /* padding-left: 3rem; */
@@ -676,20 +685,20 @@ section#workflow {
 @keyframes design {
 
   0%   { transform: translate(0, 0); }
-  100% { transform: translate(-5rem, 0%); }
+  100% { transform: translate(-4rem, 0%); }
 }
 
  .workflow-development:hover{
   /* padding-left: 3rem; */
   /* animation: marquee 5s linear infinite; */
-  animation: development 2s ease infinite alternate, 
-    nudge 2s linear infinite alternate;
+  animation: development 1.3s ease infinite alternate, 
+    nudge 1.3s linear infinite alternate;
 }
 
 @keyframes development {
 
   0%   { transform: translate(0, 0); }
-  100% { transform: translate(-30rem, 0%); }
+  100% { transform: translate(-19rem, 0%); }
 }
 
 .workflow-quality-checking:hover{
@@ -702,40 +711,40 @@ section#workflow {
 @keyframes quality-checking {
 
   0%   { transform: translate(0, 0); }
-  100% { transform: translate(-5rem, 0%); }
+  100% { transform: translate(-4rem, 0%); }
 }
 .workflow-release-and-monitor:hover{
   /* padding-left: 3rem; */
   /* animation: marquee 5s linear infinite; */
-  animation: release-and-monitor 3s ease infinite alternate, 
-    nudge 4s linear infinite alternate;
+  animation: release-and-monitor 2s ease infinite alternate, 
+    nudge 2s linear infinite alternate;
 }
 
 @keyframes release-and-monitor {
 
   0%   { transform: translate(0, 0); }
-  100% { transform: translate(-55rem, 0%); }
+  100% { transform: translate(-36rem, 0%); }
 }
 
 /* #workflow .row > div> .card.h-100:hover {
   background: #F4B840;
 } */
-#worflow-box1:hover{
+#workflow #worflow-box1:hover{
   background: #F4B840;
 }
-#worflow-box2:hover {
+#workflow #worflow-box2:hover {
   background: #6E1FED;
 }
-#worflow-box3:hover {
+#workflow #worflow-box3:hover {
   background: #5DCA7B;
 }
-#worflow-box4:hover {
+#workflow #worflow-box4:hover {
   background: #4194F4;
 }
-#worflow-box5:hover {
+#workflow #worflow-box5:hover {
   background: #E46A2B;
 }
-#worflow-box6:hover {
+#workflow #worflow-box6:hover {
   background: #60D3D8;
 }
 
@@ -970,6 +979,7 @@ height: 294px;
 }
 
               /* TRUSTED BRANDS section for SMALL DEVICES */
+
 #sm-trusted-brands {
     margin-top: 1.5rem;
 }
@@ -1037,6 +1047,116 @@ margin-bottom: 49px;
   height: 47.23px;
   margin-bottom: 49px;
   margin-top: 2%;
+}
+/* second slide */
+.sm-tb-row .sm-tb-ndax {
+  width: 140.67px;
+  height: 42.2px;
+  margin-bottom: 49px;
+  margin-top: 2%;
+}
+.sm-tb-row .sm-tb-vellabox {
+  width: 165px;
+  height: 43px;
+  margin-bottom: 49px;
+  margin-top: 2%;
+}
+.sm-tb-row .sm-tb-selfbook {
+  width: 137.13px;
+  height: 49px;
+  margin-bottom: 49px;
+  margin-top: 2%;
+}
+.sm-tb-row .sm-tb-ascriptica {
+  width: 151px;
+  height: 36px;
+  margin-bottom: 49px;
+  margin-top: 2%;
+}
+.sm-tb-row .sm-tb-repitsocial {
+  width: 213px;
+  height: 21px;
+  margin-bottom: 49px;
+  margin-top: 5%;
+}
+.sm-tb-row .sm-tb-staticshift {
+  width: 149px;
+  height: 33px;
+  margin-bottom: 49px;
+  margin-top: 2%;
+}
+.sm-tb-row .sm-tb-nexterus {
+  width: 93px;
+  height: 47px;
+  margin-bottom: 49px;
+  margin-top: 2%;
+}
+.sm-tb-row .sm-tb-cinchshare {
+  width: 122.78px;
+  height: 50px;
+  margin-bottom: 49px;
+  margin-top: 2%;
+}
+.sm-tb-row .sm-tb-coin {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 49px;
+  margin-top: 3.5%;
+}
+/* third slide */
+.sm-tb-row .sm-tb-breeze-ventures {
+  width: 159px;
+  height: 38px;
+  margin-bottom: 49px;
+  margin-top: 2%;
+}
+.sm-tb-row .sm-tb-motionscloud {
+  width: 201px;
+  height: 41px;
+  margin-bottom: 49px;
+  margin-top: 2%;
+}
+.sm-tb-row .sm-tb-weblify {
+  width: 116px;
+  height: 44px;
+  margin-bottom: 49px;
+  margin-top: 3%;
+}
+.sm-tb-row .sm-tb-techhub {
+  width: 119px;
+  height: 40px;
+  margin-bottom: 49px;
+  margin-top: 4%;
+}
+.sm-tb-row .sm-tb-swiftgrade {
+  width: 122px;
+  height: 38px;
+  margin-bottom: 49px;
+  margin-top: 4%;
+}
+.sm-tb-row .sm-tb-scent-ric {
+  width: 74px;
+  height: 65px;
+  margin-bottom: 49px;
+  margin-top: 2%;
+}
+.sm-tb-row .sm-tb-travoo {
+  width: 134px;
+  height: 45px;
+  margin-bottom: 49px;
+  margin-top: 2%;
+}
+.sm-tb-row .sm-tb-veego {
+  width: 156.55px;
+  height: 50px;
+  margin-bottom: 49px;
+  margin-top: 4.5%;
+}
+.sm-tb-row .sm-tb-web-company {
+  width: 145.83px;
+  height: 50px;
+  margin-bottom: 49px;
+  margin-top: 4.5%;
 }
 
 
@@ -1508,7 +1628,9 @@ p.footer-contact-social-icons > a > img:hover {
   font-size: 20px;
   padding-bottom: 5px;
 }
-
+.footer-services-links, .footer-address, .footer-quick-links, .footer-services, .footer-contact{
+  white-space: nowrap;
+}
 
 
                                                                                           /* Services page */                                 
@@ -8191,8 +8313,16 @@ line-height: 21px;
 text-align: center;
 color: #12062E;
 }
-#workflow #worflow-box1, #workflow #worflow-box2, #workflow #worflow-box3, #workflow #worflow-box4, #workflow #worflow-box5, #workflow #worflow-box6 {
-  padding: 38px 29px 38px 29px;
+#workflow #worflow-box1, #workflow #worflow-box2{
+  padding: 89px 29px 89px 29px;
+  margin: 0;
+}
+#workflow #worflow-box3, #workflow #worflow-box4{
+  padding: 77px 29px 77px 29px;
+  margin: 0;
+}
+#workflow #worflow-box5, #workflow #worflow-box6 {
+  padding: 99px 29px 99px 29px;
   margin: 0;
 }
 #worflow-box1 .card-body, #worflow-box2 .card-body, #worflow-box3 .card-body, #worflow-box4 .card-body, #worflow-box5 .card-body, #worflow-box6 .card-body{
@@ -8347,7 +8477,7 @@ padding-left: 12px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   padding-left: 12px;
-  margin: 0px 0px 40px;
+  margin: 0px 0px 24px;
 }
 .sm-submit-col {
 margin: 0 auto;
@@ -8374,6 +8504,84 @@ margin: 0 auto;
   color: #838D95;
 }
 
+/* FOOTER */
+
+.footer-address, .footer-quick-links, .footer-services, .footer-contact {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #12062E;
+  padding-bottom: 2px;
+}
+.footer-company-address, .footer-company-phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #12062E;
+}
+.footer-links > p {
+  margin-bottom: 0.6rem;
+}
+.footer-links > p > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #12062E;
+  transition: all 0.3s ease;
+}
+.footer-services-links p {
+  margin-bottom: 0.6rem;
+}
+.footer-services-links p > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #12062E;
+  transition: all 0.3s ease;
+}
+p.footer-contact-social-icons > a {
+  margin-right: 0rem;
+}
+p.footer-contact-social-icons > a > img {
+  width: 17.03px;
+  height: 16.99px;
+  padding: 0px 0px;
+  transition: all 0.3s ease;
+}
+#gg-footer {
+  margin-top: -2.1rem;
+}
+.footer-logo {
+  padding-top: 1px;
+}
+.footer-logo img{
+  width: 159px;
+  height: 40.33px;
+margin: 13px 0px 5px -10px;
+}
+.sm-f-services{
+ padding-left: 1.9rem!important;
+}
+.footer-company-phone{
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #12062E;
+}
+.copyright {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #6B7280;
+  margin: 1.3rem 0.1rem;
+}
 
 
 
@@ -8444,6 +8652,10 @@ margin: 0 auto;
 .number-of-years .displayNumber{
   font-size: 95px;
 }
+.numberPlus {
+  font-size: 54px;
+  margin-left: 1rem;
+}
 
 /* SERVICES section */  
 
@@ -8502,6 +8714,17 @@ margin: 0 auto;
 .our-team-appointment .ota-title{
   font-size: 40px;
 }
+/* FOOTER */
+p.footer-contact-social-icons > a{
+  margin-right: 0.3rem;
+}
+.sm-f-services {
+  padding-left: 0.1rem!important;
+}
+.lg-quick-links{
+  padding-left: 0.2rem!important;
+}
+
 
 } /* end of braces for LARGE Devices (lg) */
 
@@ -8546,6 +8769,77 @@ margin: 0 auto;
   left: 78%;
   width: 23%;
 }
+/* FOOTER */
+p.footer-contact-social-icons > a{
+  margin-right: 0.3rem;
+}
+
+/* CARDS */
+#worflow-box1 .card-body, #worflow-box2 .card-body, #worflow-box3 .card-body, #worflow-box4 .card-body, 
+#worflow-box5 .card-body, #worflow-box6 .card-body{
+  padding: 0rem 1rem;
+}
+.workflow-requirements, .workflow-planning, .workflow-design, .workflow-development, .workflow-quality-checking, .workflow-release-and-monitor{
+  font-size: 60px;
+  margin-left: 0.8rem;
+}
+#workflow div> div> div> div> h5.card-title {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 7px 0px 0px;
+  color: #12062E;
+}
+
+#workflow #worflow-box1, #workflow #worflow-box2, #workflow #worflow-box3{
+  border-radius: 30px;
+  background-color: #F2F4FA;
+  border-color: #fff;
+  padding: 27px 20px 59px 20px;
+  margin: 1px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+ #workflow #worflow-box4, #workflow #worflow-box5, #workflow #worflow-box6{
+  border-radius: 30px;
+  background-color: #F2F4FA;
+  border-color: #fff;
+  padding: 25px 20px 25px 20px;
+  margin: 1px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@keyframes requirements {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-10rem, 0%); }
+}
+@keyframes planning {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-3rem, 0%); }
+}
+@keyframes design {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-2rem, 0%); }
+}
+@keyframes development {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-7rem, 0%); }
+}
+@keyframes quality-checking {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-2rem, 0%); }
+}
+@keyframes release-and-monitor {
+
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-19rem, 0%); }
+}
+
+
 }                                                    
 
 @media (min-width: 1200px) and (max-width: 1399px){
@@ -8612,6 +8906,11 @@ margin: 0 auto;
   }  
 
                                                     /* for XXTRA LARGE devices min width 1700px */
+@media (min-width: 1400px){
+  .lg-quick-links {
+    padding-left: 3.2rem!important;
+}
+}                                                    
 @media (min-width: 1700px){
   .moving-box1 {
     margin-top: 12%;

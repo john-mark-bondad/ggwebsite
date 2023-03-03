@@ -124,7 +124,7 @@ window.addEventListener("scroll", reveal);
   $("#services-slider-img1").click(function(){
     $("#services-slider-img1").select();
     // $("#services-slider-img1").removeAttr("#services-slider-img1");
-    $("#services-slider-img1").css("border", "1px solid white");
+    $("#services-slider-img1").css("border", "1px solid #7DDB29");
     // $("#services-slider-img1").css("padding-top", "none");
     $("#services-slider-img7").appendTo(".center-images");
     $("#services-slider-img2").select(false);
@@ -133,7 +133,7 @@ window.addEventListener("scroll", reveal);
   });
   $("#services-slider-img2").click(function(){
     $("#services-slider-img2").select();
-    $("#services-slider-img2").css("border", "1px solid white");
+    $("#services-slider-img2").css("border", "1px solid #7DDB29");
     $("#services-slider-img1").appendTo(".center-images");
             // $("#services-slider-img2").appendTo(".center-images");
     $("#services-slider-img3").select(false);
@@ -141,7 +141,7 @@ window.addEventListener("scroll", reveal);
   });
   $("#services-slider-img3").click(function(){
     $("#services-slider-img3").select();
-    $("#services-slider-img3").css("border", "1px solid white");
+    $("#services-slider-img3").css("border", "1px solid #7DDB29");
     $("#services-slider-img2").appendTo(".center-images");
     // $("#services-slider-img2").appendTo(".center-images");
     $("#services-slider-img4").select(false);
@@ -149,7 +149,7 @@ window.addEventListener("scroll", reveal);
   });
   $("#services-slider-img4").click(function(){
     $("#services-slider-img4").select();
-    $("#services-slider-img4").css("border", "1px solid white");
+    $("#services-slider-img4").css("border", "1px solid #7DDB29");
     $("#services-slider-img3").appendTo(".center-images");
             // $("#services-slider-img4").appendTo(".center-images");
   //   $("#services-slider-img5").select(false);
@@ -165,7 +165,7 @@ window.addEventListener("scroll", reveal);
   });
   $("#services-slider-img6").click(function(){
     $("#services-slider-img6").select();
-    $("#services-slider-img6").css("border", "1px solid white");
+    $("#services-slider-img6").css("border", "1px solid #7DDB29");
     // $("#services-slider-img5").appendTo(".center-images");
             // $("#services-slider-img6").appendTo(".center-images");
     $("#services-slider-img7").select(false);
@@ -173,7 +173,7 @@ window.addEventListener("scroll", reveal);
   });
   $("#services-slider-img7").click(function(){
     $("#services-slider-img7").select();
-    $("#services-slider-img7").css("border", "1px solid white");
+    $("#services-slider-img7").css("border", "1px solid #7DDB29");
     $("#services-slider-img6").appendTo(".center-images");
     $("#services-slider-img1").select(false);
     $("#services-slider-img1").css("border", "0px solid white");
