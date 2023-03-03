@@ -58,9 +58,12 @@ next = next.nextElementSibling
    //start animating
    window.requestAnimationFrame(step);
  }
+ 
+//  This script is for About Us section in the Homepage. 0 to 10+ years
+
  let text1 = document.getElementById('0101');
  const load = () => {
-   animate(text1, 0, 5, 2000);
+   animate(text1, 0, 10, 3000);
  }
 
 //  This script is for revealing the mission in about us section
@@ -87,25 +90,25 @@ window.addEventListener("scroll", reveal);
  $(document).ready(function(){
   
   $("#services-slider-img1").click(function(){ 
-    $("#card-title-services").text("Web Development");
-    $("#webdevsum").text("Lorem ipsum dolor sit amet consectetur. Nunc sit fringilla suspendisse erat tempor rhoncus. Sed velit donec euismod nisl nisl. Fames magna bibendum nibh consequat.");
+    $("#card-title-services").text("Mobile and Web Development");
+    $("#webdevsum").text("At GeniusGiant , our mission is to empower growth and progress by offering top-notch mobile and web development services. Our team of experts is dedicated to delivering innovative solutions that meet the unique needs of our clients and help drive their success. Let us help you turn your vision into a reality.");
   });
   $("#services-slider-img2").click(function(){
     $("#card-title-services").text("Team Development");
-    $("#webdevsum").text("Lorem ipsum dolor sit amet consectetur. Nunc sit fringilla suspendisse erat tempor rhoncus. Sed velit donec euismod nisl nisl. Fames magna bibendum nibh consequat.");
+    $("#webdevsum").text("We offer a comprehensive Team Development solution that encompasses a full range of services, including project management, development, quality assurance, and design. Our team of experts brings a wealth of experience and knowledge to every project, ensuring that your business goals are met and exceeded. Whether you need to streamline your processes, launch a new product, or simply improve your existing operations, we have the expertise to help you achieve your objectives.");
   });
   $("#services-slider-img3").click(function(){
-    $("#card-title-services").text("Project Management");
-    $("#webdevsum").text("Lorem ipsum dolor sit amet consectetur. Nunc sit fringilla suspendisse erat tempor rhoncus. Sed velit donec euismod nisl nisl. Fames magna bibendum nibh consequat.");
+    $("#card-title-services").text("Project Management/Product Owners");
+    $("#webdevsum").text("Our organization boasts a team of highly skilled and knowledgeable project managers and product owners. Their expertise and passion for delivering outstanding results ensure that every project they oversee is executed with precision, efficiency, and a commitment to excellence.");
   });
   $("#services-slider-img4").click(function(){
     $("#card-title-services").text("Quality Assurance");
-    $("#webdevsum").text("Lorem ipsum dolor sit amet consectetur. Nunc sit fringilla suspendisse erat tempor rhoncus. Sed velit donec euismod nisl nisl. Fames magna bibendum nibh consequat.");
+    $("#webdevsum").text("With over a decade of unparalleled expertise, we are proud to be a comprehensive Quality Assurance solution provider, offering a seamless, one-stop experience for all your QA needs.");
   });
-  $("#services-slider-img5").click(function(){
-    $("#card-title-services").text("Mobile Development");
-    $("#webdevsum").text("Lorem ipsum dolor sit amet consectetur. Nunc sit fringilla suspendisse erat tempor rhoncus. Sed velit donec euismod nisl nisl. Fames magna bibendum nibh consequat.");
-  });
+  // $("#services-slider-img5").click(function(){
+  //   $("#card-title-services").text("Mobile Development");
+  //   $("#webdevsum").text("Lorem ipsum dolor sit amet consectetur. Nunc sit fringilla suspendisse erat tempor rhoncus. Sed velit donec euismod nisl nisl. Fames magna bibendum nibh consequat.");
+  // });
   $("#services-slider-img6").click(function(){
     $("#card-title-services").text("Backend Development");
     $("#webdevsum").text("Lorem ipsum dolor sit amet consectetur. Nunc sit fringilla suspendisse erat tempor rhoncus. Sed velit donec euismod nisl nisl. Fames magna bibendum nibh consequat.");
@@ -149,12 +152,12 @@ window.addEventListener("scroll", reveal);
     $("#services-slider-img4").css("border", "1px solid white");
     $("#services-slider-img3").appendTo(".center-images");
             // $("#services-slider-img4").appendTo(".center-images");
-    $("#services-slider-img5").select(false);
-    $("#services-slider-img5").css("border", "0px solid white");
-  });
-  $("#services-slider-img5").click(function(){
-    $("#services-slider-img5").select();
-    $("#services-slider-img5").css("border", "1px solid white");
+  //   $("#services-slider-img5").select(false);
+  //   $("#services-slider-img5").css("border", "0px solid white");
+  // });
+  // $("#services-slider-img5").click(function(){
+  //   $("#services-slider-img5").select();
+  //   $("#services-slider-img5").css("border", "1px solid white");
     $("#services-slider-img4").appendTo(".center-images");
             // $("#services-slider-img5").appendTo(".center-images");
     $("#services-slider-img6").select(false);
@@ -163,7 +166,7 @@ window.addEventListener("scroll", reveal);
   $("#services-slider-img6").click(function(){
     $("#services-slider-img6").select();
     $("#services-slider-img6").css("border", "1px solid white");
-    $("#services-slider-img5").appendTo(".center-images");
+    // $("#services-slider-img5").appendTo(".center-images");
             // $("#services-slider-img6").appendTo(".center-images");
     $("#services-slider-img7").select(false);
     $("#services-slider-img7").css("border", "0px solid white");
