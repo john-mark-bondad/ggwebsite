@@ -8168,7 +8168,7 @@ height: 38px;
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
-  line-height: 42px;
+  line-height: 38px;
   color: #12062E;
   margin-bottom: 15px;
   width: 98%;
@@ -8192,7 +8192,7 @@ height: 38px;
   background: url("../img/carousel/first-slide.png") no-repeat;
   background-position: bottom;
   width: 99%;
-  background-position: 20px 20px;
+  /* background-position: 20px 20px; */
 }
 .home-carousel-img2-container {
 background: url("../img/carousel/second-slide.png") no-repeat;
@@ -8265,6 +8265,162 @@ height: 428px;
 .xs-number-of-years{
   display: none;
 }
+.company, .different {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  color: #12062E;
+}
+.xs-company-started{
+  padding: 1rem!important;
+}
+.founded, .affordability {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.005em;
+  color: #6A6A8E;
+}
+.xs-gradient-green{
+  display: none;
+}
+.manyPlus {
+  display: none;
+}
+.services-title h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  color: #7DDB29;
+}
+.ss-gradient-green {
+  margin-top: -2rem;
+  z-index: -1;
+  width: 85%;
+  transform: translate(14%, 4%);
+}
+.ss-info {
+  margin: 100px 0 32px 0;
+}
+.ss-info h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 110%;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.ss-info p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.5%;
+  color: #FFFFFF;
+}
+.ss-images {
+  margin-bottom: 20px;
+}
+.ss-images-last {
+  margin-bottom: 32px;
+}
+
+/* How we work section */
+#workflow{
+  padding: 0.1rem!important;
+}
+.workflow-arrow {
+  left: -0.1rem;
+  top: 2.1rem;
+}
+section#workflow {
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+}
+.workflow-desc > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  color: #7DDB29;
+}
+.workflow-desc > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #6A6A8E;
+  padding-top: 4px;
+  /* padding-bottom: 40px; */
+}
+.workflow-desc {
+  margin-top: 7.3rem;
+}
+#workflow {
+  background-image: url("../img/xs-circle-green.svg"), url("../img/xs-many-plus.svg");
+  background-repeat: no-repeat;
+  background-position: top 0% left 100%, top 2.5% right 0%;
+}
+.xs-row-card{
+  margin-top: calc(var(--bs-gutter-y) * -3);
+}
+.workflow-requirements, .workflow-planning, .workflow-design, .workflow-development, .workflow-quality-checking, .workflow-release-and-monitor {
+display: none;
+}
+#workflow div> div> div> div> h5.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 7px 0px;
+  color: #12062E;
+  text-align: center;
+}
+#workflow p.card-text {
+  text-align: center;
+}
+#workflow #worflow-box1, #workflow #worflow-box2, #workflow #worflow-box3, #workflow #worflow-box4, #workflow #worflow-box5, #workflow #worflow-box6  {
+  padding: 22px 14px;
+}
+/* .xs-row-card .card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem 9.7rem 1rem;
+} */
+.xs-row-card .xs-col-remove-gutter{
+  margin-top: 20px;
+}
+
+/* Feedback section */
+#feedback {
+  background-image: url("../img/xs-circle-green.svg"), url("../img/xs-many-plus.svg");
+  background-repeat: no-repeat;
+  background-position: top 0% left 100%, top 5% right 0%;
+  margin-top: 30px;
+}
+.review-many-plus{
+  display: none;
+}
+.review-desc > h2.text-center {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  text-align: center;
+  color: #7DDB29;
+}
+.review-desc {
+  margin-top: 5.6rem;
+}
+.review-desc > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #6A6A8E;
+  padding-top: 4px;
+}
 
 
   .our-moment-display .carousel-item {
@@ -8282,6 +8438,7 @@ height: 428px;
 
 
                                                     /********** Small devices only (≥576px) **********/
+
 @media (min-width: 576px) and (max-width: 767px){
   .container.navigation-top {  /* navigation  */
     padding: 15px 0.1%;
