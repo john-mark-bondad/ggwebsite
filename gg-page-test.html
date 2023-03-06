@@ -18,165 +18,1461 @@
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-   
+    <!-- <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script> -->
 
-    <title>Contact Us - Genius Giant - Website Development and QA Services </title>
+
+    <title>Page Test</title>
   </head>
-  <body>
+  <body onload="load()">
 
-       <!-- Navigation section -->
+    <!-- Navigation section -->
 
-<nav class="navbar navbar-expand-lg bg-light navbar-light">
-    <div class="container navigation-top">
-        <a href="#" class="navbar-brand"><img src="./img/geniusgiant-logo.svg" alt="Genius Giant logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContents" aria-controls="navbarSupportedContents" 
-        aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+      <div class="container navigation-top">
+        <a href="index.html" class="navbar-brand"><img src="./img/geniusgiant-logo.svg" alt="Genius Giant logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span
+            class="navbar-toggler-icon"></span></button>
         <!-- site pages-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContents">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="services.html" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="portfolio.html" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="our-team.html" class="nav-link">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact-us.html" class="nav-link">Contact Us</a>
-                </li>
-            </ul>
-            <!-- site social media icons-->
+    
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link" data-toggle="tab" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link" data-toggle="tab">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="portfolio.html" class="nav-link" data-toggle="tab">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="our-team.html" class="nav-link" data-toggle="tab">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact-us.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+          <!-- site social media icons-->
         </div>
+    
+    
         <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ms-auto"></ul>
-            <a href="#" class="navbar-brand" target="_blank"><img src="./img/whatsapp.svg"></a>
-            <a href="https://www.facebook.com/Geniusgiant/" class="navbar-brand" target="_blank"><img src="./img/facebook.svg"></a>
-            <a href="https://www.instagram.com/GeniusGiant2020/?hl=en" class="navbar-brand" target="_blank"><img src="./img/instagram.svg"></a>
-            <a href="https://twitter.com/GeniusgiantQa" class="navbar-brand" target="_blank"><img src="./img/twitter.svg"></a>
-            </ul>
+          <ul class="navbar-nav ms-auto"></ul>
+          <a href="#" class="navbar-brand" target="_blank"><img src="./img/whatsapp.svg"></a>
+          <a href="https://www.facebook.com/Geniusgiant/" class="navbar-brand" target="_blank"><img src="./img/facebook.svg"></a>
+          <a href="https://www.instagram.com/GeniusGiant2020/?hl=en" class="navbar-brand" target="_blank"><img src="./img/instagram.svg"></a>
+          <a href="https://twitter.com/GeniusgiantQa" class="navbar-brand" target="_blank"><img src="./img/twitter.svg"></a>
+          </ul>
         </div>
+    
+      </div>
+    
+    </nav>
+
+                       <!-- CAROUSEL SLIDESHOW -->
+
+    <section id="gg-services-carousel">
+      <div class="container">
+        
+        <div class="row row-carousel-right">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div id="newCarouselTextPosition" class="home-carousel-content">
+              <!-- CAPTIONS OUTSIDE THE IMAGE -->
+            </div>
+        </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 slideshow-right-side">
+              <div class="text-center creations-repitsocial-video" id="video-div">
+                    <div id="carouselHomeCarousel" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
+                      <div class="carousel-indicators home-carousel-indicators">
+
+                        <button class="carousel-control-prev previous-slides" type="button" data-bs-target="#carouselHomeCarousel" data-bs-slide="prev">
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button type="button" data-bs-target="#carouselHomeCarousel" data-bs-slide-to="0" class="buttons-slide1 active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselHomeCarousel" data-bs-slide-to="1" class="buttons-slide2" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselHomeCarousel" data-bs-slide-to="2" class="buttons-slide3" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselHomeCarousel" data-bs-slide-to="3" class="buttons-slide4" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselHomeCarousel" data-bs-slide-to="4" class="buttons-slide5" aria-label="Slide 5"></button>
+
+                        <button class="carousel-control-next next-slides" type="button" data-bs-target="#carouselHomeCarousel" data-bs-slide="next">
+                          <span class="visually-hidden">Next</span>
+                        </button>
+
+                      </div>
+                      <div class="carousel-inner">
+
+                                                  <!-- FIRST SLIDE -->
+                        <div class="carousel-item active home-carousel-img1-container">
+
+                          <div id="animate-box-1" class="moving-box1 position-absolute top-0 start-50">
+                            <img src="./img/carousel/moving-box1.png" class="slide1-img-box1" alt="Moving box1">
+                          </div>
+                          <div id="animate-box-2" class="moving-box2 position-absolute top-50 start-0">
+                            <img src="./img/carousel/moving-box2.png" class="slide1-img-box2" alt="Moving box2">
+                          </div>
+
+                           <!-- CAPTIONS OUTSIDE THE IMAGE -->
+                          <div id="caption-0" class="carousel-caption d-none d-md-block text-start">
+                            <div class="home-carousel-content">
+                              <h1>Website Development and QA Services <span>Your Software Development and QA Partner</span></h1>
+                              <p>We are ready to Develop & Maintain your web app</p>
+                          </div>
+                          </div>
+                        </div>
+  
+                                                  <!-- SECOND SLIDE -->
+                        <div class="carousel-item home-carousel-img2-container">
+
+                           <!-- CAPTIONS OUTSIDE THE IMAGE -->
+                          <div id="caption-1" class="carousel-caption d-none d-md-block text-start">
+                            <div class="home-carousel-content">
+                              <h2>Web and Mobile Application <span>Development Company</span></h2>
+                              <p>We are ready to Develop & Maintain your web app</p>
+                             </div>
+                          </div>
+                        </div>
+  
+                                                                          <!-- THIRD SLIDE -->
+                        <div class="carousel-item home-carousel-img3-container">
+
+                           <!-- CAPTIONS OUTSIDE THE IMAGE -->
+                          <div id="caption-2" class="carousel-caption d-none d-md-block text-start">
+                            <div class="home-carousel-content">
+                              <h2>Plan and implement <span>Critical IT projects efficiently</span></h2>
+                              <p>We are ready to Develop & Maintain your web app</p>
+                             </div>
+                          </div>
+                        </div>
+
+                                                                  <!-- FOURTH SLIDE -->
+                        <div class="carousel-item home-carousel-img4-container">
+
+                           <!-- CAPTIONS OUTSIDE THE IMAGE -->
+                          <div id="caption-3" class="carousel-caption d-none d-md-block text-start">
+                            <div class="home-carousel-content">
+                              <h2>Full Software <span>Testing Service for your projects</span></h2>
+                              <p>We are ready to Develop & Maintain your web app</p>
+                             </div>
+                          </div>
+                        </div>
+
+                                                                  <!-- FIFTH SLIDE -->
+                        <div class="carousel-item home-carousel-img5-container">
+
+                          <!-- <img src="./img/carousel/fifth-slide.png" class="home-carousel-fifth-img overflow-hidden" alt="Painted face"> -->
+
+                           <!-- CAPTIONS OUTSIDE THE IMAGE -->
+                          <div id="caption-4" class="carousel-caption d-none d-md-block text-start">
+                            <div class="home-carousel-content">
+                              <h2>Plan and implement <span>Critical IT projects efficiently</span></h2>
+                              <p>We are ready to Develop & Maintain your web app</p>
+                             </div>
+                          </div>
+                        </div>
+                      </div>
+  
+                    </div>
+  
+              </div>
+          </div>
+
+        </div>
+
+        <img src="./img/services-page-scroll.svg" class="services-page-scroll d-xs-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-block" alt="...">
+
+      </div>
+      <div class="position-relative d-xs-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-block">
+        <div class="position-absolute bottom-0 start-0">
+          <img src="./img/many-plus.svg" alt="">
+        </div> 
+      </div>
+    </section>  <!-- end of carousel section  -->
+
+
+ 
+
+    <!-- About Us section -->
+<section id="about-us-section" class="section">
+
+  <div class="position-relative">
+    <div class="position-absolute top-0 start-0 ">
+      <img src="./img/about-us-arrow.svg" class="about-us-section-arrow" alt="Arrow icon">
+    </div>
+    <div class="position-absolute top-0 end-0">
+      <!-- <img src="./img/circle-green.svg" alt="circle green"> -->
+    </div>
+  </div>
+
+  <div class="container py-5" id="container-mission">
+    <div class="row align-items-center justify-content-between">
+      <div class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block col-md-12 col-lg-5 col-xl-6 col-xxl-6">
+
+        <!-- <img src="./img/years-of-service.svg"  alt=""> -->
+        <!-- <h3 class="display-3 numberPlus">+</h3> -->
+        <div class="position-relative">
+          <div class="position-absolute top-0 start-0 plusPosition">
+            <h3 class="display-3 numberPlus">+</h3>
+          </div>
+        </div>
+        <div class="top-0 start-0 number-of-years">
+          <h2 id='0101' class="display-1 displayNumber">0</h2>
+
+          <h3 class="years">Years <br>Excellent <br>Service</h3>
+        </div>
+        
+            <h3 id="mission-reveal" class="mission reveal">We're on a <br>mission to <br>bring ideas to life.</h3>
+         
+        <!-- <div class="container">
+      <img src="./img/many-plus.svg" class="float-start about-us-plus-icons" alt="...">
+      </div>  -->
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-6 col-xxl-6 p-5">
+        <h2 class="py-3 company">How our company started</h2>
+        <p class="founded">With a foundation built in 2013, GeniusGiant Website Development & QA services is driven by a passion for delivering top-notch 
+          results at an affordable price. Our team is dedicated to providing custom designs that will give your online business a significant boost and 
+          make a lasting impact. At GeniusGiant, quality and professionalism are always a top priority.
+        </p>
+        <h2 class="py-3 different">Why we’re different</h2>
+        <p class="affordability">At the heart of our principles lies a commitment to both affordability and professionalism. Our dedicated team is 
+          committed to working closely with your startup to bring your vision to life, offering expert guidance and support at every stage of the 
+          process. With us, you can rest assured that your goals will be achieved without breaking the bank. We understand the importance of balancing 
+          cost-effectiveness with high-quality results, and our approach reflects that.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="position-relative">
+    <div class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block position-absolute start-0 manyPlus">
+      <img src="./img/many-plus.svg" alt="...">
+    </div>
+
+
+    <div class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block position-absolute bottom-0 end-0">
+      <img src="./img/gradient-green.svg" alt="...">
+    </div>
+  </div>
+
+  </div>
+  </div>
+</section>
+
+
+<!-- Services section for SMALL DEVICES DEVICES only -->
+
+<section id="services-for-small" class="section d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+  <div class="container-fluid services-title-fluid">
+    <div class="position-relative">
+      <div class="position-absolute top-0 start-0  ss-arrow">
+       <img src="./img/services-arrow.svg" class="services-section-arrow" alt="Arrow black right icon">
+     </div> 
+      <div class="position-absolute top-0 end-0 ss-many-plus">
+       <img src="./img/services-medium-many-plus.svg" alt="Small many plus icon">
+     </div>
+   </div>
+   <div class="position-relative">
+    <div class="position-absolute top-0 start-0 ss-gradient-green ">
+      <img src="./img/services-stacked-blob.svg" class="img-fluid" alt="Gradient blob green">
+    </div>
+   </div>
+   <div class="container">
+    <div class="text-start services-title">
+      <h3>We are here to help you <br>with all possible points.</h3>
+    </div>
+   </div>
+  </div><!-- end of container-fluid -->
+
+  <div class="container-fluid services-container-fluid">
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="ss-info">
+          <h5>Mobile and Web Development</h5>
+          <p>At GeniusGiant , our mission is to empower growth and progress by offering top-notch mobile and web development services. Our team of experts is 
+            dedicated to delivering innovative solutions that meet the unique needs of our clients and help drive their success. Let us help you turn your 
+            vision into a reality.</p>
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-1.png"  class="img-fluid"
+            alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-2.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-3.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-4.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-5.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images">
+          <img src="./img/services-img-6.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+        <div class="ss-images-last">
+          <img src="./img/services-img-7.png" class="img-fluid"
+          alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+      </div>
+    </div>
+  </div> <!-- end of container -->
+
+  </div> <!-- end of container-fluid -->
+</section>
+
+
+
+<!-- Services section for LARGE TO EXTRA LARGE DEVICES -->
+
+<section id="services-section" class="section d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+  <div class="position-relative">
+    <div class="position-absolute start-0 services-arrow">
+      <img src="./img/services-arrow.svg" class="services-section-arrow" alt="">
+    </div>
+    <div class="position-absolute services-many-plus">
+      <img src="./img/services-many-plus.svg" alt="">
+    </div>
+  </div>
+  <div class="container-fluid pt-5 services-container ">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md">
+        <!-- <h3 class="display-3 we-are-here">We are here to help you <br> with all possible points.</h3> -->
+      </div>
+      <div class="col-md p-5 services-images ">
+      
+        <div class="text-center center-images">
+          <img src="./img/services-img-1.png" id="services-slider-img1" class="img-fluid mx-auto top-0 end-0 services-slider-img1 "
+            alt="Professional team programmer working project software development in a computer IT company.">
+          <img src="./img/services-img-2.png" id="services-slider-img2" class="img-fluid mx-auto top-0 end-0 services-slider-img2"
+            alt="Professional team programmer working project software development in a computer IT company.">
+          <img src="./img/services-img-3.png" id="services-slider-img3" class="img-fluid mx-auto top-0 end-0"
+            alt="Professional team programmer working project software development in a computer IT company.">
+          <img src="./img/services-img-4.png" id="services-slider-img4" class="img-fluid mx-auto top-0 end-0"
+            alt="Professional team programmer working project software development in a computer IT company.">
+          <!-- <img src="./img/services-img-5.png" id="services-slider-img5" class="img-fluid mx-auto top-0 end-0"
+            alt="Professional team programmer working project software development in a computer IT company."> -->
+          <img src="./img/services-img-6.png" id="services-slider-img6" class="img-fluid mx-auto top-0 end-0"
+            alt="Professional team programmer working project software development in a computer IT company.">
+          <img src="./img/services-img-7.png" id="services-slider-img7" class="img-fluid mx-auto top-0 end-0"
+            alt="Professional team programmer working project software development in a computer IT company.">
+        </div>
+      
+      </div>
+    </div>
+  </div> <!-- end of container-fluid -->
+
+  <div class="position-relative">
+    <div class="position-absolute bottom-0 services-card-title-position">
+      <h3 class="display-3 we-are-here">We are here to help you <br> with all possible points.</h3>
+    </div>
+    <div class="position-absolute bottom-0 services-card-position">
+      <div class="card services-card">
+        <div class="card-body p-4">
+          <h3 id="card-title-services" class="card-webdev p-2">Mobile and Web Development</h3>
+          <p id="webdevsum" class="card-webdev-sum p-2">At GeniusGiant , our mission is to empower growth and progress by offering top-notch mobile and 
+            web development services. Our team of experts is dedicated to delivering innovative solutions that meet the unique needs of our clients and 
+            help drive their success. Let us help you turn your vision into a reality.</p>
+        </div>
+      </div>
+    </div>
+    <div class="position-absolute start-0 services-gradient-green ">
+      <img src="./img/services-gradient-green.svg" alt="...">
+    </div>
+    <div class="position-absolute bottom-50 services-circle-green">
+      <img src="./img/services-circle-green.svg" alt="...">
+    </div>
+
+  </div>
+
+</section>
+   
+<section id="workflow" class="p-5 bg-white">
+
+  <div class="position-relative">
+    <div class="position-absolute workflow-arrow">
+      <img src="./img/how-we-work-arrow.svg" class="workflow-section-arrow" alt="">
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="workflow-desc">
+      <h2 class="text-center wf-title">Our customized workflow</h2>
+      <p class="lead text-center mb-5 wf-desc">
+        As experts in the development process, we excel in utilizing sprints to streamline and optimize our workflow.
+      </p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card h-100 requirements" id="worflow-box1">
+          <h3 class="workflow-requirements d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Requirements</h3>
+          <div class="card-body">
+            <h5 class="card-title ct-title">Requirements</h5>
+            <p class="card-text ct-desc">
+              To guarantee project success, we gather requirements, create a test plan and schedule, and take a systematic approach to minimize risks.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card h-100 planning" id="worflow-box2">
+          <h3 class="workflow-planning d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Planning</h3>
+          <div class="card-body">
+            <h5 class="card-title ct-title">Planning</h5>
+            <p class="card-text ct-desc">
+              We collaborate closely with our clients to gain a thorough understanding of their project requirements and to establish clear expectations for our working relationship.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card h-100 design" id="worflow-box3">
+          <h3 class="workflow-design d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Design</h3>
+          <div class="card-body">
+            <h5 class="card-title ct-title">Design</h5>
+            <p class="card-text ct-desc">
+              We create a digital design based on project requirements and send it to the client for approval. 
+           Our developers align the database structure with the user flow.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card h-100 development" id="worflow-box4">
+          <h3 class="workflow-development d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Development</h3>
+          <div class="card-body">
+            <h5 class="card-title ct-title">Development</h5>
+            <p class="card-text ct-desc">
+              After finalizing the design and requirements, we establish a project management process that includes sprint planning, task assignments, and feature development timelines with the goal of meeting project deadlines.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card h-100 quality-checking" id="worflow-box5">
+          <h3 class="workflow-quality-checking d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Quality</h3>
+          <div class="card-body">
+            <h5 class="card-title ct-title">Quality</h5>
+            <p class="card-text ct-desc">
+              Meeting or exceeding customer expectations through consistent and continuous improvement
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+        <div class="card h-100 release-and-monitor" id="worflow-box6">
+          <h3 class="workflow-release-and-monitor d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Realease & Monitor</h3>
+          <div class="card-body">
+            <h5 class="card-title ct-title">Realease & Monitor</h5>
+            <p class="card-text ct-desc">
+              Deploying software releases and monitoring system performance to ensure optimal functionality and user experience
+            </p>
+          </div>
+        </div>
+      </div>
 
     </div>
-</nav>
-
-
-
-
-                                             
-
-  
-  <!-- Footer -->
-  
-    <!-- Remove the container if you want to extend the Footer to full width. -->
-  <div class="container-fluid container-footer">
-  
-    <!-- Footer -->
-    <footer class="container">
-  
-      <div class="d-flex justify-content-between p-4">
-        <div class="footer-logo">
-          <img src="./img/geniusgiant-logo.svg">
-        </div>
-  
-  
-      </div>
-      <!-- Section: Social media -->
-  
-      <!-- Section: Links  -->
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          <!-- Grid row -->
-          <div class="row mt-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
-              <!-- Content -->
-              <h6 class="footer-address">Address</h6>
-              <p class="footer-company-address">
-                Door 2 Alegre Building, M. Castro Street, Barangay Tinago, Naga City, Bicol, Philippines
-              </p>
-              <p class="footer-company-phone"><img src="./img/footer-phone.svg" class="footer-phone"> +63 (928-123-276)</p>
-            </div>
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 px-3">
-              <!-- Links -->
-              <h6 class="footer-quick-links">Quick Links</h6>
-              <div class="footer-links">
-              <p><a href="#!" >About us</a></p>
-              <p><a href="#!" >Portfolio</a></p>
-              <p><a href="#!" >Our Team</a></p>
-              <p><a href="#!" >Contact Us</a>
-              </p>
-            </div>
-            </div>
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4 px-5">
-              <!-- Links -->
-              <h6 class="footer-services">Services</h6>
-              <div class="footer-services-links">
-              <p><a href="#!" >Web Development</a></p>
-              <p><a href="#!" >IT Consulting</a></p>
-              <p><a href="#!" >Mobile App</a></p>
-              <p><a href="#!" >Team Development</a></p>
-              <p><a href="#!" >Quality Assurance</a></p>
-              <p><a href="#!" >UI/UX Design</a></p>
-            </div>
-            </div>
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-2 mx-auto mb-md-0 mb-4">
-              <!-- Links -->
-              <!-- <h6 class="footer-contact">Social Icons</h6> -->
-              <p class="footer-contact-social-icons"> 
-                <a href="https://www.facebook.com/Geniusgiant/" class="navbar-brand" target="_blank"><img src="./img/footer-facebook.svg"></a>
-                <a href="https://www.instagram.com/GeniusGiant2020/?hl=en" class="navbar-brand" target="_blank"><img src="./img/footer-instagram.svg"></a>
-                <a href="https://twitter.com/GeniusgiantQa" class="navbar-brand" target="_blank"><img src="./img/footer-twitter.svg"></a>
-                <a href="#" class="navbar-brand" target="_blank"><img src="./img/footer-youtube.svg"></a>
-              </p>
-              
-            </div>
-            <!-- Grid column -->
-          </div>
-          <!-- Grid row -->
-        </div>
-      </section>
-      <!-- Section: Links  -->
-  
-      <!-- Copyright -->
-      <div class="container"> 
-        <p class="copyright">All Rights Reserved © Geniusgiant.com</p>
-      </div>
-      <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
-  
+    
   </div>
-  <!-- End of .container -->
+</section>
 
 
+ <!-- Clients Feedback section  -->
+
+ <section id="feedback" class="p-5 bg-white">
+
+  <div class="position-relative d-xs-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block">
+    <div class="position-absolute top-0 end-0 review-many-plus">
+      <img src="./img/feedback-many-plus.svg" alt="">
+    </div>
+  </div>
+
+  <div class="position-relative">
+    <div class="position-absolute feedback-arrow">
+      <img src="./img/feedback-arrow.svg" class="feedback-section-arrow" alt="">
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="review-desc">
+      <h2 class="text-center f-title">What our clients says about Genius Giant</h2>
+      <p class="lead text-center mb-5 f-desc">
+        See what our satisfied clients have to say about their experience working with Genius Giant
+      </p>
+    </div>
+
+    <!-- CAROUSEL FOR SMALL DEVICES -->
+
+    <div id="smClientsFeedback" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators d-lg-none d-xl-none d-xxl-none">
+        <button type="button" data-bs-target="#smClientsFeedback" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#smClientsFeedback" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#smClientsFeedback" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none sm-feedback-carousel">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 ">
+              <div class="sm-feedback-card">
+                <div class="position-relative">
+                  <div class="position-absolute top-0 start-50 translate-middle sm-clients-avatar">
+                    <img src="./img/sm-feedback-avatar.svg" alt="Clients Avatar">
+                  </div>
+                </div>
+                
+                <div class="position-relative">
+                  <div class="position-absolute top-0 start-100 translate-middle sm-clients-quote">
+                    <img src="./img/clients-quote.svg" alt="Clients Quote">
+                  </div>
+                </div>
+                <div class="sm-feedback-card-bg">
+                  <div class="sm-feedback-info">
+                    <p>Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. Id habitant pellentesque pellentesque tristique. 
+                      Suscipit diam facilisis consectetur enim nunc commodo. Diam placerat bibendum in in.</p>
+                      <div class="sm-feedback-name-company">
+                        <h5>Wade Warren 1</h5>
+                        <p>GENUIS GIANT</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>  <!-- end of carousel item -->
+
+        <div class="carousel-item">
+          <div class="row d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none sm-feedback-carousel">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 ">
+              <div class="sm-feedback-card">
+                <div class="position-relative">
+                  <div class="position-absolute top-0 start-50 translate-middle sm-clients-avatar">
+                    <img src="./img/sm-feedback-avatar.svg" alt="Clients Avatar">
+                  </div>
+                </div>
+                
+                <div class="position-relative">
+                  <div class="position-absolute top-0 start-100 translate-middle sm-clients-quote">
+                    <img src="./img/clients-quote.svg" alt="Clients Quote">
+                  </div>
+                </div>
+                <div class="sm-feedback-card-bg">
+                  <div class="sm-feedback-info">
+                    <p>Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. Id habitant pellentesque pellentesque tristique. 
+                      Suscipit diam facilisis consectetur enim nunc commodo. Diam placerat bibendum in in.</p>
+                      <div class="sm-feedback-name-company">
+                        <h5>Wade Warren 2</h5>
+                        <p>GENUIS GIANT</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+        <div class="carousel-item">
+          <div class="row d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none sm-feedback-carousel">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 ">
+              <div class="sm-feedback-card">
+                <div class="position-relative">
+                  <div class="position-absolute top-0 start-50 translate-middle sm-clients-avatar">
+                    <img src="./img/sm-feedback-avatar.svg" alt="Clients Avatar">
+                  </div>
+                </div>
+                
+                <div class="position-relative">
+                  <div class="position-absolute top-0 start-100 translate-middle sm-clients-quote">
+                    <img src="./img/clients-quote.svg" alt="Clients Quote">
+                  </div>
+                </div>
+                <div class="sm-feedback-card-bg">
+                  <div class="sm-feedback-info">
+                    <p>Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. Id habitant pellentesque pellentesque tristique. 
+                      Suscipit diam facilisis consectetur enim nunc commodo. Diam placerat bibendum in in.</p>
+                      <div class="sm-feedback-name-company">
+                        <h5>Wade Warren 3</h5>
+                        <p>GENUIS GIANT</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+      </div>  <!-- end of carousel inner  -->
+    </div>  <!-- end of carousel slide -->
+
+  </div>  <!-- end of container -->
+</section>
+
+                                                                              <!-- FOR LARGE DEVICES   -->
+
+<section class="clients d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+  <div class="container-fluid clients-container">
+
+    <div id="carouselClientsSays" class="row carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="col-1">
+      </div>
+      <div class="col-1">
+        <button class="carousel-control-prev arrow-left-black-button" type="button" data-bs-target="#carouselClientsSays" data-bs-slide="prev">
+          <img src="./img/clients-says-arrow-left.svg" class="" alt="Arrow left black">
+        </button>
+      </div>
+    
+      <div class="col-8" style="margin: 0 auto">
+    
+        <div class="carousel-inner clients-says-inner">
+    
+        <div class="carousel-item mt-5 mb-5 clients-says-item active">
+        <div class="card clients-says-card-1" style="width: 90%; height: 95%; margin: 0 auto;">
+
+          <div class="position-relative">
+            <div class="position-absolute top-0 start-100 translate-middle clients-quote">
+              <img src="./img/clients-quote.svg">
+            </div>
+          </div>
+          
+          <div class="row g-0 clients-says-row">
+            <div class="col-md-3 text-center client-says-img-1">
+              <img src="./img/appointment-with-jeff.svg" class="img-fluid rounded-start" alt="Jeff photo">
+            </div>
+            <div class="col-md-9">
+              <div class="card-body clients-says-body">
+                <p class="card-text cl-feedback">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. 
+                  Id habitant pellentesque pellentesque tristique. Suscipit diam facilisis consectetur enim nunc commodo. Diam placerat bibendum in in.</p>
+                  <div class="clients-name-and-company">
+                    <h5 class="cl-name">Jeffray Dy</h5>
+                    <p class="cl-company">GENUIS GIANT</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="carousel-item mt-5 mb-5 clients-says-item">
+        <div class="card clients-says-card-1" style="width: 90%; height: 95%; margin: 0 auto;">
+
+          <div class="position-relative">
+            <div class="position-absolute top-0 start-100 translate-middle clients-quote">
+              <img src="./img/clients-quote.svg">
+            </div>
+          </div>
+
+          <div class="row g-0 clients-says-row">
+            <div class="col-md-3 text-center client-says-img-1">
+              <img src="./img/appointment-with-jeff.svg" class="img-fluid rounded-start" alt="Jeff photo">
+            </div>
+            <div class="col-md-9">
+              <div class="card-body clients-says-body">
+                <p class="card-text cl-feedback">Lorem ipsum dolor sit amet consectetur. Magna diam metus diam accumsan. 
+                  Id habitant pellentesque pellentesque tristique. Suscipit diam facilisis consectetur enim nunc commodo. Diam placerat bibendum in in.</p>
+                  <div class="clients-name-and-company">
+                    <h5 class="cl-name">Jeffray Dy</h5>
+                    <p class="cl-company">GENUIS GIANT</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      </div> <!-- end carousel-inner -->
+    
+      </div>
+    
+      <div class="col-1">
+        <button class="carousel-control-next arrow-right-black-button" type="button" data-bs-target="#carouselClientsSays" data-bs-slide="next">
+          <img src="./img/clients-says-arrow-right.svg" class="" alt="Arrow right black">
+        </button>
+      </div>
+      <div class="col-1"></div>
+    
+     </div>  <!-- end row -->
+
+  </div>  <!-- end container -->
+
+  <div class="position-relative">
+    <div class="position-absolute start-0 review-manyplus">
+      <img src="./img/many-plus.svg" alt="...">
+    </div>
+  </div>
+
+</section> 
+
+
+
+                  <!-- Some of brands trust us section for SMALL Devices  -->
+
+<section id="sm-trusted-brands" class="d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+  <div class="container">
+    <div class="text-center">
+      <h4>Some of brands trust us</h4>
+    </div>
+
+    <div id="smTrustedBrandsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#smTrustedBrandsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#smTrustedBrandsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#smTrustedBrandsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row sm-tb-row">
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://apicenter.io/" target="_blank"><img src="./img/apicenter-logo.svg" class="sm-tb-apicenter" alt="API center logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://soldlyve.com/optin" target="_blank"><img src="./img/sold-lyve-logo.png" class="sm-tb-sold-lyve" alt="Sold Lyve logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://repairq.io/" target="_blank"><img src="./img/repairq-logo.svg" class="sm-tb-repairq" alt="RepairQ logo"></a>
+            </div>
+      
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://www.logmeonce.com/" target="_blank"><img src="./img/tb-log-me-once-logo.png" class="sm-tb-logmeonce" alt="LogMeOnce logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://www.everleagues.com/" target="_blank"><img src="./img/ever-leagues-logo.svg" class="sm-tb-everleagues" alt="EverLeagues logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://stratappsaas.com/" target="_blank"><img src="./img/stratapp-logo.svg" class="sm-tb-stratapp" alt="Stratapp logo"></a>
+            </div>
+      
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="#" target="_blank"><img src="./img/tb-plus2-logo.png" class="sm-tb-plus2" alt="Plus logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://stratappsaas.com/" target="_blank"><img src="./img/tb-stratapp2-logo.png" class="sm-tb-stratapp2" alt="Stratapp logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://www.finfolio.com/" target="_blank"><img src="./img/finfolio-logo.svg" class="sm-tb-finfolio" alt="Finfolio logo"></a>
+            </div>
+          </div>  <!-- end of row -->
+        </div>
+
+        <div class="carousel-item">
+          <div class="row sm-tb-row">
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://ndax.io/" target="_blank"><img src="./img/ndax-blue-logo.png" class="sm-tb-ndax" alt="NDAX logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://www.vellabox.com/" target="_blank"><img src="./img/vellabox-logo-trusted-brand.png" class="sm-tb-vellabox" alt="Vellabox logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://selfbook.com/" target="_blank"><img src="./img/selfbook-black-logo.png" class="sm-tb-selfbook" alt="Selfbook logo"></a>
+            </div>
+      
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://www.ascriptica.com/" target="_blank"><img src="./img/ascriptica-logo.svg" class="sm-tb-ascriptica" alt="Ascriptica logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://www.repitsocial.com/" target="_blank"><img src="./img/tb-repitsocial-logo.png" class="sm-tb-repitsocial" alt="RepItSocial logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://www.staticshift.com.au/" target="_blank"><img src="./img/tb-static-shift-logo.png" class="sm-tb-staticshift" alt="StaticShift logo"></a>
+            </div>
+      
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://www.nexterus.com/" target="_blank"><img src="./img/tb-nexterus-logo.png" class="sm-tb-nexterus" alt="Nexterus logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://cinchshare.com/" target="_blank"><img src="./img/tb-cinchshare-logo.png" class="sm-tb-cinchshare" alt="Cinchshare logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="#" target="_blank"><img src="./img/tb-coin-logo.png" class="sm-tb-coin" alt="Coin logo"></a>
+            </div>
+          </div>  <!-- end of row -->
+        </div>
+
+        <div class="carousel-item">
+          <div class="row sm-tb-row">
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="#" target="_blank"><img src="./img/tb-breeze-ventures-logo.png" class="sm-tb-breeze-ventures" alt="Breeze Ventures logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://motionscloud.com/" target="_blank"><img src="./img/tb-motionscloud-logo.png" class="sm-tb-motionscloud" alt="Motionscloud logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://weblify.com/" target="_blank"><img src="./img/weblify-logo.svg" class="sm-tb-weblify" alt="Weblify logo"></a>
+            </div>
+      
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://tech-hub.tech/" target="_blank"><img src="./img/tb-tech-hub-logo.png" class="sm-tb-techhub" alt="TechHub logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="hhttps://goswiftgrade.com/" target="_blank"><img src="./img/tb-swiftgrade-logo.png" class="sm-tb-swiftgrade" alt="SwiftGrade logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="#" target="_blank"><img src="./img/tb-scent-ric-logo.png" class="sm-tb-scent-ric" alt="Scent Ric logo"></a>
+            </div>
+      
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://www.travoo.io/" target="_blank"><img src="./img/travoo-logo.svg" class="sm-tb-travoo" alt="Travoo logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://veego.io/" target="_blank"><img src="./img/tb-veego-logo.png" class="sm-tb-veego" alt="Veego logo"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+              <a href="https://web-company.com/" target="_blank"><img src="./img/tb-webcompany-logo.png" class="sm-tb-web-company" alt="Web Company logo"></a>
+            </div>
+          </div>  <!-- end of row -->
+        </div>
+
+      </div>  <!-- carousel inner -->
+    </div>
+
+
+
+  </div>  <!-- end of container -->
+</section>
+
+
+<!-- Trusted Brands section for LARGE Devices   -->
+
+ <section id="gg-trusted-brands" class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+  <div class="container-fluid">
+    <div class="brands-desc">
+      <h2 class="text-center">Some of Brands Trust Us</h2>
+    </div>
+
+    <div class="carousel slide" id="ggTrustedBrands" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+    <div class="row">
+      <div class="col-md-1 col-lg-1">
+      </div>
+
+      <div class="col-md-2 col-lg-2" id="tb-apicenter-col">
+        <div class="text-center tb-apicenter">
+          <a href="https://apicenter.io/" target="_blank"><img src="./img/apicenter-logo.svg" class="tb-img-apicenter" alt="API CENTER logo" width="189" height="45"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://soldlyve.com/optin" target="_blank"><img src="./img/sold-lyve-logo.png" class="" alt="SoldLyve logo" width="159" height="46"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://repairq.io/" target="_blank"><img src="./img/repairq-logo.svg" class="" alt="RepairQ logo" width="141" height="46"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://ndax.io/" target="_blank"><img src="./img/ndax-blue-logo.png" class="" alt="NDAX logo" width="140" height="42"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://www.vellabox.com/" target="_blank"><img src="./img/vellabox-logo-trusted-brand.png" class="tb-img-vellabox" alt="Vellabox logo" width="191" height="50"></a>
+        </div>
+      </div>
+
+      <div class="col-md-1 col-lg-1"></div>
+      <div class="col-md-1 col-lg-1">
+        <button class="carousel-control-prev arrow-left-black-button" type="button" data-bs-target="#ggTrustedBrands" data-bs-slide="prev">
+          <img src="./img/clients-says-arrow-left.svg" class="" alt="Arrow left black">
+        </button>
+      </div>
+
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://www.logmeonce.com/" target="_blank"><img src="./img/tb-log-me-once-logo.png" class="" alt="LogMeOnce logo" width="155" height="50"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://www.everleagues.com/" target="_blank"><img src="./img/tb-everleagues-logo.png" class="" alt="Ever Leagues logo" width="166" height="34"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://repairq.io/" target="_blank"><img src="./img/repairq-logo.svg" class="" alt="RepairQ logo" width="141" height="46"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://stratappsaas.com/" target="_blank"><img src="./img/tb-stratapp-logo.png" class="" alt="Strat App logo" width="151" height="39"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://www.staticshift.com.au/" target="_blank"><img src="./img/tb-static-shift-logo.png" class="tb-img-staticshift" alt="StaticShift logo" width="178" height="39"></a>
+        </div>
+      </div>
+      <div class="col-md-1 col-lg-1"></div>
+
+      <div class="col-md-1 col-lg-1">
+        <button class="carousel-control-next arrow-right-black-button" type="button" data-bs-target="#ggTrustedBrands" data-bs-slide="next">
+          <img src="./img/clients-says-arrow-right.svg" class="" alt="Arrow right black">
+        </button>
+      </div>
+
+      <div class="col-md-2 col-lg-2" id="tb-plus2-col">
+        <div class="text-center tb-plus2">
+          <a href="#" target="_blank"><img src="./img/tb-plus2-logo.png" class="tb-img-plus2" alt="Plus2 logo" width="61" height="61"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://stratappsaas.com/" target="_blank"><img src="./img/tb-stratapp2-logo.png" class="" alt="Strat App logo" width="146" height="50"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://www.finfolio.com/" target="_blank"><img src="./img/tb-finfolio-logo.png" class="tb-img-finfolio" alt="Finfolio logo" width="157" height="50"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-repitsocial-col">
+        <div class="text-center tb-repitsocial">
+          <a href="https://repitsocial.com/" target="_blank"><img src="./img/tb-repitsocial-logo.png" class="tb-img-repitsocial" alt="RepItSocial logo" width="213" height="24"></a>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+        <div class="text-center tb-soldlyve">
+          <a href="https://www.ascriptica.com/" target="_blank"><img src="./img/tb-ascriptica-logo.png" class="tb-img-ascriptica" alt="Ascriptica logo" width="182" height="44"></a>
+        </div>
+      </div>
+
+      <div class="col-md-1 col-lg-1">
+        
+      </div>
+    </div> <!-- end of row -->
+    </div>
+                                                    <!-- END FIRST SLIDE -->
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-1 col-lg-1">
+        </div>
+  
+        <div class="col-md-2 col-lg-2" id="tb-apicenter-col">
+          <div class="text-center tb-apicenter">
+            <a href="https://www.nexterus.com/" target="_blank"><img src="./img/tb-nexterus-logo.png" class="" alt="Nexterus logo" width="93" height="47"></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+          <div class="text-center tb-soldlyve">
+            <a href="https://cinchshare.com/" target="_blank"><img src="./img/tb-cinchshare-logo.png" class="" alt="Cinchshare logo" width="122" height="50"></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+          <div class="text-center tb-soldlyve">
+            <a href="#" target="_blank"><img src="./img/tb-coin-logo.png" class="" alt="Coin logo" width="150" height="50"></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+          <div class="text-center tb-soldlyve">
+            <a href="https://selfbook.com/" target="_blank"><img src="./img/tb-selfbook-logo.png" class="" alt="Selfbook logo" width="137" height="49"></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+          <div class="text-center tb-soldlyve">
+            <a href="#" target="_blank"><img src="./img/tb-breeze-ventures-logo.png" class="tb-img-breeze-ventures" alt="Breeze Ventures Management logo" width="212" height="50"></a>
+          </div>
+        </div>
+  
+        <div class="col-md-1 col-lg-1"></div>
+        <div class="col-md-1 col-lg-1">
+          <button class="carousel-control-prev arrow-left-black-button" type="button" data-bs-target="#ggTrustedBrands" data-bs-slide="prev">
+            <img src="./img/clients-says-arrow-left.svg" class="" alt="Arrow left black">
+          </button>
+        </div>
+  
+        <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+          <div class="text-center tb-soldlyve">
+            <a href="https://motionscloud.com/" target="_blank"><img src="./img/tb-motionscloud-logo.png" class="tb-img-motionscloud" alt="MotionsCloud logo" width="201" height="41"></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+          <div class="text-center tb-soldlyve">
+            <a href="https://weblify.com/" target="_blank"><img src="./img/tb-weblify-logo.png" class="" alt="Weblify logo" width="133" height="50"></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+          <div class="text-center tb-soldlyve">
+            <a href="https://tech-hub.tech/" target="_blank"><img src="./img/tb-tech-hub-logo.png" class="" alt="TechHub logo" width="150" height="50"></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+          <div class="text-center tb-soldlyve">
+            <a href="https://goswiftgrade.com/" target="_blank"><img src="./img/tb-swiftgrade-logo.png" class="" alt="SwiftGrade logo" width="152" height="50"></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2" id="tb-scent-ric-col">
+          <div class="text-center tb-scent-ric">
+            <a href="#" target="_blank"><img src="./img/tb-scent-ric-logo.png" class="" alt="Scent Ric logo" width="74" height="65"></a>
+          </div>
+        </div>
+  
+        <div class="col-md-1 col-lg-1"></div>
+        <div class="col-md-1 col-lg-1">
+          <button class="carousel-control-next arrow-right-black-button" type="button" data-bs-target="#ggTrustedBrands" data-bs-slide="next">
+            <img src="./img/clients-says-arrow-right.svg" class="" alt="Arrow right black">
+          </button>
+        </div>
+  
+        <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+          <div class="text-center tb-soldlyve">
+            <a href="https://www.travoo.io/" target="_blank"><img src="./img/tb-travoo-logo.png" class="" alt="Travoo logo" width="134" height="45"></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+          <div class="text-center tb-soldlyve">
+            <a href="https://veego.io/" target="_blank"><img src="./img/tb-veego-logo.png" class="" alt="Veego logo" width="156" height="50"></a>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2" id="tb-soldlyve-col">
+          <div class="text-center tb-soldlyve">
+            <a href="https://web-company.com/" target="_blank"><img src="./img/tb-webcompany-logo.png" class="" alt="Web Company logo" width="145" height="50"></a>
+          </div>
+        </div>
+        <div class="col-md-1 col-lg-1">
+          
+        </div>
+      </div> <!-- end of row -->
+      </div>
+
+    </div> <!-- end of carousel inner -->
+    </div>
+
+
+  </div> <!-- end of container -->
+ </section>                                   
+
+
+<!-- Our Team section -->
+
+<section id="team-section" class="p-5 bg-white">
+
+  <div class="position-relative">
+    <div class="position-absolute our-team-arrow">
+      <img src="./img/our-team.svg" class="team-section-arrow" alt="">
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="team-desc">
+      <h2 class="text-center pt-5 t-title">What our clients says about Genius Giant</h2>
+      <p class="lead text-center mb-5 t-desc">
+        Lorem ipsum dolor sit amet consectetur. Magna diam metus diam <br>accumsan. Id habitant pellentesque
+        pellentesque tristique.
+      </p>
+    </div>
+
+    <!-- Our Team section - Carousel for SMALL Devices -->
+
+    <div id="smOurTeam" class="carousel slide d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container" id="sm-clients-says">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-2"></div>
+              <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="card text-center sm-clients-card">
+                  <img src="./img/clients-feedback-1.png" class="card-img-top" alt="Client image">
+                  <div class="card-body sm-clients-body">
+                    <h5 class="card-title">Guy Hawkins</h5>
+                    <p class="card-text">Project Manager</p>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="card text-center sm-clients-card">
+                  <img src="./img/clients-feedback-2.png" class="card-img-top" alt="Client image">
+                  <div class="card-body sm-clients-body">
+                    <h5 class="card-title">Jacob Jones</h5>
+                    <p class="card-text">Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-2"></div>
+      
+            </div>  <!-- end of row -->
+          </div>  <!-- end of container -->
+        </div>  <!-- end of carousel item -->
+        <div class="carousel-item">
+          <div class="container" id="sm-clients-says">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-2"></div>
+              <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="card text-center sm-clients-card">
+                  <img src="./img/clients-feedback-1.png" class="card-img-top" alt="Client image">
+                  <div class="card-body sm-clients-body">
+                    <h5 class="card-title">Guy Hawkins</h5>
+                    <p class="card-text">Project Manager</p>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="card text-center sm-clients-card">
+                  <img src="./img/clients-feedback-2.png" class="card-img-top" alt="Client image">
+                  <div class="card-body sm-clients-body">
+                    <h5 class="card-title">Jacob Jones</h5>
+                    <p class="card-text">Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-2"></div>
+      
+            </div>  <!-- end of row -->
+          </div>  <!-- end of container -->
+        </div>  <!-- end of carousel item -->
+      </div> <!-- carousel inner -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#smOurTeam" data-bs-slide="prev">
+        <div class="sm-prev-img">
+          <img src="./img/sm-arrow-left-green.svg" class=" " alt="Arrow left green">
+        </div>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#smOurTeam" data-bs-slide="next">
+        <div class="sm-prev-img">
+          <img src="./img/sm-arrow-right-green.svg" class=" " alt="Arrow right green">
+        </div>
+      </button>
+    </div> <!-- end of carousel -->
+
+
+
+    <!-- Our Team section - Carousel for LARGE Devices -->
+
+    <div class="container text-center my-3 d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+      <div class="row mx-auto my-auto justify-content-center">
+        <div id="carouselGeniusTeam" class="carousel slide genius-slide" data-bs-ride="carousel" data-bs-interval="false">
+          <div class="carousel-inner genius-team" role="listbox">
+
+            <div class="carousel-item active genius-team-carousel">
+              <div class="col-lg-4 col-xl-4 col-xxl-4">
+                <div class="card genius-team-card">
+                  <div class="card-img">
+                    <img src="./img/clients-feedback-1.png" class="img-fluid rounded-circle" alt="...">
+                    <img src="./img/clients-feedback-1-hover.png" class="img-fluid rounded-circle img-top1" alt="...">
+                    <div class="card-body genius-name-job">
+                      <h5 class="card-title text-center">Jeffray Dy</h5>
+                      <p class="card-text text-center">Project Manager</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item genius-team-carousel">
+              <div class="col-lg-4 col-xl-4 col-xxl-4">
+                <div class="card genius-team-card">
+                  <div class="card-img">
+                    <img src="./img/clients-feedback-2.png" class="img-fluid rounded-circle" alt="...">
+                    <img src="./img/clients-feedback-2-hover.png" class="img-fluid rounded-circle img-top2" alt="...">
+                    <div class="card-body genius-name-job">
+                      <h5 class="card-title text-center">Jeffray Dy</h5>
+                      <p class="card-text text-center">Project Manager</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item genius-team-carousel">
+              <div class="col-lg-4 col-xl-4 col-xxl-4">
+                <div class="card genius-team-card">
+                  <div class="card-img">
+                    <img src="./img/clients-feedback-3.png" class="img-fluid rounded-circle" alt="...">
+                    <img src="./img/clients-feedback-3-hover.png" class="img-fluid rounded-circle img-top3" alt="...">
+                    <div class="card-body genius-name-job">
+                      <h5 class="card-title text-center">Jeffray Dy</h5>
+                      <p class="card-text text-center">Project Manager</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev arrow-left-black-button" type="button" data-bs-target="#carouselGeniusTeam" data-bs-slide="prev">
+          <img src="./img/clients-says-arrow-left.svg" class="" alt="Arrow left black">
+        </button>
+
+        <button class="carousel-control-next arrow-right-black-button" type="button" data-bs-target="#carouselGeniusTeam" data-bs-slide="next">
+          <img src="./img/clients-says-arrow-right.svg" class="" alt="Arrow right black">
+        </button>
+      </div>		
+  
+          
+    </div>
+
+
+</div>  <!-- end of container -->
+</section>
+
+
+
+                                                                     <!-- Schedule a consultaion form section    -->
+
+<section id="sm-appointment">
+  <div class="container-fluid appointment-top-spacer d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+
+</div>
+<div class="container-fluid appointment-top-many-plus-container d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+  <div class="position-relative">
+    <div class="position-absolute top-0 end-0 appointment-top-many-plus">
+      <img src="./img/our-team-appointent-top-many-plus.svg" alt="...">
+    </div> 
+  </div>
+</div>
+  <div class="container our-team-appointment">
+      <h3 class="ota-title">Schedule a consulation call to discuss your project</h3>
+      <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4" id="sm-apt-col-1">
+            <img src="./img/home/jeff-ray-dy-img-circle.png" class="apt-jeff" alt="Appointment with Jeff Ray Dy">
+
+              <h5 class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">Appointment with Jeff <br>Ray Dy</h5> <!-- visible on large devices -->
+
+              <h5 class="apt-name d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">Appointment with Jeff Ray Dy</h5> <!-- visible on small devices -->
+
+              <div class="appointment-time d-xs-none d-sm-none d-md-none d-lg-flex d-xl-flex d-xxl-flex">
+                  <img src="./img/schedule-clock-icon.svg"><p> 30 Minutes</p>
+              </div>
+              <div class="appointment-conferencing d-xs-none d-sm-none d-md-none d-lg-flex d-xl-flex d-xxl-flex">
+                  <img src="./img/schedule-video-icon.svg"> <p>Web conferencing details provided upon confirmation.</p>
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 calendy-appointment-forms" >
+            
+            <div class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block calendy-form-lg"> <!-- calendy form for large devices -->
+          <!-- Calendly inline widget begin -->
+            <!-- <div class="calendly-inline-widget" data-url="https://calendly.com/coc2dy-jeffray/30min?hide_event_type_details=1&hide_gdpr_banner=1" 
+            style="min-width:320px;height:740px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
+          <!-- Calendly inline widget end -->
+            </div>
+
+            <div class="d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none"> <!-- calendy form for small devices -->
+          <!-- Calendly inline widget begin -->
+          <!-- <div class="calendly-inline-widget" data-url="https://calendly.com/coc2dy-jeffray/30min?hide_event_type_details=1&hide_gdpr_banner=1" 
+          style="min-width:320px;height:710px;"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
+        <!-- Calendly inline widget end -->
+            </div>
+
+              </div>
+          </div>
+
+                        <!-- CONTACT FORM - visible on small devices -->
+               
+              <!-- <div class="container d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none sm-cform">
+                <div class="sm-forms-info" >
+                  <h5>Your Information</h5>
+                  <h6 id="appointment-date-time"></h6>
+                </div>
+                <form class="sm-form-inputs">
+                  <div class="row sm-cform-row">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                      <input type="text" class="form-control" placeholder="Company Name" name="company-name" id="appointment-company-name" required>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                      <input type="text" class="form-control" placeholder="Your Name" name="your-name" id="appointment-your-name" required>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                      <input type="text" class="form-control" placeholder="Phone Number" name="phone-number" id="appointment-phone-number" required>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                      <input type="email" class="form-control" placeholder="Email Address" name="email" id="appointment-email-address" required>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                      <button type="submit" class="btn btn-success" id="appointment-submit" value="Submit">Submit</button>
+                    </div>
+                  </div> 
+                </form>
+              </div>  -->
+
+      </div>
+      <div class="container-fluid appointment-bottom-many-plus-container d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+        <div class="position-relative">
+          <div class="position-absolute bottom-0 start-0 appointment-bottom-many-plus">
+            <img src="./img/our-team-appointent-many-plus.svg" alt="...">
+          </div> 
+        </div>
+      </div>
+      <div class="container-fluid appointment-bottom-spacer d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+
+      </div>
+</section>
+
+
+
+<!-- Contact Us form section -->
+
+<scetion class="main-contact-us-form">
+  <div class="container">
+    <div class="text-center main-contact-us-form-info">
+      <h2 class="main-ct-title">Don’t be a stranger! Just say hello. Lets us do something amazing. Contact us!</h2>
+    </div>
+    <div class="row main-contact-us-form-row">
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2 col-xl-2 col-xxl-2"></div>
+
+    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-8 col-xl-8 col-xxl-8 sm-main-col">
+
+      <form action="" class="row g-3" id="main-contact-us-form">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <input type="text" class="form-control" id="inputFullname" placeholder="Full Name">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+          </div>
+          <!-- for Large Devices only -->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+          </div>
+          <!-- for Small Devices only -->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+            <input type="text" class="form-control" id="inputPhone" placeholder="Phone Number">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mb-3 sm-msg-col">
+            <textarea class="form-control" id="inputMessage" rows="3" placeholder="Message"></textarea>
+          </div>
+           <!-- for Large Devices only -->
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-12 col-xl-12 col-xxl-12 d-grid gap-2 sm-submit-col">
+            <button id="submit-form" type="submit" class="btn btn-primary sm-submit-input">Submit</button>
+          </div>
+          <!-- for Small Devices only -->
+          <!-- <div class="col-xs-12 col-sm-12 col-md-10 col-lg-12 col-xl-12 col-xxl-12 d-grid gap-2 d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none sm-submit-col">
+            <button id="submit-form" type="submit" class="btn btn-primary sm-submit-input">Submit</button>
+          </div> -->
+      </form>
+
+    </div>
+
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2 col-xl-2 col-xxl-2"></div>
+    </div>
+  </div>
+</scetion>
+
+
+
+
+<!-- Footer -->
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container-fluid container-footer">
+
+  <!-- Footer -->
+  <footer class="container">
+
+    <div class="d-flex justify-content-between p-4">
+      <div class="footer-logo">
+        <img src="./img/geniusgiant-logo.svg">
+      </div>
+
+
+    </div>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section id="gg-footer">
+      <div class="container text-center text-md-start mt-5 sm-footer-container">
+        <!-- Grid row -->
+        <div class="row mt-3 sm-footer-row">
+          <!-- Grid column -->
+          <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 col-xxl-4 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="footer-address">Address</h6>
+            <p class="footer-company-address">
+              Door 2 Alegre Building, M. Castro Street, Barangay Tinago, Naga City, Bicol, Philippines
+            </p>
+            <a href="tel: 6543-8974-210" class="footer-company-phone"><img src="./img/footer-phone.svg" class="footer-phone"> +63 (928-123-276)</a>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 mx-auto mb-4 px-3 lg-quick-links">
+            <!-- Links -->
+            <h6 class="footer-quick-links">Quick Links</h6>
+            <div class="footer-links">
+            <p><a href="#!" >About us</a></p>
+            <p><a href="#!" >Portfolio</a></p>
+            <p><a href="#!" >Our Team</a></p>
+            <p><a href="#!" >Contact Us</a>
+            </p>
+          </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2 col-xl-3 col-xxl-3 mx-auto mb-4 px-5 sm-f-services">
+            <!-- Links -->
+            <h6 class="footer-services">Services</h6>
+            <div class="footer-services-links">
+            <p><a href="#!" >Web Development</a></p>
+            <p><a href="#!" >IT Consulting</a></p>
+            <p><a href="#!" >Mobile App</a></p>
+            <p><a href="#!" >Team Development</a></p>
+            <p><a href="#!" >Quality Assurance</a></p>
+            <p><a href="#!" >UI/UX Design</a></p>
+          </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3 col-xl-2 col-xxl-2 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <!-- <h6 class="footer-contact">Social Icons</h6> -->
+            <p class="footer-contact-social-icons"> 
+              <a href="https://www.facebook.com/Geniusgiant/" class="navbar-brand" target="_blank"><img src="./img/footer-facebook.svg"></a>
+              <a href="https://www.instagram.com/GeniusGiant2020/?hl=en" class="navbar-brand" target="_blank"><img src="./img/footer-instagram.svg"></a>
+              <a href="https://twitter.com/GeniusgiantQa" class="navbar-brand" target="_blank"><img src="./img/footer-twitter.svg"></a>
+              <a href="#" class="navbar-brand" target="_blank"><img src="./img/footer-youtube.svg"></a>
+            </p>
+            
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="container"> 
+      <p class="copyright">All Rights Reserved © Geniusgiant.com</p>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</div>
+<!-- End of .container -->
+
+
+  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
 <!-- <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script> -->
 
 <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+     -->
     <!-- external js -->
     <script src="./js/main.js"></script>
+    <script src="./js/services-section-scrolling-animations.js"></script>
 
     
   </body>
