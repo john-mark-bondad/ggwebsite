@@ -88,6 +88,9 @@ window.addEventListener("scroll", reveal);
  // This script is for services section when images is clicked
  
  $(document).ready(function(){
+
+
+
   
   $("#services-slider-img1").click(function(){ 
     $("#card-title-services").text("Mobile and Web Development");
@@ -303,6 +306,28 @@ function loop()
 
 
 $(document).ready(function(){
+
+  // $('#recipeCarousel').carousel({
+  //   interval: 100000
+  // })
+  
+  // $('.carousel .carousel-item').each(function(){
+  //     var minPerSlide = 3;
+  //     var next = $(this).next();
+  //     if (!next.length) {
+  //     next = $(this).siblings(':first');
+  //     }
+  //     next.children(':first-child').clone().appendTo($(this));
+      
+  //     for (var i=0;i<minPerSlide;i++) {
+  //         next=next.next();
+  //         if (!next.length) {
+  //           next = $(this).siblings(':first');
+  //         }
+          
+  //         next.children(':first-child').clone().appendTo($(this));
+  //       }
+  // });
                                           
 
           //by default show the first slide description
@@ -376,6 +401,34 @@ btnQaPortfolioText.innerHTML = "See More";
 }
 }
 
+// HOMEPAGE - SERVICES SECTION
+
+$(document).ready(function(){
+      
+  $('#ServicesSectionCarousel').carousel({
+    interval: 500000
+  })
+  
+  $('.cf-services-section .carousel .carousel-item').each(function(){
+      var minPerSlide = 3;
+      var next = $(this).next();
+      if (!next.length) {
+      next = $(this).siblings(':first');
+      }
+      next.children(':first-child').clone().appendTo($(this));
+      
+      for (var i=0;i<minPerSlide;i++) {
+          next=next.next();
+          if (!next.length) {
+            next = $(this).siblings(':first');
+          }
+          
+          next.children(':first-child').clone().appendTo($(this));
+        }
+  });
+  
+  }); 
+
 
                                                                                         // Our Team page
 
@@ -391,8 +444,4 @@ var prnDt = 'Appointment on ' + new Date().toLocaleTimeString('en-us', options);
 
 document.getElementById("appointment-date-time").textContent = new Date().toLocaleTimeString('en-us', options);
 console.log(prnDt);     
-
-
-
-
 
