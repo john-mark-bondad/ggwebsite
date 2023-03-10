@@ -414,13 +414,13 @@ img.about-us-arrow {
 
 
 /* FOR SMALL DEVICES */
-#services-for-small{
+/* #services-for-small{
   margin-top: 82px;
-}
-.services-title {
+} */
+/* .services-title {
   margin: 53px 0;
-}
-.services-title h3{
+} */
+/* .services-title h3{
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -460,11 +460,11 @@ color: #FFFFFF;
 .ss-many-plus{
   z-index: -1;
   margin-top: -7rem;
-}
-.ss-arrow {
+} */
+/* .ss-arrow {
   margin-top: -6rem;
-}
-.ss-gradient-green {
+} */
+/* .ss-gradient-green {
   margin-top: -2rem;
   z-index: -1;
   width: 50%;
@@ -472,7 +472,7 @@ color: #FFFFFF;
 }
 .ss-gradient-green img{
 width: 100%;
-}
+} */
 
 
                     /* Services section for LARGE TO EXTRA LARGE DEVICES */
@@ -656,15 +656,15 @@ section#workflow {
 .workflow-requirements:hover {
   /* padding-left: 3rem; */
   /* animation: marquee 5s linear infinite; */
-  animation: requirements 2s ease infinite alternate, 
-    nudge 2s linear infinite alternate;
+   /* animation: requirements 2s ease infinite alternate, 
+    nudge 2s linear infinite alternate;  */
 }
 
-@keyframes requirements {
+ @keyframes requirements {
 
-  0%   { transform: translate(0, 0); }
-  100% { transform: translate(-20rem, 0%); }
-}
+  /* 0%   { transform: translate(0, 0); }
+  100% { transform: translate(-20rem, 0%); } */
+} 
 
 .workflow-planning:hover, .workflow-design:hover{
   /* padding-left: 3rem; */
@@ -851,6 +851,9 @@ margin-bottom: 3px;
 
 
 /* Clients Feedback for LARGE DEVICES section */
+section#feedback {
+  padding-bottom: 0rem!important;
+}
 #review{
   height: 1242;
 }
@@ -1215,33 +1218,33 @@ section#gg-trusted-brands {
   padding: 16px;
 }
 
-/* Our Team section for SMALL Devices */
+/* Our Team section for SMALL (PHONE & TABLET) Devices */
 
-#sm-clients-says .card{
+#sm-clients-says .card, #sm-tablet-clients-says .card{
   border: 0px solid rgba(0,0,0,.125);
 }
-.sm-clients-card img {
+.sm-clients-card img, .sm-tablet-clients-card img {
   width: 172px;
   height: 172px;
   margin: 0 auto;
   background: radial-gradient(circle, transparent 40%,#7DDB29 40%);
   border-radius: 100px;
 }
-.sm-clients-body h5{
+.sm-clients-body h5, .sm-tablet-clients-body h5{
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 24px;
 color: #12062E;
 }
-.sm-clients-body p{
+.sm-clients-body p, .sm-tablet-clients-body p{
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
   color: #A7A7A7;
   }
-  #smOurTeam button {
+  #smOurTeam button, #smOurTeamTablet button {
     position: absolute;
     top: 110%;
     bottom: 0;
@@ -1258,11 +1261,11 @@ color: #12062E;
     opacity: 1;
     transition: opacity .15s ease;
 }
-#smOurTeam button img {
+#smOurTeam button img, #smOurTeamTablet button img {
   width: 24px;
   height: 24px;
 }
-.sm-prev-img {
+.sm-prev-img, .sm-tablet-prev-img {
   background: #ffffff;
   padding: 9px;
   box-shadow: 0px 4px 51px rgba(0, 0, 0, 0.1);
@@ -1275,12 +1278,14 @@ color: #12062E;
   left: -3rem;
 }
 .team-desc {
-  margin-top: 4rem;
+  margin: 4rem 0 5rem;
 }
-.team-desc > h2{
+.team-desc > h2 {
   font-size: 48px;
   color: #7DDB29;
   font-weight: bold;
+  width: 81%;
+  margin: 0 auto;
 }
 .team-desc > p{
   font-size: 20px;
@@ -1374,10 +1379,10 @@ button.genius-team-to-the-right.carousel-control-next {
 
 
 /* Cards section and hover */
-img.img-fluid.rounded-circle {
+/* img.img-fluid.rounded-circle {
 
   background: radial-gradient(circle, transparent 40%,#7DDB29 40%);
-}
+} */
 
 .img-top1, .img-top2, .img-top3{
   display: none;
@@ -1400,6 +1405,58 @@ margin-left: 15px;
   padding: 7px 0px;
 } */
 
+/* .imgWrap {
+  display: inline-block;
+  border: 1px solid #000;
+
+}
+.imgWrap img{
+   opacity:0.8; 
+
+}
+
+.imgWrap:hover {
+   opacity:1; 
+}
+
+img:hover,
+.imgWrap:hover img {
+
+} */
+/* #feedback {
+  background-image: url("../img/xs-circle-green.svg"), url("../img/xs-many-plus.svg");
+  background-repeat: no-repeat;
+  background-position: top 0% left 100%, top 6.8% right 0%;
+  margin-top: 1.9rem;
+  padding: 0.1rem!important;
+  margin-bottom: 5rem;
+} */
+.teamgg-img-div{
+  /* background: radial-gradient(circle, transparent 40%,#7DDB29 40%);
+  border-radius: 50%!important; */
+}
+/* .teamgg-img {
+  display: block;
+  width: 75%;
+  height: 273px;
+  background-image: url("../img/team/team-jeff-dy.png")
+            , url("../img/team/team-jeff-dy-hover.png");
+  background-size: 100% 100%, 0% 0%;
+  background-repeat: no-repeat;
+  border: 10px radial-gradient(circle, transparent 40%,#7DDB29 40%);
+  border-radius: 50%!important;
+  margin: 0 auto;
+}
+.teamgg-img:hover {
+  background-size: 0% 0%, 100% 100%;
+}  */
+
+/* radial-gradient(circle, transparent 40%,#7DDB29 40%) */
+
+/* .team-gg-bg {
+  background-image: radial-gradient(circle, transparent 40%,#7DDB29 40%);
+  overflow: hidden;
+} */
 
 
 
@@ -8385,7 +8442,90 @@ height: 428px;
 .manyPlus {
   display: none;
 }
-/* SERVICES */
+
+                    /* SERVICES SECTION */
+
+/* NEW SERVICES SECTION */
+#services-for-small{
+  background: url("../img/sm-services-bg.png"), url("../img/xs-circle-green.svg");
+  background-repeat: no-repeat;
+  height: 860px;
+  background-position: top 0% left 0%, top -0.5% right -2.8%;
+}
+#container-mission{
+  padding-bottom: 0rem!important;
+}
+#services-for-small .ss-arrow {
+  margin-top: 2rem;
+  margin-left: -0.9rem;
+}
+#services-for-small .sm-cf-services-carousel{
+  padding-right: var(--bs-gutter-x,.0rem);
+  padding-left: var(--bs-gutter-x,.0rem);
+}
+.services-title {
+  padding: 7rem 0px 1rem;
+  margin-top: 1rem;
+}
+.sm-services-prev-img, .sm-services-tablet-prev-img {
+  background: #ffffff;
+  padding: 9px;
+  box-shadow: 0px 4px 51px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+}
+#services-for-small button, #services-for-small button {
+  position: absolute;
+  top: 110%;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 1;
+  transition: opacity .15s ease;
+}
+#services-for-small .sm-services-it-consulting{
+  background: url("../img/sm-services-it-consulting.png");
+  background-repeat: no-repeat;
+  height: 545px;;  
+}
+.sm-services-it-consulting-info h5{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.sm-services-it-consulting-info p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+/* Section height is 545px, .set-bg is 445px plus  margin-top: 100px; */
+.sm-services-it-consulting .set-bg {
+  height: 445px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 14.56%, rgba(0, 0, 0, 0) 70.89%); 
+  margin-top: 100px;
+}
+.sm-services-it-consulting-info {
+  padding: 45% 4% 0%;
+}
+
+
+
+
+
+
+
+/* OLD SERVICES DESIGN */
 section#new-services-section{
   display: none;
 } 
@@ -8726,6 +8866,8 @@ section#gg-trusted-brands {
   line-height: 110%;
   text-align: center;
   color: #7DDB29;
+  width: 99%;
+  margin: 0 auto;
 }
 .team-desc > p {
   font-style: normal;
@@ -9170,9 +9312,94 @@ text-align: center;
 color: #12062E;
 }
 /* SERVICES */
-section#new-services-section{
+/* section#new-services-section{
   display: none;
-} 
+}  */
+                    /* SERVICES SECTION */
+
+/* NEW SERVICES SECTION */
+#services-for-small{
+  background: url("../img/sm-services-bg.png"), url("../img/xs-circle-green.svg");
+  background-repeat: no-repeat;
+  height: 860px;
+  background-position: top 0% left 0%, top 1.5% right 0.2%;
+}
+#container-mission{
+  padding-bottom: 0rem!important;
+}
+#services-for-small .ss-arrow {
+  margin-top: 2rem;
+  margin-left: -0.9rem;
+}
+#services-for-small .sm-cf-services-carousel{
+  padding-right: var(--bs-gutter-x,.0rem);
+  padding-left: var(--bs-gutter-x,.0rem);
+}
+.services-title {
+  padding: 7rem 0px 1rem;
+  margin-top: 1rem;
+}
+.services-title h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  color: #7DDB29;
+}
+.sm-services-prev-img, .sm-services-tablet-prev-img {
+  background: #ffffff;
+  padding: 9px;
+  box-shadow: 0px 4px 51px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+}
+#services-for-small button, #services-for-small button {
+  position: absolute;
+  top: 110%;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 1;
+  transition: opacity .15s ease;
+}
+#services-for-small .sm-services-it-consulting{
+  background: url("../img/sm-services-it-consulting.png");
+  background-repeat: no-repeat;
+  height: 545px;;  
+}
+.sm-services-it-consulting-info h5{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.sm-services-it-consulting-info p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.sm-services-it-consulting-info {
+  /* position: relative; */
+  padding: 20% 4% 0%;
+}
+
+
+
+
+
+
+
+
 #workflow #worflow-box1, #workflow #worflow-box2{
   padding: 89px 29px 89px 29px;
   margin: 0;

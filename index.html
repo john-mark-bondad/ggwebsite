@@ -256,9 +256,11 @@
 </section>
 
 
-<!-- NEW SERVICES SECTION DESIGN - CODE LINK - https://www.codeply.com/go/EIOtI7nkP8-->
 
-<section id="new-services-section">
+
+<!-- NEW SERVICES SECTION DESIGN for LARGE DEVICES - CODE LINK - https://www.codeply.com/go/EIOtI7nkP8-->
+
+<section id="new-services-section" class="d-none d-lg-block d-xl-block d-xxl-block">
   <div class="container-fluid cf-services-section text-center my-3 ">
 
     <div class="position-relative">
@@ -358,25 +360,15 @@
 </section>
 
 
-
-                                                                      <!-- OLD DESIGN SERVICES SECTION!!! -->
-
 <!-- Services section for SMALL DEVICES DEVICES only -->
 
-<section id="services-for-small" class="section d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+<section id="services-for-small" class="d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
   <div class="container-fluid services-title-fluid">
     <div class="position-relative">
       <div class="position-absolute top-0 start-0  ss-arrow">
        <img src="./img/services-arrow.svg" class="services-section-arrow" alt="Arrow black right icon">
      </div> 
-      <div class="position-absolute top-0 end-0 ss-many-plus">
-       <img src="./img/services-medium-many-plus.svg" alt="Small many plus icon">
-     </div>
    </div>
-   <div class="position-relative">
-    <div class="position-absolute top-0 start-0 ss-gradient-green ">
-      <img src="./img/services-stacked-blob.svg" class="img-fluid" alt="Gradient blob green">
-    </div>
    </div>
    <div class="container">
     <div class="text-start services-title">
@@ -385,7 +377,70 @@
    </div>
   </div><!-- end of container-fluid -->
 
-  <div class="container-fluid services-container-fluid">
+
+                                        <!-- NEW SERVICES SECTION DESIGN for SMALL DEVICES   -->
+
+<div class="container-fluid sm-cf-services-carousel d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+
+  <div id="smServicesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="sm-services-it-consulting">
+
+          <div class="set-bg">
+          <div class="sm-services-it-consulting-info align-bottom">
+                <h5>Team Development</h5>
+                <p>We offer a comprehensive Team Development solution that encompasses a full range of services, including project management, development, 
+                  quality assurance, and design. Our team of experts brings a wealth of experience and knowledge to every project, ensuring that your business 
+                  goals are met and exceeded. Whether you need to streamline your processes, launch a new product, or simply improve your existing operations, 
+                  we have the expertise to help you achieve your objectives.</p>
+          </div>
+        </div>
+        </div>
+
+        <!-- <img src="./img/sm-services-it-consulting.png" class="d-block w-100" alt="..."> -->
+
+      </div> <!-- end of carousel item -->
+      <div class="carousel-item">
+        <img src="./img/sm-services-web-mobile-development.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/sm-services-project-management.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/sm-services-quality-assurance.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/sm-services-ui-ux-design.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <div class="sm-services-button">
+      <button class="carousel-control-prev" type="button" data-bs-target="#smServicesCarousel" data-bs-slide="prev">
+        <div class="sm-services-prev-img">
+          <img src="./img/clients-says-arrow-left.svg" class=" " alt="Arrow left green">
+        </div>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#smServicesCarousel" data-bs-slide="next">
+        <div class="sm-services-prev-img">
+          <img src="./img/clients-says-arrow-right.svg" class=" " alt="Arrow right green">
+        </div>
+      </button>
+    </div>
+
+  </div> <!-- end of carousel slide -->
+
+
+
+</div>  <!-- end of container fluid -->
+
+
+
+
+
+
+                                                      <!-- OLD DESIGN SERVICES SECTION!!! -->
+
+  <div class="container-fluid services-container-fluid d-none">
     <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
@@ -1166,16 +1221,16 @@
 
   <div class="container mt-5">
     <div class="team-desc">
-      <h2 class="text-center pt-5 t-title">What our clients says about Genius Giant</h2>
-      <p class="lead text-center mb-5 t-desc">
+      <h2 class="text-center pt-5 t-title">Dedication, innovation, excellence - it's all in a day's work for us.</h2>
+      <!-- <p class="lead text-center mb-5 t-desc">
         Lorem ipsum dolor sit amet consectetur. Magna diam metus diam <br>accumsan. Id habitant pellentesque
         pellentesque tristique.
-      </p>
+      </p> -->
     </div>
 
-    <!-- Our Team section - Carousel for SMALL Devices -->
+    <!-- Our Team section - Carousel for SMALL Devices (PHONE) -->
 
-    <div id="smOurTeam" class="carousel slide d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none" data-bs-ride="carousel" data-bs-interval="false">
+    <div id="smOurTeam" class="carousel slide d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none" data-bs-ride="carousel" data-bs-interval="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="container" id="sm-clients-says">
@@ -1183,20 +1238,11 @@
               <div class="col-xs-0 col-sm-0 col-md-2"></div>
               <div class="col-xs-12 col-sm-12 col-md-4">
                 <div class="card text-center sm-clients-card">
-                  <img src="./img/clients-feedback-1.png" class="card-img-top" alt="Client image">
+                  <img src="./img/team/team-jeff-dy.svg" data-src="./img/team/team-jeff-dy.svg" 
+                  data-hover="./img/team/team-jeff-dy-hover.svg" alt="" class="image-container img-fluid rounded-circle" />
                   <div class="card-body sm-clients-body">
-                    <h5 class="card-title">Guy Hawkins</h5>
-                    <p class="card-text">Project Manager</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="d-none d-md-block col-xs-12 col-sm-12 col-md-4">  <!--  display only on tablet view (md)  -->
-                <div class="card text-center sm-clients-card ">
-                  <img src="./img/clients-feedback-2.png" class="card-img-top" alt="Client image">
-                  <div class="card-body sm-clients-body">
-                    <h5 class="card-title">Jacob Jones</h5>
-                    <p class="card-text">Developer</p>
+                    <h5 class="card-title">Jeffray Dy</h5>
+                    <p class="card-text">CEO</p>
                   </div>
                 </div>
               </div>
@@ -1212,28 +1258,42 @@
               <div class="col-xs-1 col-sm-1 col-md-2"></div>
               <div class="col-xs-12 col-sm-12 col-md-4">
                 <div class="card text-center sm-clients-card">
-                  <img src="./img/clients-feedback-1.png" class="card-img-top" alt="Client image">
+                  <img src="./img/team/team-rachel-dy.svg" data-src="./img/team/team-rachel-dy.svg" 
+                  data-hover="./img/team/team-rachel-dy-hover.svg" alt="" class="image-container img-fluid rounded-circle" />
                   <div class="card-body sm-clients-body">
-                    <h5 class="card-title">Guy Hawkins</h5>
-                    <p class="card-text">Project Manager</p>
+                    <h5 class="card-title">Rachel Dy</h5>
+                    <p class="card-text">CEO</p>
                   </div>
                 </div>
               </div>
       
-              <div class="d-none d-md-block col-xs-12 col-sm-12 col-md-4">  <!--  display only on tablet view (md)  -->
-                <div class="card text-center sm-clients-card">
-                  <img src="./img/clients-feedback-2.png" class="card-img-top" alt="Client image">
-                  <div class="card-body sm-clients-body">
-                    <h5 class="card-title">Jacob Jones</h5>
-                    <p class="card-text">Developer</p>
-                  </div>
-                </div>
-              </div>
               <div class="col-xs-1 col-sm-1 col-md-2"></div>
       
             </div>  <!-- end of row -->
           </div>  <!-- end of container -->
         </div>  <!-- end of carousel item -->
+
+        <div class="carousel-item">
+          <div class="container" id="sm-clients-says">
+            <div class="row">
+              <div class="col-xs-1 col-sm-1 col-md-2"></div>
+              <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="card text-center sm-clients-card">
+                  <img src="./img/team/team-herbert-belbes.svg" data-src="./img/team/team-herbert-belbes.svg" 
+                  data-hover="./img/team/team-herbert-belbes-hover.svg" alt="" class="image-container img-fluid rounded-circle" />
+                  <div class="card-body sm-clients-body">
+                    <h5 class="card-title">Herbert Belbes</h5>
+                    <p class="card-text">QA</p>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-xs-1 col-sm-1 col-md-2"></div>
+      
+            </div>  <!-- end of row -->
+          </div>  <!-- end of container -->
+        </div>  <!-- end of carousel item -->
+
       </div> <!-- carousel inner -->
       <button class="carousel-control-prev" type="button" data-bs-target="#smOurTeam" data-bs-slide="prev">
         <div class="sm-prev-img">
@@ -1248,6 +1308,85 @@
     </div> <!-- end of carousel -->
 
 
+      <!-- Our Team section - Carousel for SMALL Devices (TABLET) -->
+
+      <div id="smOurTeamTablet" class="carousel slide d-none d-md-block d-lg-none d-xl-none d-xxl-none" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container" id="sm-tablet-clients-says">
+              <div class="row">
+                <div class="col-xs-0 col-sm-0 col-md-2"></div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="card text-center sm-tablet-clients-card">
+                    <img src="./img/team/team-jeff-dy.svg" data-src="./img/team/team-jeff-dy.svg" 
+                    data-hover="./img/team/team-jeff-dy-hover.svg" alt="" class="image-container img-fluid rounded-circle" />
+                    <div class="card-body sm-tablet-clients-body">
+                      <h5 class="card-title">Jeffray Dy</h5>
+                      <p class="card-text">CEO</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="d-none d-md-block col-xs-12 col-sm-12 col-md-4"> 
+                  <div class="card text-center sm-tablet-clients-card ">
+                    <img src="./img/team/team-rachel-dy.svg" data-src="./img/team/team-rachel-dy.svg" 
+                    data-hover="./img/team/team-rachel-dy-hover.svg" alt="" class="image-container img-fluid rounded-circle" />
+                    <div class="card-body sm-tablet-clients-body">
+                      <h5 class="card-title">Rachel Dy</h5>
+                      <p class="card-text">CEO</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-0 col-sm-0 col-md-2"></div>
+        
+              </div>  <!-- end of row -->
+            </div>  <!-- end of container -->
+          </div>  <!-- end of carousel item -->
+  
+          <div class="carousel-item">
+            <div class="container" id="sm-tablet-clients-says">
+              <div class="row">
+                <div class="col-xs-1 col-sm-1 col-md-2"></div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="card text-center sm-tablet-clients-card">
+                    <img src="./img/team/team-herbert-belbes.svg" data-src="./img/team/team-herbert-belbes.svg" 
+                    data-hover="./img/team/team-herbert-belbes-hover.svg" alt="" class="image-container img-fluid rounded-circle" />
+                    <div class="card-body sm-tablet-clients-body">
+                      <h5 class="card-title">Herbert Belbes</h5>
+                      <p class="card-text">QA</p>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="card text-center sm-tablet-clients-card">
+                    <img src="./img/team/team-herbert-belbes.svg" data-src="./img/team/team-herbert-belbes.svg" 
+                    data-hover="./img/team/team-herbert-belbes-hover.svg" alt="" class="image-container img-fluid rounded-circle" />
+                    <div class="card-body sm-tablet-clients-body">
+                      <h5 class="card-title">Herbert Belbes</h5>
+                      <p class="card-text">QA</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-1 col-sm-1 col-md-2"></div>
+        
+              </div>  <!-- end of row -->
+            </div>  <!-- end of container -->
+          </div>  <!-- end of carousel item -->
+        </div> <!-- carousel inner -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#smOurTeamTablet" data-bs-slide="prev">
+          <div class="sm-tablet-prev-img">
+            <img src="./img/sm-arrow-left-green.svg" class=" " alt="Arrow left green">
+          </div>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#smOurTeamTablet" data-bs-slide="next">
+          <div class="sm-tablet-prev-img">
+            <img src="./img/sm-arrow-right-green.svg" class=" " alt="Arrow right green">
+          </div>
+        </button>
+      </div> <!-- end of carousel -->
+
+
 
     <!-- Our Team section - Carousel for LARGE Devices -->
 
@@ -1260,26 +1399,27 @@
               <div class="col-lg-4 col-xl-4 col-xxl-4">
                 <div class="card genius-team-card">
                   <div class="card-img">
-                    <img src="./img/clients-feedback-1.png" class="img-fluid rounded-circle" alt="...">
-                    <img src="./img/clients-feedback-1-hover.png" class="img-fluid rounded-circle img-top1" alt="...">
+                    <img src="./img/team/team-jeff-dy.svg" data-src="./img/team/team-jeff-dy.svg" 
+                    data-hover="./img/team/team-jeff-dy-hover.svg" alt="" class="image-container img-fluid rounded-circle" />
                     <div class="card-body genius-name-job">
                       <h5 class="card-title text-center">Jeffray Dy</h5>
-                      <p class="card-text text-center">Project Manager</p>
+                      <p class="card-text text-center">CEO</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+        
 
             <div class="carousel-item genius-team-carousel">
               <div class="col-lg-4 col-xl-4 col-xxl-4">
                 <div class="card genius-team-card">
                   <div class="card-img">
-                    <img src="./img/clients-feedback-2.png" class="img-fluid rounded-circle" alt="...">
-                    <img src="./img/clients-feedback-2-hover.png" class="img-fluid rounded-circle img-top2" alt="...">
+                    <img src="./img/team/team-rachel-dy.svg" data-src="./img/team/team-rachel-dy.svg" 
+                    data-hover="./img/team/team-rachel-dy-hover.svg" alt="" class="image-container img-fluid rounded-circle" />
                     <div class="card-body genius-name-job">
-                      <h5 class="card-title text-center">Jeffray Dy</h5>
-                      <p class="card-text text-center">Project Manager</p>
+                      <h5 class="card-title text-center">Rachel Dy</h5>
+                      <p class="card-text text-center">CEO</p>
                     </div>
                   </div>
                   
@@ -1291,16 +1431,17 @@
               <div class="col-lg-4 col-xl-4 col-xxl-4">
                 <div class="card genius-team-card">
                   <div class="card-img">
-                    <img src="./img/clients-feedback-3.png" class="img-fluid rounded-circle" alt="...">
-                    <img src="./img/clients-feedback-3-hover.png" class="img-fluid rounded-circle img-top3" alt="...">
+                    <img src="./img/team/team-herbert-belbes.svg" data-src="./img/team/team-herbert-belbes.svg" 
+                    data-hover="./img/team/team-herbert-belbes-hover.svg" alt="" class="image-container img-fluid rounded-circle" />
                     <div class="card-body genius-name-job">
-                      <h5 class="card-title text-center">Jeffray Dy</h5>
-                      <p class="card-text text-center">Project Manager</p>
+                      <h5 class="card-title text-center">Herbert Belbes</h5>
+                      <p class="card-text text-center">QA</p>
                     </div>
                 </div>
               </div>
             </div>
           </div>
+          
 
         </div>
         <button class="carousel-control-prev arrow-left-black-button" type="button" data-bs-target="#carouselGeniusTeam" data-bs-slide="prev">

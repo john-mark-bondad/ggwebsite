@@ -430,6 +430,44 @@ $(document).ready(function(){
   }); 
 
 
+  // Our customized workflow section when hover the cards
+
+  $(document).ready(function(){    
+
+
+// $("#worflow-box1").mouseover(function(){ $(this).find(".workflow-requirements").animate({marginLeft:'-=20rem'},1100,'linear') });
+// // $("#worflow-box1").mouseover(function(){ $(this).find(".workflow-requirements").animate({marginLeft:'+=20rem'},1100,'linear') });
+// $("#worflow-box1").mouseout(function(){ $(this).find(".workflow-requirements").animate({marginLeft:'0rem'},0) });
+
+
+// $("#worflow-box1").mouseenter(function(){
+
+//            var myfunc=setInterval(loop,200);
+
+//        function loop(){
+//       $(".workflow-requirements").animate({   'marginLeft' : "-=20rem" },1200,'linear');
+//      $(".workflow-requirements").animate({  'marginLeft' : "+=20rem" },1200,'linear');
+//     }
+
+//  }).mouseleave(function(){
+//     $(".workflow-requirements").animate({'marginLeft':'0rem'},0);
+//   });
+
+
+
+
+
+// HOMEPAGE / TEAM PAGE HOVER TEAM IMAGES
+
+$(".image-container").mouseover(function () {
+  $(this).attr('src', $(this).data("hover"));
+}).mouseout(function () {
+  $(this).attr('src', $(this).data("src"));
+});
+
+});
+
+
                                                                                         // Our Team page
 
 // Appointment Form - To get the Day, Month, Year, Hours & Seconds
