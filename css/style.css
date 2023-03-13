@@ -603,6 +603,7 @@ section#workflow {
   margin: 1px 5px;
   white-space: nowrap;
   overflow: hidden;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
  #workflow #worflow-box4, #workflow #worflow-box5, #workflow #worflow-box6{
   border-radius: 30px;
@@ -612,6 +613,7 @@ section#workflow {
   margin: 1px 5px;
   white-space: nowrap;
   overflow: hidden;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
 #workflow p.card-text {
@@ -651,8 +653,11 @@ section#workflow {
   font-weight: bold;
   /* transition: all 0.3s ease; */
 }
-
-/* Cards hover effects */
+/* Cards hover effects */ 
+#worflow-box1:hover > .workflow-requirements{   /* BOX 1  */
+  animation: requirements 2s ease infinite alternate, 
+  nudge 2s linear infinite alternate; 
+}
 .workflow-requirements:hover {
   /* padding-left: 3rem; */
   /* animation: marquee 5s linear infinite; */
@@ -662,67 +667,51 @@ section#workflow {
 
  @keyframes requirements {
 
-  /* 0%   { transform: translate(0, 0); }
-  100% { transform: translate(-20rem, 0%); } */
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-20rem, 0%); }
 } 
 
-.workflow-planning:hover, .workflow-design:hover{
-  /* padding-left: 3rem; */
-  /* animation: marquee 5s linear infinite; */
+#worflow-box2:hover > .workflow-planning{     /* BOX 2  */
   animation: planning 0.7s ease infinite alternate, 
-    nudge 0.7s linear infinite alternate;
+  nudge 0.7s linear infinite alternate;
 }
-
 @keyframes planning {
 
   0%   { transform: translate(0, 0); }
   100% { transform: translate(-6rem, 0%); }
 }
-.workflow-design:hover{
-  /* padding-left: 3rem; */
-  /* animation: marquee 5s linear infinite; */
+
+#worflow-box3:hover > .workflow-design{     /* BOX 3  */
   animation: design 0.5s ease infinite alternate, 
     nudge 0.5s linear infinite alternate;
 }
-
 @keyframes design {
 
   0%   { transform: translate(0, 0); }
-  100% { transform: translate(-4rem, 0%); }
+  100% { transform: translate(-2.8rem, 0%); }
 }
-
- .workflow-development:hover{
-  /* padding-left: 3rem; */
-  /* animation: marquee 5s linear infinite; */
-  animation: development 1.3s ease infinite alternate, 
-    nudge 1.3s linear infinite alternate;
+#worflow-box4:hover > .workflow-development{     /* BOX 4  */
+  animation: development 1.4s ease infinite alternate, 
+    nudge 1.4s linear infinite alternate;
 }
-
 @keyframes development {
 
   0%   { transform: translate(0, 0); }
   100% { transform: translate(-19rem, 0%); }
 }
-
-.workflow-quality-checking:hover{
-  /* padding-left: 3rem; */
-  /* animation: marquee 5s linear infinite; */
-  animation: quality-checking 1.7s ease infinite alternate, 
-    nudge 1.7s linear infinite alternate;
+#worflow-box5:hover > .workflow-quality-checking{     /* BOX 5  */
+  animation: quality-checking 1.8s ease infinite alternate, 
+  nudge 1.8s linear infinite alternate;
 }
-
 @keyframes quality-checking {
 
   0%   { transform: translate(0, 0); }
-  100% { transform: translate(-28rem, 0%); }
+  100% { transform: translate(-29.4rem, 0%); }
 }
-.workflow-release-and-monitor:hover{
-  /* padding-left: 3rem; */
-  /* animation: marquee 5s linear infinite; */
+#worflow-box6:hover > .workflow-release-and-monitor{     /* BOX 6  */
   animation: release-and-monitor 2s ease infinite alternate, 
     nudge 2s linear infinite alternate;
 }
-
 @keyframes release-and-monitor {
 
   0%   { transform: translate(0, 0); }
@@ -8091,7 +8080,9 @@ section.software-development-team-process {
 
 /* NEW SERVICES SECTION DESGIN */
 
-
+.nss-title-info {
+  padding-top: 7rem;
+}
 .cf-services-section{
     padding-right: var(--bs-gutter-x,0.01rem);
     padding-left: var(--bs-gutter-x,0.01rem);
@@ -8176,8 +8167,20 @@ transform: translateX(0);
 transform: translateX(0);
 } */
 
-#ServicesSectionCarousel .carousel-item.active{
-  margin-left: 8%;
+#ServicesSectionCarousel .carousel-item.active #ServicesSectionCarousel .arrow-left-black-button{
+  /* margin-left: 8%; */
+  /* opacity: 0; */
+}
+/* .team-dev-spacer{
+  width: 4.333%;
+} */
+#ServicesSectionCarousel .card-body {
+  flex: 1 1 auto;
+  /* padding: 1rem 3rem; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 #ServicesSectionCarousel .carousel-inner{
     background-image: url("../img/services-circle-green.svg");
@@ -8207,7 +8210,25 @@ box-shadow: 0px 20px 51px rgba(0, 0, 0, 0.1);
   backface-visibility: hidden;
   transition:  0.000001s ease-in-out left;
 } */
+/* #ServicesSectionCarousel  .carousel-item.active {
+  transition-delay: .1s;
+  transition: none;
+}
+#ServicesSectionCarousel  .carousel-item{
+  transition-delay: .1s;
+  transition: none;
+} */
 
+#ServicesSectionCarousel  .carousel-item {
+  transition: transform 2.1s ease-in-out;
+}
+
+/* #ServicesSectionCarousel  .active.carousel-item-start{
+  transition: transform .1s ease-in-out; 
+} */
+#ServicesSectionCarousel  .active.carousel-item-end {
+  transition: opacity 0s .1s;
+}
 
 .nss-title-info h2{
 font-style: normal;
@@ -8293,6 +8314,8 @@ color: #FFFFFF;
 
 
 /* ===============================================================    MEDIA QUERIES =============================================*/
+
+
 
 /********** XS & SM Small devices only (< 767px) **********/
 
@@ -8490,38 +8513,65 @@ height: 428px;
   opacity: 1;
   transition: opacity .15s ease;
 }
-#services-for-small .sm-services-it-consulting{
-  background: url("../img/sm-services-it-consulting.png");
+/* CAROUSEL */
+#services-for-small .sm-services-it-consulting, #services-for-small .sm-services-mobile-dev, #services-for-small .sm-services-proj-management,
+#services-for-small .sm-services-quality-assurance, #services-for-small .sm-services-uiux-design{
   background-repeat: no-repeat;
-  height: 545px;;  
+  height: 545px;
 }
-.sm-services-it-consulting-info h5{
+#services-for-small .sm-services-it-consulting{ /* first slide img */
+  background: url("../img/sm-services-it-consulting.png");
+}
+#services-for-small .sm-services-mobile-dev{  /* second slide img */
+  background: url("../img/sm-services-web-mobile-development.png"); 
+}
+#services-for-small .sm-services-proj-management{ /* third slide img */
+  background: url("../img/sm-services-project-management.png"); 
+}
+#services-for-small .sm-services-quality-assurance{ /* fourth slide img */
+  background: url("../img/sm-services-quality-assurance.png"); 
+}
+#services-for-small .sm-services-uiux-design{ /* fifth slide img */
+  background: url("../img/sm-services-ui-ux-design.png"); 
+}
+/* Section height is 545px, .set-bg is 445px plus  margin-top: 100px; total of 545px*/
+.sm-services-it-consulting .set-bg, .sm-services-mobile-dev .set-bg, .sm-services-proj-management .set-bg, .sm-services-quality-assurance .set-bg,
+.sm-services-uiux-design .set-bg {
+  height: 445px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 14.56%, rgba(0, 0, 0, 0) 70.89%); 
+  margin-top: 100px;
+}
+.sm-services-it-consulting-info{
+  padding: 45% 4% 0%;
+}
+.sm-services-mobile-dev-info {
+  padding: 65% 4% 0%;
+}
+.sm-services-proj-management-info {
+  padding: 58.5% 4% 0%;
+}
+.sm-services-quality-assurance-info {
+  padding: 75% 4% 0%;
+}
+.sm-services-uiux-design-info {
+  padding: 75% 4% 0%;
+}
+.sm-services-it-consulting-info h5, .sm-services-mobile-dev-info h5, .sm-services-proj-management-info h5, .sm-services-quality-assurance-info h5,
+.sm-services-uiux-design-info  h5{
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
   color: #FFFFFF;
 }
-.sm-services-it-consulting-info p{
+.sm-services-it-consulting-info p, .sm-services-mobile-dev-info p, .sm-services-proj-management-info p, .sm-services-quality-assurance-info p,
+.sm-services-uiux-design-info p{
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   color: #FFFFFF;
 }
-/* Section height is 545px, .set-bg is 445px plus  margin-top: 100px; */
-.sm-services-it-consulting .set-bg {
-  height: 445px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 14.56%, rgba(0, 0, 0, 0) 70.89%); 
-  margin-top: 100px;
-}
-.sm-services-it-consulting-info {
-  padding: 45% 4% 0%;
-}
-
-
-
-
 
 
 
@@ -8620,8 +8670,30 @@ display: none;
 #workflow p.card-text {
   text-align: center;
 }
-#workflow #worflow-box1, #workflow #worflow-box2, #workflow #worflow-box3, #workflow #worflow-box4, #workflow #worflow-box5, #workflow #worflow-box6  {
-  padding: 22px 14px;
+#workflow #worflow-box1, #workflow #worflow-box2, #workflow #worflow-box3, #workflow #worflow-box4, #workflow #worflow-box5, #workflow #worflow-box6{
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+#workflow #worflow-box1{
+  padding: 75px 30px;
+}
+#workflow #worflow-box2{
+  padding: 62px 30px;
+}
+#workflow #worflow-box3{
+  padding: 62px 30px;
+}
+#workflow #worflow-box4{
+  padding: 48px 20px;
+}
+#workflow #worflow-box5{
+  padding: 102px 30px;
+}
+#workflow #worflow-box6  {
+  padding: 89px 30px;
+}
+#workflow #worflow-box1 .card-body, #workflow #worflow-box2 .card-body, #workflow #worflow-box3 .card-body, #workflow #worflow-box4 .card-body,
+#workflow #worflow-box5 .card-body, #workflow #worflow-box6 .card-body{
+  padding: 0rem 0rem
 }
 /* .xs-row-card .card-body {
   flex: 1 1 auto;
@@ -8959,6 +9031,7 @@ div#sm-apt-col-1 {
   width: 80%;
   margin-top: -7px;
   margin-left: 6px;
+  margin-bottom: 5px;
 }
 .container-fluid.appointment-top-spacer {
   height: 80px;
@@ -9741,6 +9814,18 @@ color: #12062E;
 .home-carousel-img1-container{
   background-position: center;
 }
+/* ICONS IN HOME CAROUSEL */
+img.services-page-scroll {
+  position: absolute;
+  width: 1.5%;
+  top: 556px;
+}
+.carousel-home-many-plus {
+  top: -8rem;
+}
+.carousel-home-many-plus-img {
+  max-width: 70%;
+}
 
 /* ABOUT US section */
 .number-of-years .displayNumber{
@@ -9898,6 +9983,12 @@ p.footer-contact-social-icons > a{
     left: 6%;
     height: 10%;
 }
+.carousel-home-many-plus {
+  top: -9rem;
+}
+.carousel-home-many-plus-img {
+  max-width: 80%;
+}
 .group-img-services-img1 .moving-services-laptop {
   position: absolute;
   left: 13%;
@@ -9927,6 +10018,13 @@ p.footer-contact-social-icons > a{
   left: 78%;
   width: 23%;
 }
+
+#gg-services-carousel .services-page-scroll {
+  position: absolute;
+  width: 1.1%;
+  top: 500px;
+}
+
 /* FOOTER */
 p.footer-contact-social-icons > a{
   margin-right: 0.3rem;
@@ -9956,6 +10054,7 @@ p.footer-contact-social-icons > a{
   margin: 1px 5px;
   white-space: nowrap;
   overflow: hidden;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
  #workflow #worflow-box4, #workflow #worflow-box5, #workflow #worflow-box6{
   border-radius: 30px;
@@ -9965,6 +10064,7 @@ p.footer-contact-social-icons > a{
   margin: 1px 5px;
   white-space: nowrap;
   overflow: hidden;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 @keyframes requirements {
 
@@ -10062,6 +10162,62 @@ p.footer-contact-social-icons > a{
       padding-right: 5rem;
   }
   }  
+
+  /*HOME BUTTON CAROUSEL  */
+
+ @media (min-width: 1400px) and (max-width: 1699.98px){
+  .home-carousel-img1-container, .home-carousel-img2-container, .home-carousel-img3-container,  .home-carousel-img4-container, .home-carousel-img5-container  {
+    background-size: contain;
+    height: 586px;
+    /* background-position: bottom; */
+    width: 85%;
+    background-position: 20px 40px;
+  }
+  .home-carousel-img4-container {
+
+    background-position:center;
+  }
+  #carouselHomeCarousel > .carousel-indicators > .buttons-slide1, #carouselHomeCarousel > .carousel-indicators > .buttons-slide2, #carouselHomeCarousel > .carousel-indicators > .buttons-slide3, #carouselHomeCarousel > .carousel-indicators > .buttons-slide4, #carouselHomeCarousel > .carousel-indicators > .buttons-slide5 {
+    width: 10px;
+    height: 10px;
+    margin: 22px 4px;
+    border: 2px solid #eee;
+  }
+  #carouselHomeCarousel > .carousel-indicators > button.active{
+    width: 10px;
+    height: 10px;
+    margin: 22px 4px;
+    border: 2.5px solid #7DDB29;
+  }
+  .home-carousel-content h1, .home-carousel-content h2 {
+    font-size: 42px;
+    line-height: 56px;
+  }
+  .home-carousel-content p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .moving-box1 img {
+    animation: updown 7s ease infinite;
+    width: 85%;
+    height: 100%;
+  }
+  .moving-box2 img {
+    animation: updown2 7s ease infinite;
+    width: 85%;
+    height: 100%;
+  }
+  #gg-services-carousel .services-page-scroll {
+    position: absolute;
+    width: 23px;
+    top: 479px;
+}
+
+ } 
+
+
+
+
 
                                                     /* for XXTRA LARGE devices min width 1700px */
 @media (min-width: 1400px){

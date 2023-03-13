@@ -440,18 +440,23 @@ $(document).ready(function(){
 // $("#worflow-box1").mouseout(function(){ $(this).find(".workflow-requirements").animate({marginLeft:'0rem'},0) });
 
 
-// $("#worflow-box1").mouseenter(function(){
+//$("#worflow-box1").mouseenter(function(){
 
-//            var myfunc=setInterval(loop,200);
+    //        var myfunc=setInterval(loop,200);
 
-//        function loop(){
-//       $(".workflow-requirements").animate({   'marginLeft' : "-=20rem" },1200,'linear');
-//      $(".workflow-requirements").animate({  'marginLeft' : "+=20rem" },1200,'linear');
-//     }
+    //    function loop(){
+      //  $(".workflow-requirements").animate({   'marginLeft' : "-=20rem" },1200,'linear');
+      // $(".workflow-requirements").animate({  'marginLeft' : "+=20rem" },1200,'linear');
+    // }
+
 
 //  }).mouseleave(function(){
-//     $(".workflow-requirements").animate({'marginLeft':'0rem'},0);
+//      setInterval(function () {
+//        $(".workflow-requirements").animate({  'marginLeft' : "0rem" });
+//    },30000);
+//    clearInterval(myInterval);
 //   });
+  
 
 
 
@@ -483,3 +488,8 @@ var prnDt = 'Appointment on ' + new Date().toLocaleTimeString('en-us', options);
 document.getElementById("appointment-date-time").textContent = new Date().toLocaleTimeString('en-us', options);
 console.log(prnDt);     
 
+// function hideLeftButton(){
+//   var activeImg = 
+//   document.getElementById("hide-left-button").style.cssText = "opacity: 0";
+//   const test1 = parentDOM.getElementById("test1");
+// }

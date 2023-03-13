@@ -81,7 +81,7 @@
         </div>
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 slideshow-right-side">
               <div class="text-center creations-repitsocial-video" id="video-div">
-                    <div id="carouselHomeCarousel" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
+                    <div id="carouselHomeCarousel" class="carousel slide " data-bs-interval="500000" data-bs-ride="carousel">
                       <div class="carousel-indicators home-carousel-indicators">
 
                         <button class="carousel-control-prev previous-slides" type="button" data-bs-target="#carouselHomeCarousel" data-bs-slide="prev">
@@ -178,12 +178,13 @@
 
         </div>
 
-        <img src="./img/services-page-scroll.svg" class="services-page-scroll d-xs-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-block xs-carousel-page-scroll" alt="...">
-
+       <a href="#about-us-section"> 
+        <img src="./img/services-page-scroll.svg" class="services-page-scroll d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block xs-carousel-page-scroll" alt="Arrow scroll down">
+       </a>
       </div>
-      <div class="position-relative d-xs-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-block xs-many-plus">
-        <div class="position-absolute bottom-0 start-0">
-          <img src="./img/many-plus.svg" alt="">
+      <div class="position-relative d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block xs-many-plus">
+        <div class="position-absolute bottom-0 start-0 carousel-home-many-plus">
+          <img src="./img/many-plus.svg" class="img-fluid carousel-home-many-plus-img" alt="Many plus icon">
         </div> 
       </div>
     </section>  <!-- end of carousel section  -->
@@ -277,14 +278,17 @@
           <p>Building innovative solutions one line of code at a time - Your trusted software development partner.</p>
     </div>
 
-    <div class="row mx-auto my-auto">
-        <div id="ServicesSectionCarousel" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="false">
+    <div class="row mx-auto my-auto">                     <!-- carousel-fade -->
+        <div id="ServicesSectionCarousel" class="carousel slide w-100 " data-bs-ride="carousel" data-bs-interval="false">
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
-                  <!-- <div class="row"></div> -->
                   <!-- <div class="col-md-1"></div> -->
-                    <div class="col-md-10">
-                        <div class="card card-body">
+                
+                   <div class="col-md-10">
+                        <div class="card card-body" id="hide-left-button">
+                          
+           
+
                             <img class="img-fluid" src="./img/services-img-1.png">
                             <div class="nss-team-dev">
                                 <h4>Team Development</h4>
@@ -322,24 +326,31 @@
                                       <h5>Monitor & <br>Release </h5>
                                     </div>
                                   </div>
-                                  <div class="col-md-4"></div>  <!-- spacer -->
-                                  </div>  <!--   end row  -->
-                            </div>  <!--    nss-team-dev  -->
+                                   <div class="col-md-4"></div> 
+                                  </div>  
+                            </div>   
+                           
+
                         </div>
-                    </div>
+                    </div>  
+                    
+              
+                    
                 </div>
                 <div class="carousel-item">
+                  <!-- <div class="col-md-1"></div> -->
 
                     <div class="col-md-10">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="./img/services-img-2.png">
-                        </div>
+                         <div class="card card-body">
+                             <img class="img-fluid" src="./img/services-img-2.png"> 
+                        </div> 
                     </div>
                 </div>
                 <div class="carousel-item">
+               
                     <div class="col-md-10">
                         <div class="card card-body">
-                            <img class="img-fluid" src="./img/services-img-3.png">
+                             <img class="img-fluid" src="./img/services-img-3.png"> 
                         </div>
                     </div>
                 </div>
@@ -382,37 +393,67 @@
 
 <div class="container-fluid sm-cf-services-carousel d-xs-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
 
-  <div id="smServicesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+  <div id="smServicesCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="sm-services-it-consulting">
-
           <div class="set-bg">
-          <div class="sm-services-it-consulting-info align-bottom">
+            <div class="sm-services-it-consulting-info">
                 <h5>Team Development</h5>
                 <p>We offer a comprehensive Team Development solution that encompasses a full range of services, including project management, development, 
                   quality assurance, and design. Our team of experts brings a wealth of experience and knowledge to every project, ensuring that your business 
                   goals are met and exceeded. Whether you need to streamline your processes, launch a new product, or simply improve your existing operations, 
                   we have the expertise to help you achieve your objectives.</p>
+            </div>
           </div>
-        </div>
-        </div>
-
-        <!-- <img src="./img/sm-services-it-consulting.png" class="d-block w-100" alt="..."> -->
-
+        </div> 
       </div> <!-- end of carousel item -->
       <div class="carousel-item">
-        <img src="./img/sm-services-web-mobile-development.png" class="d-block w-100" alt="...">
-      </div>
+        <div class="sm-services-mobile-dev">
+          <div class="set-bg">
+            <div class="sm-services-mobile-dev-info">
+                <h5>Mobile and Web Development</h5>
+                <p>At GeniusGiant , our mission is to empower growth and progress by offering top-notch mobile and web development services. Our team of 
+                  experts is dedicated to delivering innovative solutions that meet the unique needs of our clients and help drive their success. Let us 
+                  help you turn your vision into a reality.</p>
+            </div>
+          </div>
+        </div> 
+      </div>  <!-- end of carousel item -->
       <div class="carousel-item">
-        <img src="./img/sm-services-project-management.png" class="d-block w-100" alt="...">
-      </div>
+        <div class="sm-services-proj-management">
+          <div class="set-bg">
+            <div class="sm-services-proj-management-info">
+                <h5>Project Management/Product Owners</h5>
+                <p>Our organization boasts a team of highly skilled and knowledgeable project managers and product owners. Their expertise and passion for 
+                  delivering outstanding results ensure that every project they oversee is executed with precision, efficiency, and a commitment to 
+                  excellence.</p>
+            </div>
+          </div>
+        </div> 
+      </div>  <!-- end of carousel item -->
       <div class="carousel-item">
-        <img src="./img/sm-services-quality-assurance.png" class="d-block w-100" alt="...">
-      </div>
+        <div class="sm-services-quality-assurance">
+          <div class="set-bg">
+            <div class="sm-services-quality-assurance-info">
+                <h5>Quality Assurance</h5>
+                <p>With over a decade of unparalleled expertise, we are proud to be a comprehensive Quality Assurance solution provider, offering a 
+                  seamless, one-stop experience for all your QA needs.</p>
+            </div>
+          </div>
+        </div> 
+      </div>  <!-- end of carousel item -->
       <div class="carousel-item">
-        <img src="./img/sm-services-ui-ux-design.png" class="d-block w-100" alt="...">
-      </div>
+        <div class="sm-services-uiux-design">
+          <div class="set-bg">
+            <div class="sm-services-uiux-design-info">
+                <h5>UI/UX Design</h5>
+                <p>With over a decade of unparalleled expertise, we are proud to be a comprehensive Quality Assurance solution provider, offering a 
+                  seamless, one-stop experience for all your QA needs.</p>
+            </div>
+          </div>
+        </div> 
+      </div>  <!-- end of carousel item -->
     </div>
     <div class="sm-services-button">
       <button class="carousel-control-prev" type="button" data-bs-target="#smServicesCarousel" data-bs-slide="prev">
@@ -1481,7 +1522,7 @@
       <h3 class="ota-title">Schedule a consulation call to discuss your project</h3>
       <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4" id="sm-apt-col-1">
-            <img src="./img/home/jeff-ray-dy-img-circle.png" class="apt-jeff" alt="Appointment with Jeff Ray Dy">
+            <img src="./img/home/jeff-calendar-img.png" class="apt-jeff" alt="Appointment with Jeff Ray Dy">
 
               <h5 class="d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block apt-title-lg">Appointment with Jeff <br>Ray Dy</h5> <!-- visible on large devices -->
 
