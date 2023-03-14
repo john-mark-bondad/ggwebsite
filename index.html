@@ -24,6 +24,12 @@
     <title>Genius Giant - Website Development and QA Services - Your Software Development and QA Partner</title>
   </head>
   <body onload="load()">
+    <!-- spinner/loader -->
+    <!-- <div class="spinner-wrapper">
+      <div class="spinner-grow text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div> -->
 
     <!-- Navigation section -->
 
@@ -81,7 +87,7 @@
         </div>
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 slideshow-right-side">
               <div class="text-center creations-repitsocial-video" id="video-div">
-                    <div id="carouselHomeCarousel" class="carousel slide " data-bs-interval="500000" data-bs-ride="carousel">
+                    <div id="carouselHomeCarousel" class="carousel slide " data-bs-interval="5000" data-bs-ride="carousel">
                       <div class="carousel-indicators home-carousel-indicators">
 
                         <button class="carousel-control-prev previous-slides" type="button" data-bs-target="#carouselHomeCarousel" data-bs-slide="prev">
@@ -182,11 +188,11 @@
         <img src="./img/services-page-scroll.svg" class="services-page-scroll d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block xs-carousel-page-scroll" alt="Arrow scroll down">
        </a>
       </div>
-      <div class="position-relative d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block xs-many-plus">
+      <!-- <div class="position-relative d-xs-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block xs-many-plus">
         <div class="position-absolute bottom-0 start-0 carousel-home-many-plus">
           <img src="./img/many-plus.svg" class="img-fluid carousel-home-many-plus-img" alt="Many plus icon">
         </div> 
-      </div>
+      </div> -->
     </section>  <!-- end of carousel section  -->
 
 
@@ -279,81 +285,255 @@
     </div>
 
     <div class="row mx-auto my-auto">                     <!-- carousel-fade -->
-        <div id="ServicesSectionCarousel" class="carousel slide w-100 " data-bs-ride="carousel" data-bs-interval="false">
+        <div id="ServicesSectionCarousel" class="carousel slide w-100 carousel-fade" data-bs-ride="carousel" data-bs-interval="500000">
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
                   <!-- <div class="col-md-1"></div> -->
-                
-                   <div class="col-md-10">
-                        <div class="card card-body" id="hide-left-button">
-                          
-           
-
-                            <img class="img-fluid" src="./img/services-img-1.png">
-                            <div class="nss-team-dev">
-                                <h4>Team Development</h4>
-                                <p>We offer a comprehensive Team Development solution that encompasses a full range of services, including project management, development, quality 
-                                  assurance, and design. Our team of experts brings a wealth of experience and knowledge to every project, ensuring that your business goals are met 
-                                  and exceeded. Whether you need to streamline your processes, launch a new product, or simply improve your existing operations, we have the expertise 
-                                  to help you achieve your objectives.</p>
-                                  <div class="row nss-team-dev-img">
-                                    <div class="col-md-4">
-                                    <div class="req-analysis">
-                                      <img src="./img/requirement-analysis.png" alt="">
-                                      <h5>Requirement <br>Analysis</h5>
-                                    </div>
-                                    <div class="proj-analysis">
-                                      <img src="./img/project-plan.png" alt="">
-                                      <h5>Project <br>Plan</h5>
-                                    </div>  
-                                    <div class="soft-testing">
-                                      <img src="./img/software-testing.png" alt="">
-                                      <h5>Software <br>Testing</h5>
-                                    </div> 
-                                    </div>
-                                    
-                                    <div class="col-md-4">
-                                    <div class="des-structure">
-                                      <img src="./img/design-structure.png" alt="">
-                                      <h5>Design <br>Structure</h5>
-                                    </div>
-                                    <div class="soft-development">
-                                      <img src="./img/software-development.png" alt="">
-                                      <h5>Software <br>Development</h5>
-                                    </div>
-                                    <div class="mon-release">
-                                      <img src="./img/monitor-and-release.png" alt="">
-                                      <h5>Monitor & <br>Release </h5>
-                                    </div>
-                                  </div>
-                                   <div class="col-md-4"></div> 
-                                  </div>  
-                            </div>   
-                           
-
+                  <div class="col-md-10">
+                    <div class="card card-body" id="hide-left-button">
+                      <div class="body-services">
+                        <div class="lg-set-bg">
+                          <div class="nss-team-dev">
+                            <h4>Team Development</h4>
+                            <p>We offer a comprehensive Team Development solution that encompasses a full range of services, including
+                              project management, development, quality
+                              assurance, and design. Our team of experts brings a wealth of experience and knowledge to every project,
+                              ensuring that your business goals are met
+                              and exceeded. Whether you need to streamline your processes, launch a new product, or simply improve your
+                              existing operations, we have the expertise
+                              to help you achieve your objectives.</p>
+                            <div class="row nss-team-dev-img">
+                              <div class="col-md-4">
+                                <div class="req-analysis">
+                                  <img src="./img/requirement-analysis.png" alt="Requirement Analysis">
+                                  <h5>Requirement <br>Analysis</h5>
+                                </div>
+                                <div class="proj-analysis">
+                                  <img src="./img/project-plan.png" alt="Project Plan icon">
+                                  <h5>Project <br>Plan</h5>
+                                </div>
+                                <div class="soft-testing">
+                                  <img src="./img/software-testing.png" alt="Software Testing icon">
+                                  <h5>Software <br>Testing</h5>
+                                </div>
+                              </div>
+                  
+                              <div class="col-md-4">
+                                <div class="des-structure">
+                                  <img src="./img/design-structure.png" alt="Design Structure icon">
+                                  <h5>Design <br>Structure</h5>
+                                </div>
+                                <div class="soft-development">
+                                  <img src="./img/software-development.png" alt="Software Development icon">
+                                  <h5>Software <br>Development</h5>
+                                </div>
+                                <div class="mon-release">
+                                  <img src="./img/monitor-and-release.png" alt="Monitor & Release icon">
+                                  <h5>Monitor & <br>Release </h5>
+                                </div>
+                              </div>
+                              <div class="col-md-4"></div>
+                            </div>
+                          </div>
                         </div>
-                    </div>  
-                    
-              
+                      </div> <!-- end of body-services class-->
+                    </div> <!-- end of card body -->
+                  </div> <!-- end col -->
                     
                 </div>
                 <div class="carousel-item">
-                  <!-- <div class="col-md-1"></div> -->
-
                     <div class="col-md-10">
                          <div class="card card-body">
-                             <img class="img-fluid" src="./img/services-img-2.png"> 
+                             <!-- <img class="img-fluid" src="./img/services-img-2.png">  -->
+                             <div class="body-mobile-web">
+                              <div class="lg-set-bg">
+                                <div class="nss-team-dev">
+                                  <h4>Mobile and Web Development</h4>
+                                  <p>At GeniusGiant , our mission is to empower growth and progress by offering top-notch mobile and web development services. Our team 
+                                    of experts is dedicated to delivering innovative solutions that meet the unique needs of our clients and help drive their success. 
+                                    Let us help you turn your vision into a reality.</p>
+                                  <div class="row nss-team-dev-img">
+                                    <div class="col-md-4">
+                                      <div class="req-analysis">
+                                        <img src="./img/product-discovery.png" alt="Product Discovery icon">
+                                        <h5>Product <br>Discovery</h5>
+                                      </div>
+                                      <div class="proj-analysis">
+                                        <img src="./img/information-architecture.png" alt="Information Architecture icon">
+                                        <h5>Information <br>Architecture</h5>
+                                      </div>
+                                      <div class="soft-testing">
+                                        <img src="./img/solution-architecture.png" alt="Solution Architecture icon">
+                                        <h5>Solution <br>Architecture</h5>
+                                      </div>
+                                    </div>
+                        
+                                    <div class="col-md-4">
+                                      <div class="des-structure">
+                                        <img src="./img/product-strategy.png" alt="Product Strategy icon">
+                                        <h5>Product <br>Strategy</h5>
+                                      </div>
+                                      <div class="soft-development">
+                                        <img src="./img/data-opportunity-strategy.png" alt="Data Opportunity Strategy icon">
+                                        <h5>Data Opportunity <br>Strategy</h5>
+                                      </div>
+                                      <div class="mon-release">
+                                        <img src="./img/future-roadmap-prioritization.png" alt="Future Roadmap Prioritization icon">
+                                        <h5>Future Roadmap <br>Prioritization</h5>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div> <!-- end of body-mobile-dev class-->
                         </div> 
                     </div>
                 </div>
                 <div class="carousel-item">
-               
                     <div class="col-md-10">
                         <div class="card card-body">
-                             <img class="img-fluid" src="./img/services-img-3.png"> 
+                             <!-- <img class="img-fluid" src="./img/services-img-3.png">  -->
+                             <div class="body-proj-mngt">
+                              <div class="lg-set-bg">
+                                <div class="nss-team-dev">
+                                  <h4>Project Management/Product Owners</h4>
+                                  <p>Our organization boasts a team of highly skilled and knowledgeable project managers and product owners. Their expertise and passion for 
+                                    delivering outstanding results ensure that every project they oversee is executed with precision, efficiency, and a commitment to excellence.</p>
+                                  <div class="row nss-team-dev-img">
+                                    <div class="col-md-4">
+                                      <div class="req-analysis">
+                                        <img src="./img/product-discovery.png" alt="Integrated Analysis icon">
+                                        <h5>Integrated <br>Analysis</h5>
+                                      </div>
+                                      <div class="proj-analysis">
+                                        <img src="./img/featured-road-mapping.png" alt="Featured Road Mapping icon">
+                                        <h5>Featured Road <br>Mapping</h5>
+                                      </div>
+                                      <div class="soft-testing">
+                                        <img src="./img/measurement-strategy.png" alt="Measurement Strategy icon">
+                                        <h5>Measurement <br>Strategy</h5>
+                                      </div>
+                                    </div>
+                        
+                                    <div class="col-md-4">
+                                      <div class="des-structure">
+                                        <img src="./img/ongoing-maintenance.png" alt="Ongoing Maintenance icon">
+                                        <h5>Ongoing <br>Maintenance</h5>
+                                      </div>
+                                      <div class="soft-development">
+                                        <img src="./img/cloud-optimization.png" alt="Cloud Optimization icon">
+                                        <h5>Cloud <br>Optimization</h5>
+                                      </div>
+                                      <div class="mon-release">
+                                        <img src="./img/release-planning.png" alt="Release Planning icon">
+                                        <h5>Release <br>Planning</h5>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div> <!-- end of body-proj-mngt class-->
                         </div>
                     </div>
+                </div> <!-- end of carousel item -->
+                <div class="carousel-item">
+                  <div class="col-md-10">
+                      <div class="card card-body">
+                           <!-- <img class="img-fluid" src="./img/services-img-3.png">  -->
+                           <div class="body-quality-assurance">
+                            <div class="lg-set-bg">
+                              <div class="nss-team-dev">
+                                <h4>Quality Assurance</h4>
+                                <p>With over a decade of unparalleled expertise, we are proud to be a comprehensive Quality Assurance solution provider, offering a seamless, 
+                                  one-stop experience for all your QA needs.</p>
+                                <div class="row nss-team-dev-img">
+                                  <div class="col-md-4">
+                                    <div class="req-analysis">
+                                      <img src="./img/manual-and-automation-testing.png" alt="Manual and Automation Testing icon">
+                                      <h5>Manual and <br>Automation Testing</h5>
+                                    </div>
+                                    <div class="proj-analysis">
+                                      <img src="./img/security-testing.png" alt="Security Testing icon">
+                                      <h5>Security <br>Testing</h5>
+                                    </div>
+                                    <div class="soft-testing">
+                                      <img src="./img/ab-testing.png" alt="A/B Testing icon">
+                                      <h5>A/B <br>Testing</h5>
+                                    </div>
+                                  </div>
+                      
+                                  <div class="col-md-4">
+                                    <div class="des-structure">
+                                      <img src="./img/performance-testing.png" alt="Performance Testing icon">
+                                      <h5>Performance Testing</h5>
+                                    </div>
+                                    <div class="soft-development">
+                                      <img src="./img/usability-testing.png" alt="Usability Testing icon">
+                                      <h5>Usability Testing</h5>
+                                    </div>
+                                    <!-- <div class="mon-release">
+                                      <img src="./img/monitor-and-release.png" alt="Usability Testing icon">
+                                      <h5>Usability Testing</h5>
+                                    </div> -->
+                                  </div>
+                                  <div class="col-md-4"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div> <!-- end of body-quality-assurance class-->
+                      </div>
+                  </div>
+              </div> <!-- end of carousel item -->
+              <div class="carousel-item">
+                <div class="col-md-10">
+                    <div class="card card-body">
+                         <!-- <img class="img-fluid" src="./img/services-img-3.png">  -->
+                         <div class="body-uiux-design">
+                          <div class="lg-set-bg">
+                            <div class="nss-team-dev">
+                              <h4>UI/UX Design</h4>
+                              <p>With over a decade of unparalleled expertise, we are proud to be a comprehensive Quality Assurance solution provider, offering a seamless, 
+                                one-stop experience for all your QA needs.</p>
+                              <div class="row nss-team-dev-img">
+                                <div class="col-md-4">
+                                  <div class="req-analysis">
+                                    <img src="./img/design-structure.png" alt="User Journey Mapping icon">
+                                    <h5>User Journey <br>Mapping</h5>
+                                  </div>
+                                  <div class="proj-analysis">
+                                    <img src="./img/user-experience-mapping.png" alt="User Experience Mapping icon">
+                                    <h5>User Experience <br>Mapping</h5>
+                                  </div>
+                                  <div class="soft-testing">
+                                    <img src="./img/requirement-analysis.png" alt="Content Mapping icon">
+                                    <h5>Content <br>Mapping</h5>
+                                  </div>
+                                </div>
+                    
+                                <div class="col-md-4">
+                                  <div class="des-structure">
+                                    <img src="./img/high-fidelity-mockup.png" alt="High Fidelity Mockup icon">
+                                    <h5>High Fidelity <br>Mockup</h5>
+                                  </div>
+                                  <div class="soft-development">
+                                    <img src="./img/visual-user-interface.png" alt="Visual User Interface icon">
+                                    <h5>Visual User Interface</h5>
+                                  </div>
+                                  <div class="mon-release">
+                                    <img src="./img/motion-design.png" alt="Motion Design icon">
+                                    <h5>Motion Design</h5>
+                                  </div>
+                                </div>
+                                <div class="col-md-4"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div> <!-- end of body-uiux-design class-->
+                    </div>
                 </div>
+            </div> <!-- end of carousel item -->
             </div>
 
             <button class="carousel-control-prev arrow-left-black-button" type="button" data-bs-target="#ServicesSectionCarousel" data-bs-slide="prev">

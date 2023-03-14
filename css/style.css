@@ -10,6 +10,26 @@ body {
 }
 
                                                     /********** Base styles **********/
+/* spinner/loading */
+.spinner-wrapper{
+  background-color: #f4f4f4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.spinner-grow{
+  height: 60px;
+  width: 60px;
+  color: #7DDB29;
+}
 
 /* when next and preview button is hover */
 img.client1:hover {
@@ -72,6 +92,12 @@ transition: all 0.3s ease;
 img.float-start {
   margin-left: -12rem;
 }
+#gg-services-carousel{
+  background-image: url("../img/many-plus.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
 
 
 /* =========================================================================================== */
@@ -1902,7 +1928,7 @@ img.services-page-scroll {
 
 
 
-                               /* IT Consulting Services */
+                               /* IT Consulting Services */                             
 .it-consulting-services{
 height: 615px;
 left: 64px;
@@ -6522,7 +6548,13 @@ color: #12062E;
     margin-left: 80px;
 }
 
-                                                                                    /* IT CONSULTING SERVICES  */
+                                                                                    /* IT CONSULTING SERVICES PAGE */
+#it-consulting-nav .nav-link{
+  color: #fff;
+}  
+#it-consulting-nav .nav-link:hover{
+  color: #7DDB29;
+}
 .it-consulting-bg-img{
   padding-right:0;
     padding-left:0;
@@ -6536,7 +6568,7 @@ color: #12062E;
 }     
 .it-consulting-featured-img-content {
   position: absolute;
-  top: 42%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 583px;
@@ -6851,6 +6883,13 @@ margin-bottom: 32px;
 }
 
                             /* UI/UX Design Services page */
+
+#uiux-design-nav .nav-link{
+  color: #fff;
+}  
+#uiux-design-nav .nav-link:hover{
+  color: #7DDB29;
+}                            
 .ui-ux-design-content-right-img-container {
     height: 662px;
     position: relative;
@@ -6923,14 +6962,9 @@ img.img-fluid.ui-ux-design-services-repitsocial-project-img {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-  
   display: flex;
   align-items: center;
   text-transform: capitalize;
-  
-  /* Secondary- White */
-  
   color: #FFFFFF;
 }
 .ui-ux-design-services-repitsocial-group .ui-ux-design-services-repitsocial-info > a, .ui-ux-design-services-motionscloud-info > a {
@@ -6938,12 +6972,7 @@ img.img-fluid.ui-ux-design-services-repitsocial-project-img {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
-  
   text-decoration-line: underline;
-  
-  /* Secondary- White */
-  
   color: #FFFFFF;
 }
 .ui-ux-design-services-projects-motionscloud-row{
@@ -6987,14 +7016,10 @@ font-style: normal;
 font-weight: 600;
 font-size: 48px;
 line-height: 72px;
-/* identical to box height */
-
 align-items: center;
 text-align: center;
 letter-spacing: 0.2px;
 text-transform: capitalize;
-
-/* Primary/GG-Dark */
 color: #12062E;
 margin-bottom: 20px;
 }      
@@ -7003,15 +7028,10 @@ margin-bottom: 20px;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
-  /* identical to box height */
-
   align-items: center;
   text-align: center;
   letter-spacing: 0.2px;
   text-transform: capitalize;
-  
-  /* systemGrey/600 */
-  
   color: #757575;
   margin-bottom: 20px;
 }   
@@ -7402,6 +7422,13 @@ margin-bottom: 32px;
 }
 
                                                                       /* PROJECT MANAGEMENT page */
+
+#proj-mangement-nav .nav-link{
+  color: #fff;
+}  
+#proj-mangement-nav .nav-link:hover{
+  color: #7DDB29;
+}                                                                       
 .project-management-content{
   margin-top: 68px;
 } 
@@ -7459,6 +7486,12 @@ color: #212121;
 
                                                                                     /* WEB AND MOBILE DEVELOPMENT PAGE */
                               /* FEATURED IMAGE section   */
+#web-mobile-dev-nav .nav-link{
+  color: #fff;
+}  
+#web-mobile-dev-nav .nav-link:hover{
+  color: #7DDB29;
+}                               
 .web-mobile-dev-featured-img-content {
   position: absolute;
   top: 42%;
@@ -8220,14 +8253,94 @@ box-shadow: 0px 20px 51px rgba(0, 0, 0, 0.1);
 } */
 
 #ServicesSectionCarousel  .carousel-item {
-  transition: transform 2.1s ease-in-out;
+  /* transition: transform 2.1s ease-in-out; */
+  transform: translate(100px, 10px);
 }
 
-/* #ServicesSectionCarousel  .active.carousel-item-start{
-  transition: transform .1s ease-in-out; 
-} */
 #ServicesSectionCarousel  .active.carousel-item-end {
-  transition: opacity 0s .1s;
+  /* transition: opacity 0s .1s; */
+  /* transform: translateX(10%); */
+}
+#ServicesSectionCarousel .active.carousel-item-start, .carousel-item-prev:not(.carousel-item-end) {
+  /* transform: translateX(-100%); */
+}
+
+/* TEAM DEVELOPMENT */
+#ServicesSectionCarousel .body-services, #ServicesSectionCarousel .body-mobile-web {
+  height: 750px;
+}
+#ServicesSectionCarousel .body-services {  /*   slider1   */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/services-img-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ServicesSectionCarousel .body-mobile-web {  /*   slider2   */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/services-img-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ServicesSectionCarousel .body-proj-mngt {  /*   slider3   */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/services-img-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ServicesSectionCarousel .body-quality-assurance {  /*   slider4   */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/services-img-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ServicesSectionCarousel .body-uiux-design {  /*   slider5   */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/services-img-5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lg-set-bg {
+  height: 650px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 14.56%, rgba(0, 0, 0, 0) 70.89%);
+  margin-top: 100px;
+}
+.nss-team-dev {
+  padding: 16% 2% 0% 45%;
+  text-align: left;
+}
+.nss-team-dev-img {
+  margin: 0 0.3%;
+}
+.nss-team-dev h4{
+  margin-bottom: 0.9rem;
+}
+.nss-team-dev h4, .nss-team-dev p, .nss-team-dev img, .nss-team-dev h5 {
+  color: #FFFFFF;
+}
+.req-analysis, .des-structure, .soft-development, .proj-analysis, .soft-testing, .mon-release {
+  display: flex;
+  margin-bottom: 10px;
+}
+.req-analysis img, .proj-analysis img, .soft-testing img{
+  margin-right: 7px;
+  width: 42px;
+  height: 42px;
+}
+.req-analysis h5, .proj-analysis h5, .soft-testing h5{
+margin-top: 3px;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.des-structure img, .soft-development img, .mon-release img {
+  margin-right: 7px;
+  width: 42px;
+  height: 42px;
+}
+.des-structure h5, .soft-development h5, .mon-release h5{
+margin-top: 3px;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
 }
 
 .nss-title-info h2{
@@ -8266,51 +8379,14 @@ color: #7DDB29;
   opacity: 1;
   width: 10%;
 }
-/* TEAM DEVELOPMENT */
-.nss-team-dev {
-  position: absolute;
-  width: 45%;
-  top: 40%;
-  left: 50%;
-  text-align: left;
-}
-.nss-team-dev h4, .nss-team-dev p, .nss-team-dev img, .nss-team-dev h5 {
-  color: #FFFFFF;
-}
-.req-analysis, .des-structure, .soft-development, .proj-analysis, .soft-testing, .mon-release{
-  display: flex;
-}
-.req-analysis img, .proj-analysis img, .soft-testing img{
-  margin-right: 7px;
-  width: 42px;
-  height: 42px;
-}
-.req-analysis h5, .proj-analysis h5, .soft-testing h5{
-margin-top: 3px;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 21px;
-color: #FFFFFF;
-}
-.des-structure img, .soft-development img, .mon-release img {
-  margin-right: 7px;
-  width: 42px;
-  height: 42px;
-}
-.des-structure h5, .soft-development h5, .mon-release h5{
-margin-top: 3px;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 21px;
-color: #FFFFFF;
-}
+
 .ss-circle-green {
   top: -10.3rem!important;
 }
 
-
+.services-page-scroll-icon {
+  margin-bottom: -10px;
+}
 
 
 /* ===============================================================    MEDIA QUERIES =============================================*/
@@ -9788,6 +9864,10 @@ color: #12062E;
     }                                                                   
 
 @media (min-width: 992px) and (max-width: 1199.98px){
+  #gg-services-carousel {
+    background-position-x: -5%;
+    /* background-position-y: 4%; */
+}
 
 /* CAROUSEL SLIDESHOW */
 
@@ -9836,7 +9916,37 @@ img.services-page-scroll {
   margin-left: 1rem;
 }
 
-/* SERVICES section */  
+/* SERVICES SECTION */
+#about-us-section {
+  margin-bottom: 3.5rem;
+}
+.ss-circle-green {
+  top: -4.7rem!important;
+}
+/* SERVICES SECTION */
+#ServicesSectionCarousel .body-services, #ServicesSectionCarousel .body-mobile-web {
+  height: 450px;
+}
+.lg-set-bg {
+  height: 425px;
+  margin-top: 25px;
+}
+.nss-team-dev {
+  padding: 4.5% 2% 0% 45%;
+}  
+
+.nss-team-dev p{
+  font-size: 12px;
+}
+.nss-team-dev h4{
+  font-size: 16px;
+}
+.req-analysis h5, .proj-analysis h5, .soft-testing h5 {
+  font-size: 12px;
+}
+.des-structure h5, .soft-development h5, .mon-release h5 {
+  font-size: 12px;
+}
 
 /* FOR LARGE DEVICESS */
 .services-card-title-position h3{
@@ -9918,6 +10028,10 @@ p.footer-contact-social-icons > a{
 
                                                       /* Extra large */
 @media (min-width: 1200px) and (max-width: 1399.98px){
+  #gg-services-carousel {
+    background-position-x: -7%;
+    /* background-position-y: 4%; */
+}
   /* LAPTOP */
   .home-carousel-img1-container {
     background: url("../img/carousel/first-slide.png") no-repeat;
@@ -9994,6 +10108,24 @@ p.footer-contact-social-icons > a{
   left: 13%;
   width: 70%;
 }
+#about-us-section {
+  margin-bottom: 6.5rem;
+}
+.ss-circle-green {
+  top: -6.7rem!important;
+}
+/* SERVICES SECTION */
+#ServicesSectionCarousel .body-services, #ServicesSectionCarousel .body-mobile-web {
+  height: 550px;
+}
+.lg-set-bg {
+  height: 500px;
+  margin-top: 50px;
+}
+.nss-team-dev {
+  padding: 5.5% 2% 0% 45%;
+}
+
 /* TABLET */
 .group-img-services-img2 {
   position: relative;
@@ -10097,6 +10229,14 @@ p.footer-contact-social-icons > a{
   100% { transform: translate(-19rem, 0%); }
 }
 
+                                    /* SERVICES PAGE */
+ /* TOP SECTION   */
+ /* #services-carousel-section .services-page-scroll {
+  position: absolute;
+  width: 23px;
+  top: 479px;
+} */
+
 
 }                                                    
 
@@ -10163,9 +10303,13 @@ p.footer-contact-social-icons > a{
   }
   }  
 
-  /*HOME BUTTON CAROUSEL  */
+  /*HOME BUTTON CAROUSEL / SERVICES SECTION  */
 
  @media (min-width: 1400px) and (max-width: 1699.98px){
+  #gg-services-carousel {
+    background-position-x: -9.8%;
+    /* background-position-y: 4%; */
+}
   .home-carousel-img1-container, .home-carousel-img2-container, .home-carousel-img3-container,  .home-carousel-img4-container, .home-carousel-img5-container  {
     background-size: contain;
     height: 586px;
@@ -10213,6 +10357,25 @@ p.footer-contact-social-icons > a{
     top: 479px;
 }
 
+/* SERVICES SECTION */
+#about-us-section {
+  margin-bottom: 7.5rem;
+}
+.ss-circle-green {
+  top: -7.7rem!important;
+}
+/* SERVICES SECTION */
+#ServicesSectionCarousel .body-services, #ServicesSectionCarousel .body-mobile-web {
+  height: 650px;
+}
+.lg-set-bg {
+  height: 600px;
+  margin-top: 50px;
+}
+.nss-team-dev {
+  padding: 14.5% 2% 0% 45%;
+}
+
  } 
 
 
@@ -10242,3 +10405,16 @@ p.footer-contact-social-icons > a{
 }
 }
 
+@media (min-width: 2100px){
+  /* SERVICES SECTION */
+#ServicesSectionCarousel .body-services, #ServicesSectionCarousel .body-mobile-web {
+  height: 850px;
+}
+.lg-set-bg {
+  height: 800px;
+  margin-top: 50px;
+}
+.nss-team-dev {
+  padding: 19.5% 2% 0% 50%;
+}
+}
